@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes
+END
+Scribe.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Scribe.inc
+END
+Admin.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Admin.inc
+END
+DB_Mgr.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/DB_Mgr.inc
+END
+SI_Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/SI_Settings.inc
+END
+Store.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Store.inc
+END
+Phone_System.inc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Phone_System.inc
+END
+Employee.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Employee.inc
+END
+Phone_Company.inc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Phone_Company.inc
+END
+Phone_Line.inc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Phone_Line.inc
+END
+Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Settings.inc
+END
+Phone_Line_Type.inc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Phone_Line_Type.inc
+END
+Site.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Site.inc
+END
+Address.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Address.inc
+END
+Amenity.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/htdocs/!svn/ver/16/from_sharis/Site_Info_1/classes/Amenity.inc
+END

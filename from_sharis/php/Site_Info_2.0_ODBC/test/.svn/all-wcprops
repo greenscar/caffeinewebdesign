@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.0_ODBC/test
+END
+sql_connect.inc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.0_ODBC/test/sql_connect.inc
+END
+vars.inc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.0_ODBC/test/vars.inc
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.0_ODBC/test/test.php
+END
+test.kpf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.0_ODBC/test/test.kpf
+END

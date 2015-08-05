@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="var" path="TOMCAT_HOME/common/lib/servlet.jar"/>
+    <classpathentry kind="var" path="TOMCAT_HOME/common/lib/jasper-runtime.jar"/>
+    <classpathentry kind="src" path="WEB-INF/src"/>
+    <classpathentry kind="src" path="work"/>
+    <classpathentry kind="lib" path="C:/eclipse/workspace/ClarionMag/WEB-INF/lib/mm.mysql-2.0.2-bin.jar"/>
+    <classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

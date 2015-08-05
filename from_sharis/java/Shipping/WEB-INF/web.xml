@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <display-name>Admin</display-name>
+    <description>Catalog Maintainance</description>
+    <servlet-class>servlets.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CategoryAdmin</servlet-name>
+    <display-name>Category</display-name>
+    <description>Used to create, mod, and delete Categories</description>
+    <servlet-class>servlets.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubCategoryAdmin</servlet-name>
+    <display-name>SubCategory</display-name>
+    <description>Used to create, mod, and delete SubCategories</description>
+    <servlet-class>servlets.SubCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ItemAdmin</servlet-name>
+    <display-name>The Item Servlet</display-name>
+    <description>Handle all Item Tasks</description>
+    <servlet-class>servlets.ItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlets.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CategoryAdmin</servlet-name>
+    <url-pattern>/CategoryAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubCategoryAdmin</servlet-name>
+    <url-pattern>/SubCategoryAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ItemAdmin</servlet-name>
+    <url-pattern>/ItemAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/Order</url-pattern>
+  </servlet-mapping>
+</web-app>

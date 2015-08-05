@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects
+END
+Security.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/Security.inc
+END
+DB_Mgr.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/DB_Mgr.inc
+END
+Store.inc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/Store.inc
+END
+User.inc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/User.inc
+END
+Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/Settings.inc
+END
+Site.inc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/htdocs/!svn/ver/16/from_sharis/php/php_objects/Site.inc
+END

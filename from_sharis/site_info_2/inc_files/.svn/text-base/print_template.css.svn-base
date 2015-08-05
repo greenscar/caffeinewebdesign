@@ -1,0 +1,89 @@
+
+table.not_last{
+	border-collapse: collapse;
+	border-spacing: 0pt;
+   border: 1px solid black;
+   width: 620px;
+	height: 670pt;
+   page-break-after: always;
+}
+table.last{
+	border-collapse: collapse;
+	border-spacing: 0pt;
+   border: 1px solid black;
+   width: 620px;
+}
+
+table.inner{
+   border: 0px solid orange;
+	border-collapse: collapse;
+	empty-cells: show;
+   width: 200px;
+	height: 130pt;
+}
+
+td.print_medium{
+   border-top: 1px solid black;
+	vertical-align: top;
+	font: 12pt Helvetica,"Ariel", Times, serif;
+}
+
+td.print_small{
+   border-top: 1px solid black;
+	vertical-align: top;
+	font: 11pt Helvetica,"Ariel", Times, serif;
+}
+
+td.amenity_list_small
+{
+	height: 1pt;
+	vertical-align: top;
+	text-align: left;
+	font: 9pt Helvetica,"Ariel", Times, serif;
+}
+td.amenity_list_medium
+{
+   border-top: 1px solid black;
+	vertical-align: top;
+	font: 10pt Garamond, "Times New Roman", Times, serif;
+}
+td
+{
+   border: 0px solid orange;
+   align: center;
+	font-color: #FFFFFF;
+	background: #FFFFFF;
+	text-decoration:none;
+	text-align: center;
+	vertical-align: top;
+}
+td.store
+{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+   align: center;
+	font-color: #FFFFFF;
+	background: #FFFFFF;
+	text-decoration:none;
+	text-align: center;
+	vertical-align: top;
+	padding: 3pt;
+}
+
+th
+{
+   background: #FFF;
+   font-size: 10pt; 
+	border-top: 0px;
+	vertical-align: top;
+}
+
+tr{
+   border-top: 1px solid black;
+	vertical-align: top;
+}
+img{ 
+width:25px; 
+height:25px; 
+}

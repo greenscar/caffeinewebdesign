@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/Constants.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/package-frame.html
+END
+HttpRequestStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/HttpRequestStream.html
+END
+SocketInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/SocketInputStream.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/package-tree.html
+END
+HttpConnector.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/HttpConnector.html
+END
+HttpResponseStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/http/HttpResponseStream.html
+END

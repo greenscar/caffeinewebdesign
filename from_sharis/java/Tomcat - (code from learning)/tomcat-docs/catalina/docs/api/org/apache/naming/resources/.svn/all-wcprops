@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/Constants.html
+END
+ImmutableNameNotFoundException.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/ImmutableNameNotFoundException.html
+END
+BaseDirContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/BaseDirContext.html
+END
+DirContextURLStreamHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/DirContextURLStreamHandler.html
+END
+FileDirContext.FileResourceAttributes.html
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/FileDirContext.FileResourceAttributes.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/package-frame.html
+END
+FileDirContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/FileDirContext.html
+END
+ProxyDirContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/ProxyDirContext.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/package-summary.html
+END
+DirContextURLConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/DirContextURLConnection.html
+END
+Resource.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/Resource.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/package-tree.html
+END
+WARDirContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/WARDirContext.html
+END
+WARDirContext.Entry.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/WARDirContext.Entry.html
+END
+WARDirContext.WARResource.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/WARDirContext.WARResource.html
+END
+ResourceAttributes.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/ResourceAttributes.html
+END
+RecyclableNamingEnumeration.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/RecyclableNamingEnumeration.html
+END
+DirContextURLStreamHandlerFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/DirContextURLStreamHandlerFactory.html
+END
+ProxyDirContext.CacheEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/ProxyDirContext.CacheEntry.html
+END
+FileDirContext.FileResource.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/resources/FileDirContext.FileResource.html
+END

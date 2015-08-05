@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control
+END
+SecurityBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control/SecurityBean.class
+END
+WebAppSetup.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control/WebAppSetup.class
+END
+HttpUserBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control/HttpUserBean.class
+END
+UserBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control/UserBean.class
+END
+ControllerServlet.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/control/ControllerServlet.class
+END

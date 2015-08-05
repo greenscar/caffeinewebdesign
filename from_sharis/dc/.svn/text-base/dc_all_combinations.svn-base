@@ -1,0 +1,65 @@
+#! /bin/bash
+alphabet=(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 1 2 3 4 5 6 7 8 9 0)
+c1=1
+#wrd="g8b.COM"
+while [ $c1 -lt 36 ]; do
+  c2=0
+  while [ $c2 -lt 36 ]; do
+    c3=0
+    while [ $c3 -lt 36 ]; do
+      c4=0
+     #while [ $c4 -lt 26 ]; do
+        #wrd="${alphabet[$c1]}${alphabet[$c2]}${alphabet[$c3]}${alphabet[$c4]}.COM"
+	wrd="${alphabet[$c1]}${alphabet[$c2]}${alphabet[$c3]}.COM"
+	pingresults=`/bin/ping -c 1 WWW.$wrd | grep 'unknown host'`
+	if [ -n "$pingresults" ]
+	then
+	   echo "`/bin/date +%D_%H:%M` $wrd TAKEN" >> whois.progress
+	   echo "`/bin/date +%D_%H:%M` $wrd PING"
+	else
+ 	   digresults=`/usr/bin/dig $wrd | grep 'ANSWER SECTION'`	
+	   if [ -n "$digresults" ]
+	   then
+	     echo "`/bin/date +%D_%H:%M` $wrd TAKEN" >> whois.progress 
+	   else
+	     echo "$wrd NULL - checking whois" >> whois.progress 
+	     /usr/bin/whois $wrd > whois.tmp
+	     sleep 1 
+	     sorryresults=`grep 'Sorry that it' whois.tmp`
+	     if [ "$sorryresults" ]
+	     then
+	  	echo $wrd >> whois.probation
+		echo "$wrd PROBATION" >> whois.progress
+	     else
+	   	whoisresults=`grep 'No match for' whois.tmp`
+		if [ -n "$whoisresults" ]
+		then
+	   	   if [ "$whoisresults" ]
+	   	   then
+		      lock=`grep 'REGISTRAR-LOCK' whois.tmp`
+		      if [ "$lock" ]
+		      then
+			echo  "`/bin/date +%D_%H:%M` $wrd TAKEN" >> whois.progress
+	              else		
+  		        echo $wrd >> whois.available
+		        echo $whoisresults >> whois.progress
+		      fi
+	   	   else
+	 	      echo "`/bin/date +%D_%H:%M` $wrd TAKEN" >> whois.progress
+                      echo "whoisresults = '$whoisresults'"
+	   	   fi
+		else
+		    echo $wrd >> whois.empty
+		fi
+	     fi # if [ $sorryresults ]
+	   fi # if [ -n $digresults ]
+	 fi # if [ -n $pingresults ]
+       # c4=$((c4+1))
+      #done
+     c3=$((c3+1)) 
+    done
+   c2=$((c2 + 1))
+  done
+  c1=$((c1 + 1))
+done
+#echo "DONE" >> whois.results;

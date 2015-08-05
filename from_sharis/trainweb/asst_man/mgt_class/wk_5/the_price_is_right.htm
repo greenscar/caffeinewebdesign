@@ -1,0 +1,952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>The Price is Right</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #009999;
+}
+body {
+	background-image: url(../../../images/backgrounds/blue_clouds.gif);
+}
+-->
+</style>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemInptClass.js"></script>
+</head>
+
+<body onLoad="MM_initInteractions()">
+<div align="center">
+  <table width="640" border="0" align="left" cellpadding="1" cellspacing="1">
+    <tr>
+      <td width="174"><img src="../../../images/prices/price_tag.gif" width="174" height="117"></td>
+      <td width="459"><p align="center">Shari's Management Corporation</p>
+          <p align="center">Online Activity</p>
+          <p align="center">The Price is Right</p>
+          <p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="left">One of the keys to budgeting, ordering and cost control is knowing the approximate cost of items that we order. Following are some key items used at Shari's. How well do you know your prices? Are you up to the price challenge? If so, take the following quiz. Prices are approximate, not exact - choose the best answer. <br>
+        <br>
+      </div></td>
+    </tr>
+    <tr>
+      <td><div align="left"></div></td>
+      <td><div align="left"></div></td>
+    </tr>
+    <tr>
+      <td><div align="left"><img src="../../../images/prices/coffee_pot.gif" width="171" height="138"></div></td>
+      <td> <div align="left"></div>        <interaction name="MultCh_Radios01" object="G01" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G01Layer"> 
+          <div align="left"><span name="G01question">Good thing these are made of plastic! How much is one.<BR>
+            <BR>
+            </span>
+          </div>
+          <form name="G01choices">
+            <div align="left"><span name="G01choice1">
+              <input name="G01RadioInp" type="radio" onClick="G01.e['choice1'].update()">
+    $14.08<br>
+              </span> <span name="G01choice2">
+              <input name="G01RadioInp" type="radio" onClick="G01.e['choice2'].update()">
+    $15.75<br>
+              </span> <span name="G01choice3">
+              <input name="G01RadioInp" type="radio" onClick="G01.e['choice3'].update()">
+    $16.91<br>
+              </span>
+            </div>
+          </form>
+          <form name="G01controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG01() {
+    G01 = new MM_interaction('G01',1,0,0,null,0,0,0,'','','c','',0);
+    G01.add('inpt','choice1',0,1,1,0);
+    G01.add('inpt','choice2',0,1,0,0);
+    G01.add('inpt','choice3',0,1,0,0);
+    G01.init();
+    G01.am('segm','Segment: Check Time_',1,1);
+    G01.am('cond','Time At Limit_','G01.timeAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+    G01.am('segm','Segment: Correctness_',1,0);
+    G01.am('cond','Correct_01','G01.correct == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G01.am('end');
+    G01.am('cond','Incorrect_','G01.correct == (false)',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G01.am('end');
+    G01.am('cond','Unknown Response_','G01.knownResponse == false',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G01.am('end');
+    G01.am('segm','Segment: Check Tries_',1,1);
+    G01.am('cond','Tries At Limit_','G01.triesAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+  }
+  if (window.newG01 == null) window.newG01 = newG01;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG01();';
+//-->
+      </script>
+        <cbi-select object="G01"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="left"><img src="../../../images/prices/mustard.gif" width="164" height="121"></div></td>
+      <td> <div align="left"></div>        <interaction name="MultCh_Radios02" object="G02" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G02Layer"> 
+          <div align="left"><span name="G02question">Everybody loves mustard on their hot dog. Questions is; how much is one bottle?<BR>
+            <BR>
+            </span>
+          </div>
+          <form name="G02choices">
+            <div align="left"><span name="G02choice2">
+              <input name="G02RadioInp" type="radio" onClick="G02.e['choice2'].update()">
+  69 cents<br>
+              </span> <span name="G02choice3">
+              <input name="G02RadioInp" type="radio" onClick="G02.e['choice3'].update()">
+  39 cents<br>
+              </span> <span name="G02choice1">
+              <input name="G02RadioInp" type="radio" onClick="G02.e['choice1'].update()">
+  52 cents<br>
+              </span>
+            </div>
+          </form>
+          <form name="G02controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG02() {
+    G02 = new MM_interaction('G02',1,0,0,null,0,0,0,'','','c','',0);
+    G02.add('inpt','choice2',0,1,0,0);
+    G02.add('inpt','choice3',0,1,0,0);
+    G02.add('inpt','choice1',0,1,1,0);
+    G02.init();
+    G02.am('segm','Segment: Check Time_',1,1);
+    G02.am('cond','Time At Limit_','G02.timeAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+    G02.am('segm','Segment: Correctness_',1,0);
+    G02.am('cond','Correct_01','G02.correct == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G02.am('end');
+    G02.am('cond','Incorrect_','G02.correct == (false)',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G02.am('end');
+    G02.am('cond','Unknown Response_','G02.knownResponse == false',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G02.am('end');
+    G02.am('segm','Segment: Check Tries_',1,1);
+    G02.am('cond','Tries At Limit_','G02.triesAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+  }
+  if (window.newG02 == null) window.newG02 = newG02;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG02();';
+//-->
+      </script>
+        <cbi-select object="G02"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/spoon.gif" width="84" height="127"></div></td>
+      <td> <div align="left"></div>        <interaction name="MultCh_Radios03" object="G03" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G03Layer"> 
+          <div align="left"><span name="G03question">That "clang" you just heard was a spoon falling into the garbage - how much did that cost you?</span>
+          </div>
+          <form name="G03choices">
+            <div align="left"><span name="G03choice2">
+              <input name="G03RadioInp" type="radio" onClick="G03.e['choice2'].update()">
+      17 cents<br>
+              </span> <span name="G03choice1">
+              <input name="G03RadioInp" type="radio" onClick="G03.e['choice1'].update()">
+      27 cents<br>
+              </span> <span name="G03choice3">
+              <input name="G03RadioInp" type="radio" onClick="G03.e['choice3'].update()">
+      38 cents<br>
+              </span>
+            </div>
+          </form>
+          <form name="G03controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG03() {
+    G03 = new MM_interaction('G03',1,0,0,null,0,0,0,'','','c','',0);
+    G03.add('inpt','choice2',0,1,0,0);
+    G03.add('inpt','choice1',0,1,1,0);
+    G03.add('inpt','choice3',0,1,0,0);
+    G03.init();
+    G03.am('segm','Segment: Check Time_',1,1);
+    G03.am('cond','Time At Limit_','G03.timeAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+    G03.am('segm','Segment: Correctness_',1,0);
+    G03.am('cond','Correct_01','G03.correct == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G03.am('end');
+    G03.am('cond','Incorrect_','G03.correct == (false)',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G03.am('end');
+    G03.am('cond','Unknown Response_','G03.knownResponse == false',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G03.am('end');
+    G03.am('segm','Segment: Check Tries_',1,1);
+    G03.am('cond','Tries At Limit_','G03.triesAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+  }
+  if (window.newG03 == null) window.newG03 = newG03;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG03();';
+//-->
+      </script>
+        <cbi-select object="G03"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/ash_tray.gif" width="185" height="140"></div></td>
+      <td> <div align="left"><interaction name="MultCh_Radios04" object="G04" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      </interaction></div>        <interaction name="MultCh_Radios04" object="G04" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G04Layer"> 
+          <div align="left"><span name="G04question">Ashtrays, we need two for every table in the smoking section. How much do they cost apiece.</span>
+          </div>
+          <form name="G04choices">
+            <div align="left"><span name="G04choice1">
+              <input name="G04RadioInp" type="radio" onClick="G04.e['choice1'].update()">
+    44 cents<br>
+              </span> <span name="G04choice2">
+              <input name="G04RadioInp" type="radio" onClick="G04.e['choice2'].update()">
+    65 cents<br>
+              </span> <span name="G04choice3">
+              <input name="G04RadioInp" type="radio" onClick="G04.e['choice3'].update()">
+    75 cents<br>
+              </span>
+            </div>
+          </form>
+          <form name="G04controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG04() {
+    G04 = new MM_interaction('G04',1,0,0,null,0,0,0,'','','c','',0);
+    G04.add('inpt','choice1',0,1,1,0);
+    G04.add('inpt','choice2',0,1,0,0);
+    G04.add('inpt','choice3',0,1,0,0);
+    G04.init();
+    G04.am('segm','Segment: Check Time_',1,1);
+    G04.am('cond','Time At Limit_','G04.timeAtLimit == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G04.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G04.setDisabled(true);\')','sp');
+    G04.am('end');
+    G04.am('segm','Segment: Correctness_',1,0);
+    G04.am('cond','Correct_01','G04.correct == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G04.am('end');
+    G04.am('cond','Incorrect_','G04.correct == (false)',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G04.am('end');
+    G04.am('cond','Unknown Response_','G04.knownResponse == false',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G04.am('end');
+    G04.am('segm','Segment: Check Tries_',1,1);
+    G04.am('cond','Tries At Limit_','G04.triesAtLimit == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G04.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G04.setDisabled(true);\')','sp');
+    G04.am('end');
+  }
+  if (window.newG04 == null) window.newG04 = newG04;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG04();';
+//-->
+      </script>
+        <cbi-select object="G04"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/tea_bag.gif" width="112" height="144"></div></td>
+      <td> <div align="left"><interaction name="MultCh_Radios05" object="G05" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      </interaction></div>        <interaction name="MultCh_Radios05" object="G05" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G05Layer"> 
+          <div align="left"><span name="G05question">Did you know that if a guest asks for another tea bag, we do not charge them? How much does one tea bag cost us?</span>
+          </div>
+          <form name="G05choices">
+            <div align="left"><span name="G05choice1">
+              <input name="G05RadioInp" type="radio" onClick="G05.e['choice1'].update()">
+      4 cents<br>
+              </span> <span name="G05choice2">
+              <input name="G05RadioInp" type="radio" onClick="G05.e['choice2'].update()">
+      8 cents<br>
+              </span> <span name="G05choice3">
+              <input name="G05RadioInp" type="radio" onClick="G05.e['choice3'].update()">
+      10 cents<br>
+              </span>
+            </div>
+          </form>
+          <form name="G05controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG05() {
+    G05 = new MM_interaction('G05',1,0,0,null,0,0,0,'','','c','',0);
+    G05.add('inpt','choice1',0,1,1,0);
+    G05.add('inpt','choice2',0,1,0,0);
+    G05.add('inpt','choice3',0,1,0,0);
+    G05.init();
+    G05.am('segm','Segment: Check Time_',1,1);
+    G05.am('cond','Time At Limit_','G05.timeAtLimit == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G05.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G05.setDisabled(true);\')','sp');
+    G05.am('end');
+    G05.am('segm','Segment: Correctness_',1,0);
+    G05.am('cond','Correct_01','G05.correct == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G05.am('end');
+    G05.am('cond','Incorrect_','G05.correct == (false)',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G05.am('end');
+    G05.am('cond','Unknown Response_','G05.knownResponse == false',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G05.am('end');
+    G05.am('segm','Segment: Check Tries_',1,1);
+    G05.am('cond','Tries At Limit_','G05.triesAtLimit == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G05.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G05.setDisabled(true);\')','sp');
+    G05.am('end');
+  }
+  if (window.newG05 == null) window.newG05 = newG05;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG05();';
+//-->
+      </script>
+        <cbi-select object="G05"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/plate.gif" width="180" height="149"></div></td>
+      <td> <interaction name="MultCh_Radios06" object="G06" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G06Layer"> 
+        <div align="left"><span name="G06question">I hope that crash that you just heard in the kitchen wasn't a 10 inch plate 'cause that'll cost ya!<BR>
+            <BR>
+          </span>
+          </div>
+        <form name="G06choices">
+            <div align="left"><span name="G06choice2">
+              <input name="G06RadioInp" type="radio" onClick="G06.e['choice2'].update()">
+    $6.29<br>
+              </span> <span name="G06choice1">
+              <input name="G06RadioInp" type="radio" onClick="G06.e['choice1'].update()">
+    $7.79<br>
+              </span> <span name="G06choice3">
+              <input name="G06RadioInp" type="radio" onClick="G06.e['choice3'].update()">
+    $12.59<br>
+              </span>
+            </div>
+        </form>
+          <form name="G06controls">
+          </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG06() {
+    G06 = new MM_interaction('G06',1,0,0,null,0,0,0,'','','c','',0);
+    G06.add('inpt','choice2',0,1,0,0);
+    G06.add('inpt','choice1',0,1,1,0);
+    G06.add('inpt','choice3',0,1,0,0);
+    G06.init();
+    G06.am('segm','Segment: Check Time_',1,1);
+    G06.am('cond','Time At Limit_','G06.timeAtLimit == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G06.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G06.setDisabled(true);\')','sp');
+    G06.am('end');
+    G06.am('segm','Segment: Correctness_',1,0);
+    G06.am('cond','Correct_01','G06.correct == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G06.am('end');
+    G06.am('cond','Incorrect_','G06.correct == (false)',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G06.am('end');
+    G06.am('cond','Unknown Response_','G06.knownResponse == false',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G06.am('end');
+    G06.am('segm','Segment: Check Tries_',1,1);
+    G06.am('cond','Tries At Limit_','G06.triesAtLimit == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G06.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G06.setDisabled(true);\')','sp');
+    G06.am('end');
+  }
+  if (window.newG06 == null) window.newG06 = newG06;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG06();';
+//-->
+      </script>
+      <cbi-select object="G06"></interaction> </td>
+    </tr>
+    <tr>
+      <td><img src="../../../images/prices/spatulas.gif" width="185" height="121"></td>
+      <td> <interaction name="MultCh_Radios07" object="G07" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G07Layer"> 
+        <div align="left"><span name="G07question">The crew needs plenty of spatulas so that they can scrape out containers and save product. They cost so little and can save soooo much! What does a short spatula cost?</span>
+          </div>
+        <form name="G07choices">
+            <div align="left"><span name="G07choice1">
+              <input name="G07RadioInp" type="radio" onClick="G07.e['choice1'].update()">
+    72 cents<br>
+              </span> <span name="G07choice2">
+              <input name="G07RadioInp" type="radio" onClick="G07.e['choice2'].update()">
+    $1.25<br>
+              </span> <span name="G07choice3">
+              <input name="G07RadioInp" type="radio" onClick="G07.e['choice3'].update()">
+    $1.40<br>
+              </span>
+            </div>
+        </form>
+          <form name="G07controls">
+          </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG07() {
+    G07 = new MM_interaction('G07',1,0,0,null,0,0,0,'','','c','',0);
+    G07.add('inpt','choice1',0,1,1,0);
+    G07.add('inpt','choice2',0,1,0,0);
+    G07.add('inpt','choice3',0,1,0,0);
+    G07.init();
+    G07.am('segm','Segment: Check Time_',1,1);
+    G07.am('cond','Time At Limit_','G07.timeAtLimit == true',0);
+    G07.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G07.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G07.setDisabled(true);\')','sp');
+    G07.am('end');
+    G07.am('segm','Segment: Correctness_',1,0);
+    G07.am('cond','Correct_01','G07.correct == true',0);
+    G07.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G07.am('end');
+    G07.am('cond','Incorrect_','G07.correct == (false)',0);
+    G07.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G07.am('end');
+    G07.am('cond','Unknown Response_','G07.knownResponse == false',0);
+    G07.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G07.am('end');
+    G07.am('segm','Segment: Check Tries_',1,1);
+    G07.am('cond','Tries At Limit_','G07.triesAtLimit == true',0);
+    G07.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G07.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G07.setDisabled(true);\')','sp');
+    G07.am('end');
+  }
+  if (window.newG07 == null) window.newG07 = newG07;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG07();';
+//-->
+      </script>
+      <cbi-select object="G07"></interaction> </td>
+    </tr>
+    <tr>
+      <td><img src="../../../images/prices/tulip_dish.gif" width="168" height="143"></td>
+      <td> <interaction name="MultCh_Radios08" object="G08" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G08Layer"> 
+        <div align="left"><span name="G08question">Wow! That looks good! How much does a tulip dish cost?</span>
+          </div>
+        <form name="G08choices">
+            <div align="left"><span name="G08choice2">
+              <input name="G08RadioInp" type="radio" onClick="G08.e['choice2'].update()">
+  72 cents<br>
+              </span> <span name="G08choice3">
+              <input name="G08RadioInp" type="radio" onClick="G08.e['choice3'].update()">
+  $1.59<br>
+              </span> <span name="G08choice1">
+              <input name="G08RadioInp" type="radio" onClick="G08.e['choice1'].update()">
+  $1.96<br>
+              </span>
+            </div>
+        </form>
+          <form name="G08controls">
+          </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG08() {
+    G08 = new MM_interaction('G08',1,0,0,null,0,0,0,'','','c','',0);
+    G08.add('inpt','choice2',0,1,0,0);
+    G08.add('inpt','choice3',0,1,0,0);
+    G08.add('inpt','choice1',0,1,1,0);
+    G08.init();
+    G08.am('segm','Segment: Check Time_',1,1);
+    G08.am('cond','Time At Limit_','G08.timeAtLimit == true',0);
+    G08.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G08.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G08.setDisabled(true);\')','sp');
+    G08.am('end');
+    G08.am('segm','Segment: Correctness_',1,0);
+    G08.am('cond','Correct_01','G08.correct == true',0);
+    G08.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G08.am('end');
+    G08.am('cond','Incorrect_','G08.correct == (false)',0);
+    G08.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G08.am('end');
+    G08.am('cond','Unknown Response_','G08.knownResponse == false',0);
+    G08.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G08.am('end');
+    G08.am('segm','Segment: Check Tries_',1,1);
+    G08.am('cond','Tries At Limit_','G08.triesAtLimit == true',0);
+    G08.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G08.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G08.setDisabled(true);\')','sp');
+    G08.am('end');
+  }
+  if (window.newG08 == null) window.newG08 = newG08;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG08();';
+//-->
+      </script>
+      <cbi-select object="G08"></interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/coffee_cup.gif" width="106" height="144"></div></td>
+      <td> <div align="left"><interaction name="MultCh_Radios09" object="G09" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      </interaction></div>        <interaction name="MultCh_Radios09" object="G09" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G09Layer"> 
+          <div align="left"><span name="G09question">I hate it when these break. How much will it cost to replace one?</span>
+          </div>
+          <form name="G09choices">
+            <div align="left"><span name="G09choice2">
+              <input name="G09RadioInp" type="radio" onClick="G09.e['choice2'].update()">
+    $2.88<br>
+              </span> <span name="G09choice1">
+              <input name="G09RadioInp" type="radio" onClick="G09.e['choice1'].update()">
+    $4.18<br>
+              </span> <span name="G09choice3">
+              <input name="G09RadioInp" type="radio" onClick="G09.e['choice3'].update()">
+    $4.99<br>
+              </span>
+            </div>
+          </form>
+          <form name="G09controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG09() {
+    G09 = new MM_interaction('G09',1,0,0,null,0,0,0,'','','c','',0);
+    G09.add('inpt','choice2',0,1,0,0);
+    G09.add('inpt','choice1',0,1,1,0);
+    G09.add('inpt','choice3',0,1,0,0);
+    G09.init();
+    G09.am('segm','Segment: Check Time_',1,1);
+    G09.am('cond','Time At Limit_','G09.timeAtLimit == true',0);
+    G09.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G09.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G09.setDisabled(true);\')','sp');
+    G09.am('end');
+    G09.am('segm','Segment: Correctness_',1,0);
+    G09.am('cond','Correct_01','G09.correct == true',0);
+    G09.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G09.am('end');
+    G09.am('cond','Incorrect_','G09.correct == (false)',0);
+    G09.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G09.am('end');
+    G09.am('cond','Unknown Response_','G09.knownResponse == false',0);
+    G09.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G09.am('end');
+    G09.am('segm','Segment: Check Tries_',1,1);
+    G09.am('cond','Tries At Limit_','G09.triesAtLimit == true',0);
+    G09.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G09.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G09.setDisabled(true);\')','sp');
+    G09.am('end');
+  }
+  if (window.newG09 == null) window.newG09 = newG09;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG09();';
+//-->
+      </script>
+        <cbi-select object="G09"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/hot_sauce.gif" width="93" height="145"></div></td>
+      <td> <div align="left"><interaction name="MultCh_Radios10" object="G10" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      </interaction></div>        <interaction name="MultCh_Radios10" object="G10" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"><div name="G10Layer"> 
+          <div align="left"><span name="G10question">How much does a bottle of Tabasco costs? </span>
+          </div>
+          <form name="G10choices">
+            <div align="left"><span name="G10choice1">
+              <input name="G10RadioInp" type="radio" onClick="G10.e['choice1'].update()">
+    $2.33<br>
+              </span> <span name="G10choice2">
+              <input name="G10RadioInp" type="radio" onClick="G10.e['choice2'].update()">
+    $3.33<br>
+              </span> <span name="G10choice3">
+              <input name="G10RadioInp" type="radio" onClick="G10.e['choice3'].update()">
+    $4.33<br>
+              </span>
+            </div>
+          </form>
+          <form name="G10controls">
+          </form>
+      </div>
+        <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG10() {
+    G10 = new MM_interaction('G10',1,0,0,null,0,0,0,'','','c','',0);
+    G10.add('inpt','choice1',0,1,1,0);
+    G10.add('inpt','choice2',0,1,0,0);
+    G10.add('inpt','choice3',0,1,0,0);
+    G10.init();
+    G10.am('segm','Segment: Check Time_',1,1);
+    G10.am('cond','Time At Limit_','G10.timeAtLimit == true',0);
+    G10.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G10.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G10.setDisabled(true);\')','sp');
+    G10.am('end');
+    G10.am('segm','Segment: Correctness_',1,0);
+    G10.am('cond','Correct_01','G10.correct == true',0);
+    G10.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G10.am('end');
+    G10.am('cond','Incorrect_','G10.correct == (false)',0);
+    G10.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G10.am('end');
+    G10.am('cond','Unknown Response_','G10.knownResponse == false',0);
+    G10.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G10.am('end');
+    G10.am('segm','Segment: Check Tries_',1,1);
+    G10.am('cond','Tries At Limit_','G10.triesAtLimit == true',0);
+    G10.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G10.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G10.setDisabled(true);\')','sp');
+    G10.am('end');
+  }
+  if (window.newG10 == null) window.newG10 = newG10;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG10();';
+//-->
+      </script>
+        <cbi-select object="G10"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><img src="../../../images/prices/scoop.gif" width="208" height="133"></td>
+      <td> <interaction name="MultCh_Radios11" object="G11" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G11Layer"> 
+        <div align="left"><span name="G11question">Guess that I'll be more careful with these now that I know they cost this much apiece. By the way, what does a #12 scoop cost?<BR>
+            <BR>
+          </span>
+          </div>
+        <form name="G11choices">
+            <div align="left"><span name="G11choice2">
+              <input name="G11RadioInp" type="radio" onClick="G11.e['choice2'].update()">
+  $9.99<br>
+              </span> <span name="G11choice1">
+              <input name="G11RadioInp" type="radio" onClick="G11.e['choice1'].update()">
+  $11.63<br>
+              </span> <span name="G11choice3">
+              <input name="G11RadioInp" type="radio" onClick="G11.e['choice3'].update()">
+    $13.73<br>
+              </span>
+            </div>
+        </form>
+          <form name="G11controls">
+                    </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG11() {
+    G11 = new MM_interaction('G11',1,0,0,null,0,0,0,'','','c','',0);
+    G11.add('inpt','choice2',0,1,0,0);
+    G11.add('inpt','choice1',0,1,1,0);
+    G11.add('inpt','choice3',0,1,0,0);
+    G11.init();
+    G11.am('segm','Segment: Check Time_',1,1);
+    G11.am('cond','Time At Limit_','G11.timeAtLimit == true',0);
+    G11.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G11.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G11.setDisabled(true);\')','sp');
+    G11.am('end');
+    G11.am('segm','Segment: Correctness_',1,0);
+    G11.am('cond','Correct_01','G11.correct == true',0);
+    G11.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G11.am('end');
+    G11.am('cond','Incorrect_','G11.correct == (false)',0);
+    G11.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G11.am('end');
+    G11.am('cond','Unknown Response_','G11.knownResponse == false',0);
+    G11.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G11.am('end');
+    G11.am('segm','Segment: Check Tries_',1,1);
+    G11.am('cond','Tries At Limit_','G11.triesAtLimit == true',0);
+    G11.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G11.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G11.setDisabled(true);\')','sp');
+    G11.am('end');
+  }
+  if (window.newG11 == null) window.newG11 = newG11;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG11();';
+//-->
+      </script>
+      <cbi-select object="G11"></interaction> </td>
+    </tr>
+    <tr>
+      <td><img src="../../../images/prices/ketchup.gif" width="169" height="135"></td>
+      <td> <interaction name="MultCh_Radios12" object="G12" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G12Layer"> 
+        <div align="left"><span name="G12question">We go through a lot of these. How much is a bottle of ketchup?<BR>
+            <BR>
+          </span>
+          </div>
+        <form name="G12choices">
+            <div align="left"><span name="G12choice2">
+              <input name="G12RadioInp" type="radio" onClick="G12.e['choice2'].update()">
+  49 cents<br>
+              </span> <span name="G12choice1">
+              <input name="G12RadioInp" type="radio" onClick="G12.e['choice1'].update()">
+  89 cents<br>
+              </span> <span name="G12choice3">
+              <input name="G12RadioInp" type="radio" onClick="G12.e['choice3'].update()">
+    99 cents<br>
+              </span>
+            </div>
+        </form>
+          <form name="G12controls">
+          </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG12() {
+    G12 = new MM_interaction('G12',1,0,0,null,0,0,0,'','','c','',0);
+    G12.add('inpt','choice2',0,1,0,0);
+    G12.add('inpt','choice1',0,1,1,0);
+    G12.add('inpt','choice3',0,1,0,0);
+    G12.init();
+    G12.am('segm','Segment: Check Time_',1,1);
+    G12.am('cond','Time At Limit_','G12.timeAtLimit == true',0);
+    G12.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G12.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G12.setDisabled(true);\')','sp');
+    G12.am('end');
+    G12.am('segm','Segment: Correctness_',1,0);
+    G12.am('cond','Correct_01','G12.correct == true',0);
+    G12.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G12.am('end');
+    G12.am('cond','Incorrect_','G12.correct == (false)',0);
+    G12.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G12.am('end');
+    G12.am('cond','Unknown Response_','G12.knownResponse == false',0);
+    G12.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G12.am('end');
+    G12.am('segm','Segment: Check Tries_',1,1);
+    G12.am('cond','Tries At Limit_','G12.triesAtLimit == true',0);
+    G12.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G12.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G12.setDisabled(true);\')','sp');
+    G12.am('end');
+  }
+  if (window.newG12 == null) window.newG12 = newG12;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG12();';
+//-->
+      </script>
+      <cbi-select object="G12"></interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/matchbooks.gif" width="167" height="153"></div></td>
+      <td> <interaction name="MultCh_Radios13" object="G13" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G13Layer"> 
+        <div align="left"><span name="G13question">These work great to level wobbly tables. What do they cost apiece?</span>
+          </div>
+        <form name="G13choices">
+            <div align="left"><span name="G13choice1">
+              <input name="G13RadioInp" type="radio" onClick="G13.e['choice1'].update()">
+    2 cents<br>
+              </span> <span name="G13choice2">
+              <input name="G13RadioInp" type="radio" onClick="G13.e['choice2'].update()">
+    5 cents<br>
+              </span> <span name="G13choice3">
+              <input name="G13RadioInp" type="radio" onClick="G13.e['choice3'].update()">
+    10 cents<br>
+              </span>
+            </div>
+        </form>
+          <form name="G13controls">
+                    </form>
+      </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG13() {
+    G13 = new MM_interaction('G13',1,0,0,null,0,0,0,'','','c','',0);
+    G13.add('inpt','choice1',0,1,1,0);
+    G13.add('inpt','choice2',0,1,0,0);
+    G13.add('inpt','choice3',0,1,0,0);
+    G13.init();
+    G13.am('segm','Segment: Check Time_',1,1);
+    G13.am('cond','Time At Limit_','G13.timeAtLimit == true',0);
+    G13.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G13.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G13.setDisabled(true);\')','sp');
+    G13.am('end');
+    G13.am('segm','Segment: Correctness_',1,0);
+    G13.am('cond','Correct_01','G13.correct == true',0);
+    G13.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G13.am('end');
+    G13.am('cond','Incorrect_','G13.correct == (false)',0);
+    G13.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G13.am('end');
+    G13.am('cond','Unknown Response_','G13.knownResponse == false',0);
+    G13.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G13.am('end');
+    G13.am('segm','Segment: Check Tries_',1,1);
+    G13.am('cond','Tries At Limit_','G13.triesAtLimit == true',0);
+    G13.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G13.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G13.setDisabled(true);\')','sp');
+    G13.am('end');
+  }
+  if (window.newG13 == null) window.newG13 = newG13;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG13();';
+//-->
+      </script>
+      <cbi-select object="G13"></interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/knife.gif" width="129" height="130"></div></td>
+      <td> <interaction name="MultCh_Radios14" object="G14" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G14Layer"> 
+        <div align="left"><span name="G14question">This is our most expensive piece of silverware. What does a dinner knife cost?<BR>
+            <BR>
+          </span>
+          </div>
+        <form name="G14choices">
+            <div align="left"><span name="G14choice1">
+              <input name="G14RadioInp" type="radio" onClick="G14.e['choice1'].update()">
+    74 cents<br>
+              </span> <span name="G14choice2">
+              <input name="G14RadioInp" type="radio" onClick="G14.e['choice2'].update()">
+    $1.29<br>
+              </span> <span name="G14choice3">
+              <input name="G14RadioInp" type="radio" onClick="G14.e['choice3'].update()">
+    $1.79<br>
+              </span>
+            </div>
+        </form>
+          <form name="G14controls">
+          </form>
+      </div>
+      <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG14() {
+    G14 = new MM_interaction('G14',1,0,0,null,0,0,0,'','','c','',0);
+    G14.add('inpt','choice1',0,1,1,0);
+    G14.add('inpt','choice2',0,1,0,0);
+    G14.add('inpt','choice3',0,1,0,0);
+    G14.init();
+    G14.am('segm','Segment: Check Time_',1,1);
+    G14.am('cond','Time At Limit_','G14.timeAtLimit == true',0);
+    G14.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G14.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G14.setDisabled(true);\')','sp');
+    G14.am('end');
+    G14.am('segm','Segment: Correctness_',1,0);
+    G14.am('cond','Correct_01','G14.correct == true',0);
+    G14.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G14.am('end');
+    G14.am('cond','Incorrect_','G14.correct == (false)',0);
+    G14.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G14.am('end');
+    G14.am('cond','Unknown Response_','G14.knownResponse == false',0);
+    G14.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G14.am('end');
+    G14.am('segm','Segment: Check Tries_',1,1);
+    G14.am('cond','Tries At Limit_','G14.triesAtLimit == true',0);
+    G14.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G14.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G14.setDisabled(true);\')','sp');
+    G14.am('end');
+  }
+  if (window.newG14 == null) window.newG14 = newG14;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG14();';
+//-->
+      </script>
+        <cbi-select object="G14"></div>
+      </interaction> </td>
+    </tr>
+    <tr>
+      <td><div align="center"><img src="../../../images/prices/glass.gif" width="72" height="153"></div></td>
+      <td> <interaction name="MultCh_Radios15" object="G15" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+      <div name="G15Layer"> 
+        <div align="left"><span name="G15question">What is the replacement cost for a 16 ounce glass?</span>
+          </div>
+        <form name="G15choices">
+            <div align="left"><span name="G15choice3">
+              <input name="G15RadioInp" type="radio" onClick="G15.e['choice3'].update()">
+  75 cents<br>
+              </span> <span name="G15choice2">
+              <input name="G15RadioInp" type="radio" onClick="G15.e['choice2'].update()">
+  99 cents<br>
+              </span> <span name="G15choice1">
+              <input name="G15RadioInp" type="radio" onClick="G15.e['choice1'].update()">
+    $1.30<br>
+              </span>
+            </div>
+        </form>
+          <form name="G15controls">
+          </form>
+      </div>
+      <div align="left">
+        <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG15() {
+    G15 = new MM_interaction('G15',1,0,0,null,0,0,0,'','','c','',0);
+    G15.add('inpt','choice3',0,1,0,0);
+    G15.add('inpt','choice2',0,1,0,0);
+    G15.add('inpt','choice1',0,1,1,0);
+    G15.init();
+    G15.am('segm','Segment: Check Time_',1,1);
+    G15.am('cond','Time At Limit_','G15.timeAtLimit == true',0);
+    G15.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G15.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G15.setDisabled(true);\')','sp');
+    G15.am('end');
+    G15.am('segm','Segment: Correctness_',1,0);
+    G15.am('cond','Correct_01','G15.correct == true',0);
+    G15.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G15.am('end');
+    G15.am('cond','Incorrect_','G15.correct == (false)',0);
+    G15.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G15.am('end');
+    G15.am('cond','Unknown Response_','G15.knownResponse == false',0);
+    G15.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G15.am('end');
+    G15.am('segm','Segment: Check Tries_',1,1);
+    G15.am('cond','Tries At Limit_','G15.triesAtLimit == true',0);
+    G15.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G15.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G15.setDisabled(true);\')','sp');
+    G15.am('end');
+  }
+  if (window.newG15 == null) window.newG15 = newG15;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG15();';
+//-->
+      </script>
+        <cbi-select object="G15"></div>
+      </interaction> </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p align="left">&nbsp;</p>
+</div>
+</body>
+</html>

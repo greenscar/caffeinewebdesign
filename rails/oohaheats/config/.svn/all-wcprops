@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/htdocs/!svn/ver/98/rails/oohaheats/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/83/rails/oohaheats/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/htdocs/!svn/ver/98/rails/oohaheats/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/83/rails/oohaheats/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/83/rails/oohaheats/config/environment.rb
+END

@@ -1,0 +1,463 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script language = "javascript" type="text/javascript">
+function checkTeacher(form)
+{
+    for(i = 0; i < 4; i++){
+        if(form.submitto[i].checked){
+            return(true);
+        }
+    }
+    alert("Please select a teacher to submit to.");
+    return(false);
+}
+function checkFields(form)
+{
+	if(checkTeacher(form))
+		return(true);
+	else
+		return(false);
+}
+</script>
+<title>week two evaluation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #9900CC;
+}
+body {
+	background-image:  url(../../../images/backgrounds/bg_purple_coffee_server.jpg);
+}
+-->
+</style></head>
+
+<body>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <form name="form1" method="post" action="../../../php_files/form_process.php" onSubmit="return checkFields(this)">
+	  <input type="hidden" name="formName" value="Week Two Eval">
+        <table width="780">
+          <tr>
+            <td colspan="3"><div align="center"><strong>SHARI'S MANAGEMENT CORPORATION<br>
+        ON LINE MANAGEMENT CLASS EVALUATION<br>
+        WEEK TWO </strong></div></td>
+          </tr>
+          <tr>
+            <td width="167">&nbsp;</td>
+            <td width="249">&nbsp;</td>
+            <td width="348">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3">We want to make our future management classes as meaningful as possible and we would appreciate your candid evaluation of this series by responding to the below questions. </td>
+          </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr valign="top">
+            <td colspan="3">Evaluation: Rate each subject on how useful you found the information, with a 5 being very useful and 1 not as useful. Please include any comments regarding the subject in the last column. 
+              <table width="795">
+                <tr>
+                  <td colspan="3"><img src="../../../images/divider_bars/blooming_flowers.gif" width="773" height="19"></td>
+                </tr>
+                <tr>
+                  <td width="163" valign="top"><p>Reading Assignments </p>                  </td>
+                  <td width="224">&nbsp;</td>
+                  <td width="392">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top">Controlling Discounts </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="controlling_discounts" value="discounts_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="controlling_discounts" value="discounts_4">
+                        4- useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="controlling_discounts" value="discounts_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="controlling_discounts" value="discounts_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="controlling_discounts" value="discounts_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="controlling_disc_comment" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">End of Day Reports </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+<input type="radio" name="end_of_day_reports" value="end_of_day_reports_5">                        
+5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_day_reports" value="end_of_day_reports_4">
+                        4- useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_day_reports" value="end_of_day_reports_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_day_reports" value="end_of_day_reports_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_day_reports" value="end_of_day_reports_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="end_of_day_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">Invoice Entry </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="invoice_entry" value="invoicing_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="invoice_entry" value="invoicing_4">
+                        4- useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="invoice_entry" value="invoicing_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="invoice_entry" value="invoicing_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="invoice_entry" value="invoicing_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="invoice_entry_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">End of Week Accounting </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_week" value="end_of_week_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_week" value="end_of_week_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_week" value="end_of_week_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_week" value="end_of_week_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="end_of_week" value="end_of_week_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="end_of_week_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">Using POS to Run a Better Store </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="pos_run_store" value="pos_run_store_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="pos_run_store" value="pos_run_store_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="pos_run_store" value="pos_run_store_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="pos_run_store" value="pos_run_store_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="pos_run_store" value="pos_run_store_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="pos_run_store_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">Conducting Inventory </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="inventory" value="inventory_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="inventory" value="inventory_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="inventory" value="inventory_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="inventory" value="inventory_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="inventory" value="inventory1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="inventory_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">Employee Orientation</td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="employee_orient" value="employee_orient_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="employee_orient" value="employee_orient_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="employee_orient" value="employee_orient_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="employee_orient" value="empoyee_orient_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="employee_orient" value="employee_orient_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="employee_orient_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top"><img src="../../../images/divider_bars/blooming_flowers.gif" width="796" height="38"></td>
+                </tr>
+                <tr>
+                  <td valign="top">Class Activities </td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top">&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top">Name that Discount </td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="name_discount" value="name_discount_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="name_discount" value="name_discount_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="name_discount" value="name_discount_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="name_discount" value="name_discount_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="name_discount" value="name_discount_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="name_discount_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">What's that GL #?</td>
+                  <td><table width="200" border="3" bordercolor="#990099">
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="what_gl" value="what_gl_5">
+                        5-very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="what_gl" value="what_gl_4">
+                        4-useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="what_gl" value="what_gl_3">
+                        3-somewhat useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="what_gl" value="what_gl_2">
+                        2-not very useful</label></td>
+                    </tr>
+                    <tr>
+                      <td><label>
+                        <input type="radio" name="what_gl" value="what_gl_1">
+                        1-not useful</label></td>
+                    </tr>
+                  </table></td>
+                  <td><textarea name="what_gl_comments" cols="50" rows="8">comments:</textarea></td>
+                </tr>
+                <tr>
+                  <td valign="top">&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top"><img src="../../../images/divider_bars/blooming_flowers.gif" width="796" height="38"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top">What chat discussion did you find most beneficial and why? </td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top"><textarea name="chat_most_beneficial" cols="118" rows="5">comments:</textarea></td>
+                </tr>
+              </table>            </td>
+          </tr>
+          <tr valign="top">
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr valign="top">
+            <td colspan="3">What bulletin board question did you find the most beneficial and why? </td>
+          </tr>
+          <tr valign="top">
+            <td colspan="3"><textarea name="bb_most_beneficial" cols="118" rows="5">comments:</textarea></td>
+          </tr>
+          <tr valign="top">
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr valign="top">
+            <td height="43" colspan="3">Did you have any challenges completing your assignments this week? Is so, what? </td>
+          </tr>
+          <tr valign="top">
+            <td height="43" colspan="3"><p>
+              <textarea name="any_challenges" cols="118" rows="5">comments:</textarea>
+            </p>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td height="26" colspan="3"><div align="center">
+              <p>&nbsp;                </p>
+            </div></td>
+          </tr>
+          <tr valign="top">
+            <td height="26" colspan="3"><div align="center">After completing this week's evaluation please e-mail it your instructor by selecting from the list below..</div></td>
+          </tr>
+          <tr valign="top">
+            <td height="26" colspan="3">&nbsp;</td>
+          </tr>
+          <tr valign="top">
+            <td height="26" colspan="3"><div align="center">
+              <table width="200">
+                <tr>
+                  <td><div align="justify">
+                    <label>
+                      <input type="radio" name="submitto" value="virish@sharis.com">
+                      Vickie Irish</label>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><div align="justify">
+                    <label>
+                      <input type="radio" name="submitto" value="dwolfe@sharis.com">
+                      Debbie Wolfe</label>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><div align="justify">
+                    <label>
+                      <input type="radio" name="submitto" value="jhensley@sharis.com">
+                      Johanna Hensley</label>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><div align="justify">
+                    <label>
+<input type="radio" name="submitto" value="eklein@sharis.com">                      
+Esther Klein</label>
+                  </div></td>
+                </tr>
+              </table>
+              <p>
+                <input type="submit" name="Submit" value="Submit">
+              </p>
+            </div></td>
+          </tr>
+        </table>
+      </form>
+    </blockquote>
+  </blockquote>
+</blockquote>
+</body>
+</html>

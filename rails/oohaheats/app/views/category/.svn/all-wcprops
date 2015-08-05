@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category
+END
+list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/list.html.erb
+END
+_category.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/_category.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/show.html.erb
+END

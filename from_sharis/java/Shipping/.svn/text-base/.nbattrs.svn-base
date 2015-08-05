@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="js_fxns.js">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="Warehouse.java">
+        <attr name="class_dependency_ItemCollection" stringvalue="Warehouse"/>
+    </fileobject>
+    <fileobject name="Order.java">
+        <attr name="class_dependency_ItemCollection" stringvalue="Order"/>
+    </fileobject>
+    <fileobject name="topMenu.htm">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="js_menu_fxns.js">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="itemModFxns.js">
+        <attr name="org.netbeans.modules.text.IsTextFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="Catalog.java">
+        <attr name="class_dependency_ItemCollection" stringvalue="Catalog"/>
+    </fileobject>
+    <fileobject name="">
+        <attr name="users\Site.java\class_dependency_java.io.Serializable" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="Order.java\class_dependency_ItemCollection" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="sites\location\DM_Home.java\class_dependency_sites.location.Site" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="servlets\SubCategoryServlet.java\class_dependency_javax.servlet.http.HttpServlet" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="vos\Warehouse.java\class_dependency_vos.ItemCollection" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="users\Site.java\class_dependency_java.lang.Object" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="vos\ItemCollection.java\class_dependency_java.io.Serializable" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="sites\location\Department.java\class_dependency_sites.location.Site" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="sites\location\Store.java\class_dependency_sites.location.Site" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="beans\SectionBean.java\class_dependency_java.lang.Object" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="ATTR_OLD_SERVER_INSTANCE_DATA" serialvalue="aced0005737200316f72672e6e65746265616e732e6d6f64756c65732e6a3265652e696d706c2e536572766572496e7374616e636544617461e08afec288b7f38e0200024c000a696e7374616e636549447400124c6a6176612f6c616e672f537472696e673b4c0008736572766572494471007e000178707400a2546f6d6361745f342e305f496e7374616e63657c433a5c70726f6772616d6d696e675c6a3273646b5f6e625c6e65746265616e73332e352e315c746f6d6361743430367c433a5c446f63756d656e747320616e642053657474696e67735c6a73616e646c696e5c2e6e65746265616e735c332e355c746f6d6361743430365f626173657c546f6d6361742d4e65746265616e737c6c6f63616c686f73747c38303831740011546f6d6361745f342e305f536572766572"/>
+        <attr name="beans\SectionBean.java\class_dependency_java.io.Serializable" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+    </fileobject>
+</attributes>

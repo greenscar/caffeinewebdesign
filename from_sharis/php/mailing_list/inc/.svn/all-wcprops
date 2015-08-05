@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/16/from_sharis/php/mailing_list/inc
+END
+sql_connect.inc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/php/mailing_list/inc/sql_connect.inc
+END
+vars.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/16/from_sharis/php/mailing_list/inc/vars.inc
+END
+check_session.inc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/htdocs/!svn/ver/16/from_sharis/php/mailing_list/inc/check_session.inc
+END
+A_Person.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/htdocs/!svn/ver/16/from_sharis/php/mailing_list/inc/A_Person.inc
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/htdocs/!svn/ver/16/from_sharis/shipping_style/classes
+END
+Security.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/htdocs/!svn/ver/16/from_sharis/shipping_style/classes/Security.inc
+END
+DB_Mgr.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/htdocs/!svn/ver/16/from_sharis/shipping_style/classes/DB_Mgr.inc
+END
+Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/htdocs/!svn/ver/16/from_sharis/shipping_style/classes/Settings.inc
+END

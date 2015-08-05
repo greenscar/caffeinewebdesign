@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+	"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<!-- a tag library descriptor -->
+
+<taglib>
+  <!-- after this the default space is
+	"http://java.sun.com/j2ee/dtds/jsptaglibrary_1_2.dtd"
+   -->
+
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>ch06</shortname>
+  <uri></uri>
+  <info>
+	A tag library for Chapter 6 examples
+  </info>
+
+  <tag>
+    <name>repeat</name>
+    <tagclass>ch06.VectorDataTag</tagclass>
+    <teiclass>ch06.VectorDataTEI</teiclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Print repeating lines</info>
+    <attribute>
+       <name>actor</name>
+       <required>false</required>
+    </attribute>
+  </tag>       
+
+  <tag>
+    <name>simple</name>
+    <tagclass>ch06.SimpleTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>Print some text</info>
+  </tag>       
+
+  <tag>
+    <name>groucho</name>
+    <tagclass>ch06.GrouchoQuotes</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>Print some Groucho quotes</info>
+  </tag>       
+
+  <tag>
+    <name>include</name>
+    <tagclass>ch06.Include</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Optionally include some text</info>
+  </tag>       
+ 
+</taglib>

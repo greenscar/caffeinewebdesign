@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Ordering to Par</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #663300;
+}
+body {
+	background-color: #CCFFFF;
+	background-image: url(../../../images/backgrounds/coffee.jpg);
+}
+-->
+</style>
+
+<script language = "javascript" type="text/javascript">
+
+function checkTeacher(form)
+{
+    for(i = 0; i < 4; i++){
+        if(form.submitto[i].checked){
+            return(true);
+        }
+    }
+    alert("Please select a teacher to submit to.");
+    return(false);
+}
+function checkName(form)
+{
+	var theField = "name";
+	var chars = /^\D*$/;
+	if((!chars.test(form.name.value)))
+	{
+		alert ("Please enter you name (only characters).");
+		form.name.select();
+		form.name.focus();
+		return(false);
+	}
+	return(true);
+}
+function checkFields(form)
+{
+	/*if(checkTeacher(form) && checkName(form))*/
+	if(checkTeacher(form))
+		return(true);
+	else
+		return(false);
+}
+</script>
+
+</head>
+
+<body>
+<form name="par_form" method="post" action="../../../php_files/form_process.php" onSubmit="return checkFields(this)">
+<input type="hidden" name="formName" value="Ordering to Par">
+      
+<table width="620" border="0" align="center" cellpadding="1" cellspacing="1">
+  <tr>
+    <td colspan="2" height="670px">	<table width="620" height="670px" border="0" cellpadding="3" cellspacing="3">
+        <tr>
+          <td width="233"><img src="../../../images/logos/cook.JPG" width="194" height="131"></td>
+          <td width="360"><p align="center">Shari's Management Corporation</p>
+            <p align="center">Online Management Class</p>
+            <p align="center">Ordering to Par </p></td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="../../../images/divider_bars/butter2_.gif" width="507" height="44"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p>What is &quot;food cost&quot;? </p>
+            <ul>
+              <li>Is it what we sell?</li>
+              <li>Is it what we purchase?</li>
+              <li>Is it what we use? </li>
+            </ul>
+            <p>Actually, it is neither and all of these at the same time. Food
+              cost is a ratio of food used to sales generated and calculated using
+              a beginning and ending inventory. The following activity will illustrate
+              the true food cost calculation. Here we will be looking at two different
+              stores with the same sales volume. One store is trying to control
+              food cost by ordering less. The second store orders to par - let's
+              see how this affects food cost. Using your calculator and the numbers
+              listed, fill in the blanks.</p>
+            <p>Hopefully, this exercise helps you understand the difference between
+              food ordered and food actually used. Please read pages 1-6 of the
+              Inventory and Ordering chapter of your POS manual and then log into
+              the <a href="http://university.sharis.com/chat" target="_blank">Chat
+              Room</a> by 3:45 for a discussion about ordering to par. Before you
+            leave this page, &quot;submit&quot; your worksheet to your instructor.</p></td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2"><p align="center">Submit to: </p>            <div align="center">
+                <table width="200">
+                  <tr>
+                    <td><label>
+                      <input type="radio" name="submitto" value="dwolfe@sharis.com">
+            Debbie Wolfe</label>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td><label>
+                      <input type="radio" name="submitto" value="eklein@sharis.com">
+            Esther Klein</label>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td><label>
+                      <input type="radio" name="submitto" value="jhensley@sharis.com">
+            Johanna Hensley</label>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td><label>
+                      <input type="radio" name="submitto" value="virish@sharis.com">
+            Vickie Irish</label>
+                      </td>
+                  </tr>
+                          </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+    </tr>
+  <tr>
+    <td colspan="2">
+	  <table width="620" height="670" border="0" align="center" cellpadding="1" cellspacing="1">
+        <tr>
+          <td colspan="3"><div align="center"></div>            <div align="center">Enter
+              your name:
+              <input name="name" type="text" size="10" id="name">
+</div>
+          </td>
+          <td width="132">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="87">&nbsp;</td>
+          <td width="172"><div align="center"><u>SALES</u></div></td>
+          <td width="216"><div align="center"><u>PURCHASES</u></div></td>
+          <td width="132"><div align="center"><u>FOOD COST % </u></div>
+          </td>
+        </tr>
+        <tr>
+          <td>WEEK 1 </td>
+          <td><div align="center">$27,000</div></td>
+          <td><div align="center">$7,755</div></td>
+          <td><div align="center">
+            <input name="percent_week_1" type="text" size="10" id="percent_week_1">
+            %</div></td>
+        </tr>
+        <tr>
+          <td>WEEK 2 </td>
+          <td><div align="center">$28,900</div></td>
+          <td><div align="center">$8,900</div></td>
+          <td><div align="center">
+              <input name="food_cost_week2" type="text" size="10" id="food_cost_week2"> 
+              % 
+            </div></td>
+        </tr>
+        <tr>
+          <td>Period to Date: </td>
+          <td><div align="center">
+            $
+            <input name="ptd_sales_week2" type="text" size="10" id="ptd_sales_week2" >
+          </div></td>
+          <td><div align="center">
+            $
+            <input name="ptd_purchases_week2" type="text" size="10" id="ptd_purchases_week2" >
+          </div></td>
+          <td><div align="center">
+             <input name="food_cost_percent_ptdweek2" type="text" size="10" id="food_cost_percent_ptdweek2">
+             %
+          </div></td>
+        </tr>
+        <tr>
+          <td>WEEK 3 </td>
+          <td><div align="center">30,100</div></td>
+          <td><div align="center">8,800</div></td>
+          <td><div align="center">
+            <input name="food_cost_week3" type="text" size="10" id="food_cost_week3">
+            %
+          </div></td>
+        </tr>
+        <tr>
+          <td>Period to Date</td>
+          <td><div align="center">$
+                <input name="ptd_sales_week3" type="text" size="10" id="ptd_sales_week3" >
+          </div></td>
+          <td><div align="center">$
+            <input name="ptd_purchases_week3" type="text" size="10" id="ptd_purchases_week3" >
+          </div></td>
+          <td><div align="center">
+            <input name="ptd_food_cost_week3" type="text" size="10" id="ptd_food_cost_week3">
+            %
+          </div></td>
+        </tr>
+        <tr>
+          <td valign="top"><p>WEEK 4 </p>
+            <p><br>
+              <br>
+              <br>
+              Period to Date:</p></td>
+          <td valign="top"><div align="center">$29,400<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            $
+            <input name="ptd_sales_week4" type="text" size="10" id="ptd_sales_week4" >
+          </div></td>
+          <td valign="top"><p align="center"><u>Store 1</u> - Cuts Sysco order to a pre-established budget.<br>
+            $7577
+</p>
+            <p align="center"><u>Store 2</u> - Orders to established pars.<br>
+              $8379</p>            </td>
+          <td valign="top"><div align="center">
+            <p>Food cost store 1<br>
+              <input name="period_food_cost_store1" type="text" size="10" id="period_food_cost_store1">              
+              %</p>
+            <p><br>
+              Food cost store 2<br>
+              <input name="period_food_cost_store2" type="text" size="10" id="period_food_cost_store2">
+              % 
+           </p>
+            </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+          <td valign="top"><div align="center"><u>Store 1 </u></div></td>
+          <td valign="top"><div align="center"><u>Store 2</u> </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top"><div align="center">Beginning Inventory: </div></td>
+          <td valign="top"><div align="center">$7532</div></td>
+          <td valign="top"><div align="center">$7532</div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top"><div align="center">Ending Inventory:</div></td>
+          <td valign="top"><div align="center">$6732</div></td>
+          <td valign="top"><div align="center">$7540</div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top"><div align="center">Inventory adjustment <br>
+            (+ or -) : </div></td>
+          <td valign="top"><div align="center">$
+            <input name="inventory_adjustment_store1" type="text" size="10" id="inventory_adjustment_store1">
+          </div></td>
+          <td valign="top"><div align="center">$
+            <input name="inventory_adjustment_store2" type="text" size="10" id="inventory_adjustment_store2">
+          </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">Purchases (PTD):</td>
+          <td valign="top"><div align="center">$
+            <input name="purchases_store1" type="text" size="10" id="purchases_store1">
+          </div></td>
+          <td valign="top"><div align="center">$
+            <input name="purchases_store2" type="text" size="10" id="purchases_store2">
+          </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">+ or - adjustment: </td>
+          <td valign="top"><div align="center">$
+            <input name="adjustment_store1" type="text" size="10" id="adjustment_store1">
+          </div></td>
+          <td valign="top"><div align="center">$
+                <input name="adjustment_store2" type="text" size="10" id="adjustment_store2">
+          </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">Actual food used: </td>
+          <td valign="top"><div align="center">$
+            <input name="food_used_store1" type="text" size="10" id="food_used_store1">
+          </div></td>
+          <td valign="top"><div align="center">$
+            <input name="food_used_store2" type="text" size="10" id="food_used_store2">
+          </div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">Food cost percent: </td>
+          <td valign="top"><div align="center">
+            <input name="actual_percent_store1" type="text" size="10" id="actual_percent_store1">
+            %
+          </div></td>
+          <td valign="top"><div align="center">
+                <input name="actual_percent_store2" type="text" size="10" id="actual_percent_store2">
+            %</div></td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+          <td valign="top"><p>&nbsp;</p>
+            </td>
+          <td valign="top">&nbsp;</td>
+        </tr>
+      </table>
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center">
+        <p>&nbsp;</p>
+        <p>
+          <input type="submit" name="Submit" value="Submit">
+        </p>
+    </div></td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

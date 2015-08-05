@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin
+END
+userlist_body.tpl.bak
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/userlist_body.tpl.bak
+END
+index_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/index_body.tpl
+END
+index_navigate.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/index_navigate.tpl
+END
+db_utils_restore_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/db_utils_restore_body.tpl
+END
+ranks_list_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/ranks_list_body.tpl
+END
+auth_forum_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/auth_forum_body.tpl
+END
+admin_prune_user_posts.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/admin_prune_user_posts.tpl
+END
+forum_delete_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_delete_body.tpl
+END
+userlist_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/userlist_body.tpl
+END
+page_footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/page_footer.tpl
+END
+user_select_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/user_select_body.tpl
+END
+disallow_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/disallow_body.tpl
+END
+index_frameset.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/index_frameset.tpl
+END
+category_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/category_edit_body.tpl
+END
+ranks_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/ranks_edit_body.tpl
+END
+user_email_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/user_email_body.tpl
+END
+auth_cat_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/auth_cat_body.tpl
+END
+group_select_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/group_select_body.tpl
+END
+auth_ug_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/auth_ug_body.tpl
+END
+admin_message_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/admin_message_body.tpl
+END
+forum_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_edit_body.tpl
+END
+styles_exporter.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/styles_exporter.tpl
+END
+auth_select_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/auth_select_body.tpl
+END
+forum_prune_select_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_prune_select_body.tpl
+END
+forum_prune_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_prune_body.tpl
+END
+smile_import_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/smile_import_body.tpl
+END
+auth_forum_list_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/auth_forum_list_body.tpl
+END
+smile_list_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/smile_list_body.tpl
+END
+styles_addnew_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/styles_addnew_body.tpl
+END
+page_header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/page_header.tpl
+END
+userlist_group.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/userlist_group.tpl
+END
+board_config_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/board_config_body.tpl
+END
+smile_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/smile_edit_body.tpl
+END
+styles_list_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/styles_list_body.tpl
+END
+user_avatar_gallery.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/user_avatar_gallery.tpl
+END
+index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/index.htm
+END
+user_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/user_edit_body.tpl
+END
+styles_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/styles_edit_body.tpl
+END
+words_list_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/words_list_body.tpl
+END
+db_utils_backup_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/db_utils_backup_body.tpl
+END
+user_ban_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/user_ban_body.tpl
+END
+forum_prune_result_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_prune_result_body.tpl
+END
+forum_admin_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/forum_admin_body.tpl
+END
+group_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/group_edit_body.tpl
+END
+words_edit_body.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/htdocs/!svn/ver/16/from_sharis/trainweb/BBS/templates/Aeolus/admin/words_edit_body.tpl
+END

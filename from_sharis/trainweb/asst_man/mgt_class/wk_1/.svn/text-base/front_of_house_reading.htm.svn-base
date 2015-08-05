@@ -1,0 +1,519 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Setting up the Front-of-the-house-Supervision Tab</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.style2 {font-size: large;
+	font-weight: bold;}
+body {
+	background-color: #FFBFFF;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	background-image: url(../../../images/backgrounds/purpl037.jpg);
+}
+body,td,th {
+	font-family: Comic Sans MS;
+}
+.style3 {
+	font-size: larger;
+	font-weight: bold;
+}
+.style4 {font-size: larger}
+.style5 {
+	font-size: small;
+	font-style: italic;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+<body> 
+<table width="622" border="0" align="center">
+  <tr>
+    <td width="174"><img src="../../../images/logos/purple_sharis.JPG" width="172" height="126"></td>
+    <td width="438"><p align="center">Shari's Management Corporation </p>
+        <p align="center">Online Management Class </p>
+        <p align="center">Setting Up The Front-Of-The-House </p>
+        <p><img src="../../../images/divider_bars/divider_purple.gif" width="400" height="16"></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The front and back of the house logs are one of Shari's greatest “disaster prevention” tools available. &nbsp; Completing these logs at the beginning of a shift can greatly reduce the chance of the unexpected happening and also help you to PLAN a smooth shift. &nbsp; A manager who takes the time to plan the shift is a manager in charge, as compared to the manager who “just lets the shift happen” and is continually reacting to situations throughout the shift. &nbsp; As you get more experience it is easy to be complacent and assume that you have the experience to handle situations that arise or that you can check all of the items without the assistance of a piece of paper. &nbsp; Truly, that is a rare manager. &nbsp; Without a solid plan, Murphy's Law (anything that can go wrong, will) is sure to happen. Besides, the fewer problems that you have during a shift, the more time you have to devote to customer service, employee training and building sales. &nbsp; Now what store couldn't benefit from that! &nbsp; </p>
+        <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center"><img width="149" height="101" src="../../../images/tool_box.gif"><img width="149" height="101" src="../../../images/tool_box.gif"><img width="149" height="101" src="../../../images/tool_box.gif"></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><span class="style2">15 Minute Check</span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our guests expect to find our restaurants clean from the moment they get of their car and throughout their dining experience. Our job is to exceed their expectations. Included in the Front of House manager log is the 15-minute check. &nbsp; This form is filled out on a shiftly basis by all management staff and when properly executed will exceed our guest's expectations and help the unit to maintain a state of QA readiness. Our second operating priority is “an immaculately clean restaurant” and using this form on a shiftly basis will help to insure this priority is met. Managers must FUFT (Follow Up Follow Through) to insure the tasks are completed. &nbsp; Just filling out the form won't get the job done; you must delegate the tasks or schedule the maintenance to be completed. </p>
+        <p>The first part of the 15-minute check addresses the parking lot and outer areas and should begin the minute you drive into the parking area. &nbsp; </p>
+        <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td colspan="2"><div align="center" class="style2">Things to look at while completing a 15-minute check </div></td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td><strong>PARKING LOT: </strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Ashtrays </td>
+    <td>Clean and full of sand </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Exterior </td>
+    <td>Lights operational and facing the right direction </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Landscaping </td>
+    <td>Free of debris, weeds, crisps edges, healthy plants</td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Sidewalks </td>
+    <td>No gum, no grease build up on sidewalks or parking lot </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td valign="top">Entry way</td>
+    <td>Tiles in good repair, doors and handles clean, corners clean, phone and paper machine clean, heater working in winter, kick plates clean, no cobwebs </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Windows </td>
+    <td bgcolor="#FFFFB3">No dust on ledges, no finger prints on windows </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td>Carpets </td>
+    <td>Clean and vacuumed </td>
+  </tr>
+  <tr bordercolor="#ECE9D8" bgcolor="#FFFFB3">
+    <td valign="top">Lobby area</td>
+    <td><p>Plaques are dust free, promotional signs current, benches &amp; wait to be seated sign clean &amp; sign facing the right way, ceiling beams dusted and no cobwebs, stucco in good repair, mats clean </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td><strong>FRONT OF HOUSE: </strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Special board </td>
+    <td>Current special, clean and in good repair, colorful and eye appealing </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top" bgcolor="#FFFFB3">Pie case </td>
+    <td><p>Clean, pies dated, proper temperatures and thermometer present, Cabinets cleaned and stocked, pie board matches pies. </p></td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top" bgcolor="#FFFFB3">Host stand </td>
+    <td><p>Stocked with thermal paper &amp; comp slips, pen present, free of clutter, trash empty, emergency binder &nbsp; &amp; allergy handbook present, application binder stocked with paper and applications. </p></td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Floors and drains</td>
+    <td>Floors swept and mopped, drains clean and covers present </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Counter </td>
+    <td>Set up and free of clutter</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top" bgcolor="#FFFFB3">Employee appearance </td>
+    <td><p>Server and host appearance all to standard, name tags present, proper grooming standards met </p></td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top" bgcolor="#FFFFB3">Server alley </td>
+    <td>Reach ins, soup and dinner rolls all to temp, ticket printer clean, pass bar clean and no clutter, heat lamps working, sundae bar clean and stocked, bleach water fresh in all stations </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Blinds and lights</td>
+    <td>Blinds clean and operating properly, all lights working </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Employee morale </td>
+    <td>1 minute meeting agenda prepared. How is everyone today?</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top" bgcolor="#FFFFB3"><strong>RESTROOMS</strong></td>
+    <td>Toilets scrubbed, splash boards clean, plants and vents dusted, walls and kick plate clean, baby changing table clean, all lights working, mirrors clean, soap dispenser clean and stocked, paper towels and toilet paper stocked </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td><strong>BACK OF HOUSE:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Prep area </td>
+    <td>Shelves clean and organized, slicer clean, underneath prep table clean, no chemicals, scales clean and operational, bleach water fresh, cutting boards clean and sanitized </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Prep and freezer pulls </td>
+    <td>Prep and freezer pulls current with pars, do pars need to be revised? </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Cooks line</td>
+    <td>Clean and stocked, bleach water fresh with extra towels, cold table clean and fresh product, thermometer present, proper portions, day dots present on product, all food wrapped or covered including bread, proper scoops, floor clean, drains clean and cover present, both lines set up and ready, proper temps </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Steam table </td>
+    <td>Gravies proper consistency &amp; no film on top, clean proper water level, proper ladle sizes </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Employee appearance </td>
+    <td>Proper uniform standards, name tags present, proper grooming standards met </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Employee morale </td>
+    <td>1-minute agenda prepared. How is everyone today? </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top"><strong>WALK IN</strong></td>
+    <td><p>Product rotated and day dots present, no product over 48 hours, clean and organized, no food on floor, check for leftovers (tonight's special), all lights working, proper temperature, fan and curtain clean, proper storage procedures in use </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top"><strong>FREEZER</strong></td>
+    <td>No food on floor, all product covered, all product available, lights working, no ice build up on floor or shelves, fan covers clean, door locked </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top"><strong>BAKER AREA</strong></td>
+    <td>Oven clean, mixer clean and chained to wall, underneath prep table clean. Back up pies available, prep sheets completed &amp; pars checked for accuracy </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td><strong>MOP ROOM/BACK DOOR AREA:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Mop room </td>
+    <td>Mop hung to dry, mop bucket clean and empty, FOH &amp; BOH in use and marked, all chemicals put away, mop sink clean </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Back door area </td>
+    <td> Back door locked, walls and floor clean, boxes broken down, no bags of garbage, water softener has salt, air flow curtain on in summer, back door clean, light covers clean, dumpster area clean &amp; lid closed, no food or boxes on the ground, grease receptacle clean and lid closed </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td><strong>DISH MACHINE AREA: </strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Dish machine </td>
+    <td>All dishes caught up, dish machine &amp; filters clean, all chemicals full, deep sinks clean </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Dish area </td>
+    <td>No water on floor, storage rack organized, walls &amp; stainless clean </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td><strong>STOREROOM/BREAK AREA:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td>Break area </td>
+    <td>Hand wash logs current and in use, break table clean and organized, bulletin boards current and not cluttered, employee behavior appropriate </td>
+  </tr>
+  <tr bgcolor="#FFFFB3">
+    <td valign="top">Storeroom</td>
+    <td>Clean and organized, no food on floor, under pallets clean, loft organized, proper rotation followed, door locked </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>This seems like a lot of information for a task that should take 15 minutes, but once you have completed a few checks it will take less time. </p>
+      <p>TIME SAVERS:</p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+      <li>If you look under one table and it is dirty, assume they all are. Don't look under any more tables.</li>
+      <li>If one floor drain is dirty, assume they all are.</li>
+      <li>Use this approach when possible during the 15 minute check. </li>
+    </ul></td>
+  </tr>
+</table>
+<br> 
+<h2>&nbsp;</h2>
+<table width="628" border="0" align="center">
+  <tr>
+    <td colspan="4"><div align="center"><span class="style3">Examples:</span></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center" class="style4">
+      <div align="left" class="style5">In this example the form on the right has been completed. </div>
+    </div></td>
+    <td>&nbsp;</td>
+    <td width="215"><div align="center"><strong>15 Minute Check </strong></div></td>
+  </tr>
+  <tr>
+    <td width="197"><img width="196" height="480" src="../../../images/reports/blank_15_min_check.jpg"></td>
+    <td width="201"><img width="196" height="479" src="../../../images/reports/filled_out_15_min_check.jpg"></td>
+    <td colspan="2"><div align="justify">
+        <p align="left"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19">Notice that items not to standard have been circled and notations made. In this example Mary is not wearing her nametag as required in our uniform standards. You may need to make a new one for her.</p>
+        <p align="left"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19">Making notations on the form will allow you toassign duties for employees and the managers throughout the shift.</p>
+        <p>&nbsp;</p>
+        <p align="left"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19">For example: You need to assign someone to fill the pie case and when the bread man arrives you will need to speak with him about the old bread and perhaps  adjust pars. </p>
+        <p>&nbsp;</p>
+    </div></td>
+  </tr>
+</table>
+
+<p><br>
+</p>
+<table width="640" align="center">
+  <tr>
+    <td width="201" rowspan="5"><img width="198" height="406" src="../../../images/reports/filled_out_sidework.jpg"></td>
+    <td colspan="2"><div align="center"><strong>Station Assignments </strong></div></td>
+  </tr>
+  <tr>
+    <td width="52"><p><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td width="371"><p>This is a very important part of planning your shift; knowing what station the servers are in, what side work they have, and <em><strong>targeting</strong></em> their break times. Targeted break times are not set in stone; it really means business permitting. It will give yo a plan to follow and if the plan doesn't work, you make adjustments. </p>    </td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="371">You can see what line your cooks are working and insure that you have both lines open during peak times.</td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="371">You know what time your DMO is starting his shift. His side work and Mr. Clean you will write on the BOH log.</td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="371">You know what time your host is scheduled and what extra cleaning you need to assign. </td>
+  </tr>
+</table>
+<p>&nbsp; </p>
+<table width="640" align="center">
+  <tr>
+    <td width="207" rowspan="7"><img width="196" height="243" src="../../../images/reports/pre_rush_check.jpg"></td>
+    <td colspan="2"><div align="center"><strong>FOH Pre-Rush Checklist</strong></div></td>
+  </tr>
+  <tr>
+    <td width="40"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="377">Walk through the front of the house checking each item listed. &nbsp; Take notes as you will use these for your one-minute meeting agendas. </td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="377">The fruit pies you baked are cool enough to bring out now. </td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="377">The music level should be loud enough to mask background noises, but not loud enough to interfere with the guests conversations. &nbsp; In this example, we would increase the volume. </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>The servers need to stock the romaine lettuce and the DMO needs to replace toilet paper in the restrooms.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>You have 2 of your 3 breaks completed and have noted approximately when the 3 rd is targeted. </td>
+  </tr>
+  <tr>
+    <td colspan="2">The pre-rush section of the log is really designed to help you ensure that those unexpected problems don't arise. &nbsp; Our goal is to make sure that we are at optimum readiness before the rush. </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="640" align="center">
+  <tr>
+    <td width="196">&nbsp;</td>
+    <td><div align="center"><strong>Temperature Log </strong></div></td>
+  </tr>
+  <tr>
+    <td><img width="196" height="170" src="../../../images/reports/temperature_log.jpg"></td>
+    <td><p>The Temperature Log is a critical tool that helps in the following areas: </p>
+        <p>&#149;&nbsp; Can alert you to equipment problems. </p>
+        <p>&#149;&nbsp; Documented proof in the event of a foodborne illness. </p>
+        <p>&#149;&nbsp; Relationship with the health department – inspectors love to see this. </p>
+        <p>This is a great task to delegate to your CEO. &nbsp; Before you delegate, make sure that you train properly and then follow-up. </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="640" align="center">
+  <tr>
+    <td width="205">&nbsp;</td>
+    <td colspan="2"><div align="center"><strong>Specials &amp; Mr. Clean </strong></div></td>
+  </tr>
+  <tr>
+    <td><img width="198" height="144" src="../../../images/reports/todays_soup2.jpg"></td>
+    <td width="44"><p><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>    <p><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></p>
+    <p>&nbsp;</p></td>
+    <td width="375"><p>This section is used to write in what the specials of the day will be. &nbsp; If you have leftovers or too much of a product in the walk in use these to create specials. </p>
+    <p>Mr. Clean assignments are determined by what you found on the 15-minute check and from the Mr. Clean schedule. </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="640" align="center">
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><div align="center"><strong>To Do List </strong></div></td>
+  </tr>
+  <tr>
+    <td width="206"><img width="189" height="178" src="../../../images/reports/filled_out_to_do_list.jpg"></td>
+    <td width="45"><p><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19" align="top"></p>
+        <p>&nbsp;</p></td>
+    <td width="373"><div align="left">
+        <p>Some of the items from the 15-minute check will be placed on the To Do List. Also include what the focus of the day will be based on store goals or items from the 15-minute check.</p>
+        <p>You must communicate the focus to the staff so they will know your expectations. &nbsp;</p>
+    </div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="640" border="0" align="center">
+  <tr>
+    <td width="198" rowspan="9" align="center" valign="top"><img width="196" height="540" src="../../../images/reports/filled_out_timeline.jpg"></td>
+    <td valign="top">&nbsp;</td>
+    <td colspan="2" valign="top"><div align="center"><strong>Time Line </strong></div></td>
+  </tr>
+  <tr>
+    <td width="7" valign="top">&nbsp;</td>
+    <td width="34" valign="top"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td width="364" align="center" valign="middle"><p align="left">This is the time line for the day and lists items that must be completed on a shiftly basis. This is &quot;generic&quot; and some items may need to be modified for your store. </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="7" valign="top">&nbsp;</td>
+    <td width="34" valign="top"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td align="center"><p align="left">Some items from your 15-minute check will need to be added in the time line. For example: We will need to talk to the bread man regarding the old bread we found on the line and determine if pars need to change. </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="7">&nbsp;</td>
+    <td width="34">&nbsp;</td>
+    <td align="center"><p align="left">We do not have a baker scheduled to work today and need to bake fruit pies.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="7" valign="bottom">&nbsp;</td>
+    <td width="34" valign="bottom"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19" align="absmiddle"></td>
+    <td align="center" valign="middle"><p align="left">Check off items that have been completed. In this example you still need to pull the day till and transitition the shift, any projects and the dinner special.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="7">&nbsp;</td>
+    <td width="34"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td align="center"><p align="left">Anytime there is a shift change yo risk guest service until the servers are in place and know what is going on. This is why it is important for managers to insure a smooth shift transition.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="7" valign="top">&nbsp;</td>
+    <td width="34" valign="top"><img src="../../../images/pointing_hand_bullet_left.JPG" width="34" height="19"></td>
+    <td><p align="left">An interview has been scheduled.</p>
+    <p align="center">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="7">&nbsp;</td>
+    <td width="34">&nbsp;</td>
+    <td><p align="center">&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td width="7">&nbsp;</td>
+    <td width="34">&nbsp;</td>
+    <td><p align="center">&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center" valign="top"><p align="left">Following a time line and planning for the things that need to be accomplished will save you time by allowing you to do more. </p>      <p align="left">By adding these itmes to our time line we are planning <em><strong>when </strong></em>we will have time to complete them. If we don't plan for what needs to happen tasks may not be completed; putting you in a tough spot when you have to tell a guest we are out of the fruit pie they wish to take home. </p>      
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center" valign="top"><p align="left">Completing the FOH Log and all checks should be completed in this order. If the restaurant should become busy and you haven't finished your FOH log at least you have some of the most important things taken care of. Never think because it's busy it's allright not to complete the FOH log. It can make a difference in the way your day goes - &quot;Those who fail to plan, plan to fail&quot;. Don't be that manager! Come back to tasks and delegate others to trained staff. For example: a server could fill in the station assignment section and a cook could fill in the specials and soup section. When they help the store succeed they feel a part of it and you've just increased morale and ownership! </p>
+      <p align="left">Once you have completed the FOH checklist it should be kept at the host stand or in the server alley. &nbsp; Servers and hosts will have access and it can be used as a reminder for specials, side work and targeted breaks. &nbsp; </p>      <p align="left">Once again: clearly communicate your expectations to your staff so they have a goal to work toward. &nbsp; No one wants to follow a leader who has no road map. </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="618" border="5" align="center">
+  <tr>
+    <td width="846">ASSISGNMENT: Print out this reading assignment and complete a Front-Of-House check using the notes provided. Log into the <a href="http://train-test:8081/JChatBox/skin_multilanguage/login.jsp">chat room</a> by 3:30 for a discussion of what you have found. </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<br> 
+<p> 
+<p><strong> </strong><strong></strong></p> 
+<p><br> 
+</p> 
+<p>&nbsp;</p> 
+<br> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p align="center">&nbsp;</p> 
+<p>&nbsp;</p> 
+<br> 
+<p align="center">&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+</body>
+</html>

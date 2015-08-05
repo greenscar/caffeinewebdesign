@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<title>Week One Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-image:  url(../../../images/backgrounds/bg_green_doorman.jpg);
+}
+.style1 {
+	font-family: "Comic Sans MS";
+	font-size: x-large;
+	color: #009898;
+	font-weight: bold;
+}
+.style2 {
+	font-family: "Comic Sans MS";
+	color: #009898;
+	font-weight: bold;
+}
+a:link {
+	color: #009999;
+}
+a:visited {
+	color: #990099;
+}
+-->
+</style></head>
+
+<body>
+<div id="Layer1" style="position:absolute; left:25px; top:-2px; width:182px; height:77px; z-index:1"><img src="../../../images/logos/doorman.JPG" width="200" height="151"></div>
+<div id="Layer2" style="position:absolute; left:244px; top:10px; width:515px; height:139px; z-index:2">
+  <div align="center">
+    <p>&nbsp;</p>
+    <p class="style1">Assistant Manager Course</p>
+    <p class="style1">Week One </p>
+  </div>
+</div>
+<div id="Layer3" style="position:absolute; left:13px; top:178px; width:264px; height:335px; z-index:3"><img src="../../../images/cliparttest.gif" alt="Class Menu" width="338" height="361"></div>
+<div id="Layer4" style="position:absolute; left:354px; top:183px; width:402px; height:334px; z-index:4">
+  <p>&nbsp;</p>
+  <p align="center"><span class="style2">Week One Curriculum </span></p>
+  <p align="center" class="style2"><a href="Monday.htm">Monday</a> - Few Basics</p>
+  <p align="center" class="style2"><a href="Tuesday.htm">Tuesday</a> - Setting Up A Shift</p>
+  <p align="center" class="style2"><a href="Wednesday.htm">Wednesday</a> - Time Management </p>
+  <p align="center" class="style2"><a href="Thursday.htm">Thursday</a> - Guests Complaints</p>
+  <p align="center" class="style2"><a href="Friday.htm">Friday</a> - Floor Management </p>
+  <p align="center" class="style2"><a href="../mc_index.htm" target="_self">HOME</a></p>
+</div>
+<div id="Layer6" style="position:absolute; left:72px; top:290px; width:88px; height:31px; z-index:6"><a href="Monday.htm"><img src="../../../images/buttons/week_1/monday.gif" alt="Link to Monday" width="80" height="50" border="0"></a></div>
+<div id="Layer7" style="position:absolute; left:70px; top:343px; width:90px; height:42px; z-index:7"><a href="Tuesday.htm"><img src="../../../images/buttons/week_1/tuesday.gif" alt="Link to Tuesday" width="80" height="50" border="0"></a></div>
+<div id="Layer8" style="position:absolute; left:68px; top:396px; width:92px; height:34px; z-index:8"><a href="Wednesday.htm"><img src="../../../images/buttons/week_1/wednesday.gif" alt="Link to Wednesday" width="80" height="50" border="0"></a></div>
+<div id="Layer9" style="position:absolute; left:162px; top:318px; width:66px; height:34px; z-index:9"><a href="Thursday.htm"><img src="../../../images/buttons/week_1/thursday.gif" alt="Link to Thursday" width="80" height="50" border="0"></a></div>
+<div id="Layer10" style="position:absolute; left:163px; top:371px; width:54px; height:32px; z-index:10"><a href="Friday.htm"><img src="../../../images/buttons/week_1/friday.gif" alt="Link to Friday" width="80" height="50" border="0"></a></div>
+</body>
+</html>

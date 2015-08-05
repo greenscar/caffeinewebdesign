@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes
+END
+Admin.inc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Admin.inc
+END
+DB_Mgr.inc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/DB_Mgr.inc
+END
+Store.inc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Store.inc
+END
+Phone_System.inc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Phone_System.inc
+END
+Employee.inc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Employee.inc
+END
+Phone_Company.inc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Phone_Company.inc
+END
+Phone_Line.inc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Phone_Line.inc
+END
+Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Settings.inc
+END
+Phone_Line_Type.inc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Phone_Line_Type.inc
+END
+Site.inc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Site.inc
+END
+Address.inc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Address.inc
+END
+Amenity.inc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/htdocs/!svn/ver/16/from_sharis/php/Site_Info_2.1_w_security/classes/Amenity.inc
+END

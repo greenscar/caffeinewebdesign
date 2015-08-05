@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms
+END
+formtransformation.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/formtransformation.xsl
+END
+loadformpage.asp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/loadformpage.asp
+END
+renderformpage.asp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/renderformpage.asp
+END
+validation.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/validation.js
+END
+rendersubmissionframe.asp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/rendersubmissionframe.asp
+END
+test.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/test.aspx
+END
+form.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/form.css
+END
+notes_template.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/notes_template.htm
+END
+addattachments.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/addattachments.aspx
+END
+finishsubmission.asp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/finishsubmission.asp
+END
+submissionbody.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/1/dbates/original_asp_site/component/forms/submissionbody.xsl
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/PaxHeader
+END
+list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/PaxHeader/list.html.erb
+END
+_category.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/PaxHeader/_category.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/83/rails/oohaheats/app/views/category/PaxHeader/show.html.erb
+END

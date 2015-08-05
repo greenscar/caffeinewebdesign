@@ -1,0 +1,124 @@
+<html>
+<head>
+
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<title>Week Five</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-image:  url(../../../images/backgrounds/bg_yellow_ladies.jpg);
+}
+.style1 {
+	color: #336633;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+}
+.style2 {font-size: large}
+.style3 {color: #336633; font-weight: bold; font-family: "Comic Sans MS"; font-size: large; }
+body,td,th {
+	color: #336633;
+}
+a:link {
+	color: #33CC00;
+}
+a:visited {
+	color: #996600;
+}
+.style4 {font-size: medium}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../../../images/buttons/week_5/monday_down.gif','../../../images/buttons/week_5/tuesday_down.gif','../../../images/buttons/week_5/wednesday_down.gif','../../../images/buttons/week_5/thursday_down.gif','../../../images/buttons/week_5/friday_down.gif','../../../images/buttons/week_5/home_down.gif')">
+<div id="Layer1" style="position:absolute; left:99px; top:209px; width:106px; height:24px; z-index:1">
+  <div align="center" class="style1">Week Five </div>
+</div>
+<div id="Layer2" style="position:absolute; left:83px; top:234px; width:139px; height:35px; z-index:2">
+  <div align="center"><a href="Monday.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../../../images/buttons/week_5/monday_down.gif',1)"><img src="../../../images/buttons/week_5/monday_up.gif" name="Image2" width="108" height="38" border="0"></a></div>
+</div>
+<div id="Layer3" style="position:absolute; left:84px; top:274px; width:139px; height:37px; z-index:3">
+  <div align="center"><a href="Tuesday.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tuesday','','../../../images/buttons/week_5/tuesday_down.gif',1)"><img src="../../../images/buttons/week_5/tuesday_up.gif" name="tuesday" width="108" height="41" border="0"></a></div>
+</div>
+<div id="Layer4" style="position:absolute; left:84px; top:316px; width:139px; height:38px; z-index:4">
+  <div align="center"><a href="Wednesday.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('wednesday','','../../../images/buttons/week_5/wednesday_down.gif',1)"><img src="../../../images/buttons/week_5/wednesday_up.gif" name="wednesday" width="108" height="40" border="0"></a></div>
+</div>
+<div id="Layer5" style="position:absolute; left:85px; top:356px; width:138px; height:42px; z-index:5">
+  <div align="center"><a href="Thursday.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('thursday','','../../../images/buttons/week_5/thursday_down.gif',1)"><img src="../../../images/buttons/week_5/thursday_up.gif" name="thursday" width="108" height="39" border="0"></a></div>
+</div>
+<div id="Layer6" style="position:absolute; left:86px; top:400px; width:137px; height:35px; z-index:6">
+  <div align="center"><a href="Friday.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('friday','','../../../images/buttons/week_5/friday_down.gif',1)"><img src="../../../images/buttons/week_5/friday_up.gif" name="friday" width="108" height="41" border="0"></a></div>
+</div>
+<div id="Layer7" style="position:absolute; left:85px; top:443px; width:137px; height:36px; z-index:7">
+  <div align="center"><a href="../mc_index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../../../images/buttons/week_5/home_down.gif',1)"><img src="../../../images/buttons/week_5/home_up.gif" name="home" width="108" height="37" border="0"></a></div>
+</div>
+<table width="750" border="0">
+  <tr>
+    <td colspan="3"><table width="750" height="70" border="0">
+      <tr>
+        <td width="211" height="66"><img src="../../../images/logos/ladies.JPG" width="240" height="157"> </td>
+        <td width="529">
+          <div align="center">
+            <h1 class="style3">Assistant Manager Course</h1>
+            <p class="style1 style2">Week Five </p>
+          </div>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="../../../images/menu3.gif" width="285" height="348"></td>
+    <td width="449"><div align="center" class="style1">
+      <p class="style4"><u>Week Five Curriculum</u></p>
+      <p class="style4"><a href="Monday.htm">Monday</a> - Receiving and Ordering</p>
+      <p class="style4"><a href="Tuesday.htm">Tuesday</a> - Portion and Waste Control</p>
+      <p class="style4"><a href="Wednesday.htm">Wednesday</a> - Food Cost Management</p>
+      <p class="style4"><a href="Thursday.htm">Thursday</a> - In-Store Marketing</p>
+      <p class="style4"><a href="Friday.htm">Friday</a> - Office Administration   </p>
+    </div></td>
+  </tr>
+  <tr>
+    <td width="143">&nbsp;</td>
+    <td width="150">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

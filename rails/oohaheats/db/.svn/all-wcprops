@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/htdocs/!svn/ver/102/rails/oohaheats/db
+END
+db_export.pl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/99/rails/oohaheats/db/db_export.pl
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/htdocs/!svn/ver/83/rails/oohaheats/db/schema.rb
+END
+seeds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/htdocs/!svn/ver/83/rails/oohaheats/db/seeds.rb
+END
+oohaheats.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/102/rails/oohaheats/db/oohaheats.sql
+END

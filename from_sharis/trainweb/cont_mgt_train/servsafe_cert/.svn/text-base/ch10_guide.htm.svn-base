@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Food Safety Systems</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #000099;
+}
+body {
+	background-image:  url(../../images/backgrounds/servsafe_blue.gif);
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="620" border="0" align="center">
+  <tr>
+    <td width="203"><img src="../../images/servsafe/ch10.JPG" width="193" height="145" onload="MM_popupMsg('Print off the study guide and fill it out as you read the chapter.  Use it later to study for your tests.')"></td>
+    <td width="407"><p align="center">Shari's Management Corporation</p>
+      <p align="center">Online ServSafe Course</p>
+    <p align="center">Food Safety Systems - Chapter 10 </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">print off this study guide and fill in the answer blanks as you read the text book. Use your filled out guides to study the main points from each chapter. <br></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>In your own words, explain what a Food Management System is. List the programs, systems or procedures that Shari's has that would qualify and part of a Food Management System</p>
+      <form name="form1" method="post" action="">
+        <p>
+          <textarea name="textarea" cols="80" rows="5"></textarea>
+</p>
+        <p>What are the five most common risk factor responsible for foodborne illness?</p>
+        <p>
+          <input name="textfield" type="text" size="80"> 
+          <br>
+          <input name="textfield2" type="text" size="80">
+          <br>
+          <input name="textfield3" type="text" size="80">
+          <br>
+          <input name="textfield4" type="text" size="80">
+          <br>
+          <input name="textfield5" type="text" size="80">
+        </p>
+        <p>Give an example of proactive and reactive managerial control involving a food safety issue.</p>
+        <p>
+          <textarea name="textarea2" cols="80" rows="5"></textarea>
+        </p>
+        <p>What does the term HACCP refer to?</p>
+        <p>
+          <textarea name="textarea3" cols="80" rows="5"></textarea> 
+        </p>
+        <p>List and define the seven HACCP principles:</p>
+        <p>
+          <textarea name="textarea4" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea5" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea6" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea7" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea8" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea9" cols="80" rows="5"></textarea>
+          <br>
+          <textarea name="textarea10" cols="80" rows="5"></textarea>
+        </p>
+        <p>Define the term &quot;Crisis Management&quot;.</p>
+        <p>
+          <textarea name="textarea11" cols="80" rows="5"></textarea>
+        </p>
+        <p>List the typical crisis situations a manager should be concerned with. What tool has Shari's developed to assist managers?</p>
+        <p>
+          <textarea name="textarea12" cols="80" rows="5"></textarea>
+        </p>
+        <p>What are the three key rules for crisis management?</p>
+        <p>
+          <textarea name="textarea13" cols="80" rows="5"></textarea> 
+          </p>
+        <p>&nbsp;        </p>
+      </form>      <p>&nbsp; </p></td>
+  </tr>
+</table>
+</body>
+</html>

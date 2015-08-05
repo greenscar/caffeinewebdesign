@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/htdocs/!svn/ver/1/oohaheats/classes
+END
+Recipe.inc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Recipe.inc
+END
+Ingredient.inc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Ingredient.inc
+END
+DB_Mgr.inc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/htdocs/!svn/ver/1/oohaheats/classes/DB_Mgr.inc
+END
+Category.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Category.inc
+END
+Item.inc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Item.inc
+END
+User.inc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/htdocs/!svn/ver/1/oohaheats/classes/User.inc
+END
+Settings.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Settings.inc
+END
+Secretary.inc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Secretary.inc
+END
+Cookbook.inc.bak
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Cookbook.inc.bak
+END
+Measurement.inc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Measurement.inc
+END
+Cookbook.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/htdocs/!svn/ver/1/oohaheats/classes/Cookbook.inc
+END

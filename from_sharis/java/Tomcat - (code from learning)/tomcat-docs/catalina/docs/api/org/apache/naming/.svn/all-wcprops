@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/Constants.html
+END
+NamingContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingContext.html
+END
+NameParserImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NameParserImpl.html
+END
+TransactionRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/TransactionRef.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/package-frame.html
+END
+ResourceRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/ResourceRef.html
+END
+NamingContextEnumeration.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingContextEnumeration.html
+END
+SelectorContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/SelectorContext.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/package-tree.html
+END
+NamingService.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingService.html
+END
+NamingEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingEntry.html
+END
+EjbRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/EjbRef.html
+END
+JndiPermission.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/JndiPermission.html
+END
+NamingServiceMBean.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingServiceMBean.html
+END
+ResourceEnvRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/ResourceEnvRef.html
+END
+StringManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/StringManager.html
+END
+ResourceLinkRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/ResourceLinkRef.html
+END
+ContextBindings.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/ContextBindings.html
+END
+NamingContextBindingsEnumeration.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/NamingContextBindingsEnumeration.html
+END
+ContextAccessController.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/naming/ContextAccessController.html
+END

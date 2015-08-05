@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/htdocs/!svn/ver/70/taa/taa_environments
+END
+environment_display.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/70/taa/taa_environments/environment_display.php
+END
+apps_all.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/70/taa/taa_environments/apps_all.php
+END
+proc_mrs_request.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/70/taa/taa_environments/proc_mrs_request.php
+END
+environments.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/70/taa/taa_environments/environments.sql
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/70/taa/taa_environments/style.css
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/70/taa/taa_environments/phpinfo.php
+END
+apps_batch.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/htdocs/!svn/ver/70/taa/taa_environments/apps_batch.php
+END
+environmentTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/htdocs/!svn/ver/70/taa/taa_environments/environmentTest.php
+END
+fw_pages_dyn.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/70/taa/taa_environments/fw_pages_dyn.php
+END
+batchpermissions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/70/taa/taa_environments/batchpermissions.txt
+END
+apps_online.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/htdocs/!svn/ver/70/taa/taa_environments/apps_online.php
+END
+build_number.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/70/taa/taa_environments/build_number.php
+END
+header.inc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/header.inc
+END
+oracle_table.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/70/taa/taa_environments/oracle_table.php
+END
+mq_mod.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/mq_mod.php
+END
+proc_dev_envt_setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/70/taa/taa_environments/proc_dev_envt_setup.php
+END
+mqtest.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/mqtest.php
+END
+ref_clearcase.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_clearcase.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/htdocs/!svn/ver/70/taa/taa_environments/test.php
+END
+ref_unix.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_unix.php
+END
+app_mod.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/70/taa/taa_environments/app_mod.php
+END
+ref_websphere.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_websphere.php
+END
+xml_process_props.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/htdocs/!svn/ver/70/taa/taa_environments/xml_process_props.php
+END
+mq_mgw_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/htdocs/!svn/ver/70/taa/taa_environments/mq_mgw_test.php
+END
+app_add.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/70/taa/taa_environments/app_add.php
+END
+inttest.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/70/taa/taa_environments/inttest.php
+END
+fw_pages.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/70/taa/taa_environments/fw_pages.php
+END
+ref_vi.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_vi.pdf
+END
+fw_pages.htm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/70/taa/taa_environments/fw_pages.htm
+END
+xml_process.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/htdocs/!svn/ver/70/taa/taa_environments/xml_process.php
+END
+mqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/htdocs/!svn/ver/70/taa/taa_environments/mqs.php
+END
+ref_case_copy.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_case_copy.php
+END
+environment_mod.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/htdocs/!svn/ver/70/taa/taa_environments/environment_mod.php
+END
+oracle.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/oracle.php
+END
+fw_pages_generate.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/htdocs/!svn/ver/70/taa/taa_environments/fw_pages_generate.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/70/taa/taa_environments/index.php
+END
+dbs.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/htdocs/!svn/ver/70/taa/taa_environments/dbs.php
+END
+proc_repo_access.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/htdocs/!svn/ver/70/taa/taa_environments/proc_repo_access.php
+END
+ref_boxes.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_boxes.php
+END
+proc_sas_triggers.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/htdocs/!svn/ver/70/taa/taa_environments/proc_sas_triggers.php
+END
+ref_wica.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/70/taa/taa_environments/ref_wica.php
+END
+apps_online_servers.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/70/taa/taa_environments/apps_online_servers.php
+END
+footer.inc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/htdocs/!svn/ver/70/taa/taa_environments/footer.inc
+END
+proc_aging_envt_setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/htdocs/!svn/ver/70/taa/taa_environments/proc_aging_envt_setup.php
+END
+menu.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/htdocs/!svn/ver/70/taa/taa_environments/menu.inc
+END

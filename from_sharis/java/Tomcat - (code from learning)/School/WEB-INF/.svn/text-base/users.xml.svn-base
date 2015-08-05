@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<!--
+    Document   : users.xml
+    Created on : April 28, 2003, 1:54 PM
+    Author     : jsandlin
+    Description:
+        Purpose of the document follows.
+-->
+<users>
+  <user>
+    <userID>sandlinjames</userID>
+    <password>6669</password>
+    <firstName>James</firstName>
+    <lastName>Sandlin</lastName>
+    <SSN>436317733</SSN>
+    <empNum>135489</empNum>
+    <secLvl>1000</secLvl>
+  </user>
+  <user>
+    <userID>TM</userID>
+    <password>TM</password>
+    <firstName>Tom</firstName>
+    <lastName>Matson</lastName>
+    <SSN>275567788</SSN>
+    <empNum>123456</empNum>
+    <secLvl>10</secLvl>
+  </user>
+  <user>
+    <userID></userID>
+    <password></password>
+    <firstName></firstName>
+    <lastName></lastName>
+    <SSN></SSN>
+    <empNum></empNum>
+    <secLvl></secLvl>
+  </user>
+</users>
+

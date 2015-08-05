@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<title>Week One</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-image: url(../../../images/backgrounds/bg_green_doorman.jpg);
+}
+.style1 {
+	font-size: x-large;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: #006666;
+}
+.style2 {
+	font-family: "Comic Sans MS";
+	color: #006666;
+}
+.style3 {font-family: Arial, Helvetica, sans-serif}
+.style4 {color: #006666}
+.style5 {font-family: Arial, Helvetica, sans-serif; color: #006666; }
+a:link {
+	color: #006666;
+}
+a:visited {
+	color: #990066;
+}
+-->
+</style></head>
+
+<body>
+<table width="750" border="0">
+  <tr>
+    <td colspan="2"><table width="750" height="70" border="0">
+      <tr>
+        <td width="211" height="66"><img src="../../../images/logos/doorman.JPG" width="200" height="151"> </td>
+        <td width="529">
+          <div align="center">
+            <h2 class="style1">Thursday</h2>
+          </div>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="137" height="410" valign="top"><table width="137" border="0" align="left">
+      <tr>
+        <td valign="top"><h3 align="center" class="style2"><u>Week 1</u></h3>
+        </td>
+      </tr>
+      <tr>
+        <td width="16%" align="center" valign="top"><a href="Monday.htm"><img src="../../../images/buttons/week_1/monday.gif" alt="Monday Assignments" width="80" height="50" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><a href="Tuesday.htm"><img src="../../../images/buttons/week_1/tuesday.gif" alt="Tuesday Assignments" width="80" height="50" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><a href="Wednesday.htm"><img src="../../../images/buttons/week_1/wednesday.gif" alt="Wednesday Assignments" width="80" height="50" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><a href="Thursday.htm"><img src="../../../images/buttons/week_1/thursday.gif" alt="Thursday Assignments" width="80" height="50" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><a href="Friday.htm"><img src="../../../images/buttons/week_1/friday.gif" alt="Friday Assignments" width="80" height="50" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><a href="week1.htm"><img src="../../../images/icons/home2.gif" alt="Week One Home" width="72" height="75" border="2"></a></td>
+      </tr>
+    </table></td>
+    <td valign="top" width="613"><div align="center">
+      <table width="613" border="0" align="left">
+        <tr align="right">
+          <td colspan="4"><h3 align="center" class="style3 style4"><u>Guest Complaints</u></h3></td>
+          </tr>
+        <tr align="right">
+          <td width="99"><div align="left"><strong><span class="style5"> 3:00 - 3:30</span></strong></div></td>
+          <td width="94"><div align="left"><strong><a href="handling_guest_complaints.htm" target="_blank"><img src="../../../images/icons/reading2.gif" alt="Link to reading assignment" width="68" height="64" border="0"></a></strong></div></td>
+          <td width="191"><div align="left"><strong><span class="style5">Reading Assignment</span></strong></div></td>
+          <td width="207"><div align="left"><strong><span class="style5"><a href="handling_guest_complaints.htm" target="_blank">Handling Guest Complaints</a></span></strong></div></td>
+        </tr>
+        <tr align="right">
+          <td><div align="left"><strong><span class="style5">3:30 - 4:00 </span></strong></div></td>
+          <td><div align="left"><strong><a href="http://university.sharis.com/chat" target="_blank"><img src="../../../images/icons/chat_room.gif" alt="Link to Chat Room" width="88" height="31" border="0"></a></strong></div></td>
+          <td><div align="left"><strong><span class="style5">Shari's Chat room</span></strong></div></td>
+          <td><div align="left"><strong><a href="http://university.sharis.com/chat" target="_blank" class="style5">Log
+            in Here</a></strong></div></td>
+        </tr>
+        <tr align="right">
+          <td height="20"><div align="left"><strong><span class="style5">4:00 - 4:20</span></strong></div></td>
+          <td><div align="left"><strong><a href="time_management_test.htm" target="_blank"><img src="../../../images/icons/interaction.gif" alt="Link to activity" width="72" height="66" border="0"></a></strong></div></td>
+          <td><div align="left"><strong><span class="style5">Interaction</span></strong></div></td>
+          <td><div align="left"><strong><a href="time_management_test.htm" target="_blank" class="style5">Test Your Time Management Skills</a></strong></div></td>
+        </tr>
+        <tr align="right">
+          <td><div align="left"><strong><span class="style5">4:20 - 4:40</span></strong></div></td>
+          <td><div align="left"><strong><a href="managers_office_log.htm" target="_blank"><img src="../../../images/icons/reading2.gif" alt="Link to reading assignment" width="68" height="64" border="0"></a></strong></div></td>
+          <td><div align="left"><strong><span class="style5">Reading Assignment</span></strong></div></td>
+          <td><div align="left"><strong><span class="style5"><a href="managers_office_log.htm" target="_blank">Office Manager's Log</a></span></strong></div></td>
+        </tr>
+        <tr align="right">
+          <td><div align="left"><strong><span class="style5">4:40 - 5:00</span></strong></div></td>
+          <td><div align="left"><strong><a href="http://university.sharis.com/BBS/index.php" target="_blank"><img src="../../../images/icons/bulletin_board2.gif" alt="Link to Bulletin Board" width="80" height="67" border="0"></a></strong></div></td>
+          <td><div align="left"><strong><span class="style5">Bulletin Board Question</span></strong></div></td>
+          <td><div align="left"><strong><a href="http://university.sharis.com/BBS/index.php" target="_blank" class="style5">Log in Here</a></strong></div></td>
+        </tr>
+        <tr align="right">
+          <td>&nbsp;</td>
+          <td><div align="left"></div></td>
+          <td>&nbsp;</td>
+          <td><div align="left"></div></td>
+        </tr>
+        <tr align="right">
+          <td colspan="4"><h3 align="center" class="style5"><strong><u>Homework</u></strong></h3></td>
+          </tr>
+        <tr align="right">
+          <td><div align="left"><strong><img src="../../../images/icons/servsafe_logo.jpg" width="110" height="83"></strong></div></td>
+          <td colspan="3"><div align="left" class="style5"><strong>1) Read Serv Safe Chapter 2, pages 2-14 to 2-21. </strong></div></td>
+          </tr>
+        <tr align="right">
+          <td><div align="left"><strong><a href="http://university.sharis.com:8081/School_2.0/login" target="_blank"><img src="../../../images/icons/test3.gif" alt="Link to test menu" width="72" height="75" border="0"></a></strong></div></td>
+          <td colspan="3"><div align="left"><strong><span class="style5">2) Complete &#8220;<a href="http://university.sharis.com/exam/login" target="_blank">ServSafe Word Scramble</a>&#8221; you may use your book to look up answers</span></strong></div></td>
+          </tr>
+        <tr align="right">
+          <td height="110"><div align="left"><strong><a href="daily_time_plan.htm" target="_blank"><img src="../../../images/icons/fax_me.gif" alt="Link to fax assignment" width="98" height="70" border="0"></a></strong></div></td>
+          <td height="110" colspan="3"><div align="left"><strong><span class="style5">3) Analyze your &quot;<a href="daily_time_plan.htm" target="_blank">Shari's Daily Time Plan - Day Two</a>&quot; and fax it to your instructor</span></strong></div></td>
+          </tr>
+        <tr align="right">
+          <td height="20"><div align="left"><strong><a href="http://university.sharis.com/BBS/index.php" target="_blank"><img src="../../../images/icons/bulletin_board2.gif" alt="Link to Bulletin Board" width="80" height="67" border="0"></a></strong></div></td>
+          <td height="20" colspan="3"><div align="left"><strong><span class="style5">4) <a href="http://university.sharis.com/BBS/index.php" target="_blank">Bulletin Board</a> &#8211; Read all of your fellow student&#8217;s postings and respond to at least two. Remember the Bulletin board Etiquette Rules that were covered in your pre-class&nbsp;materials. There are three ways to properly respond:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Agree with a point that they have made and state your reason.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Disagree with a point that they have made and explain your reasoning.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Expand upon or add to a point that they have made.<br>
+<br>
+          </span></strong></div></td>
+          </tr>
+        <tr align="right">
+          <td height="20"><div align="center"><strong><a href="http://university.sharis.com/BBS/index.php" target="_blank"><img src="../../../images/icons/read_instructor.gif" alt="Link to Bulletin Board" width="37" height="39" border="0"></a></strong></div></td>
+          <td height="20" colspan="3"><div align="left"><strong><span class="style5" align="left">5)Read and respond to your instructor&#8217;s <a href="http://university.sharis.com/BBS/index.php" target="_blank">bulletin board</a> comments from previous days. </span></strong></div></td>
+        </tr>
+      </table>
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+</table>
+<hr>
+</body>
+</html>

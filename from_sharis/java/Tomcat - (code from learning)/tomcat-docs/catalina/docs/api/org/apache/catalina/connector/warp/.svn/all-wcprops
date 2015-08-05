@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/Constants.html
+END
+WarpRequest.Stream.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpRequest.Stream.html
+END
+WarpRequestHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpRequestHandler.html
+END
+WarpRequest.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpRequest.html
+END
+WarpResponse.Stream.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpResponse.Stream.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/package-frame.html
+END
+WarpConnector.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpConnector.html
+END
+WarpSSLData.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpSSLData.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/package-tree.html
+END
+WarpResponse.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpResponse.html
+END
+WarpConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpConnection.html
+END
+WarpCertificates.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpCertificates.html
+END
+WarpConfigurationHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpConfigurationHandler.html
+END
+WarpEngine.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpEngine.html
+END
+WarpPacket.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpPacket.html
+END
+WarpHost.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpHost.html
+END
+WarpLogger.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/connector/warp/WarpLogger.html
+END

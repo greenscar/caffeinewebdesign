@@ -1,0 +1,277 @@
+<html>
+<head>
+
+   <style type="text/css">
+       <!--
+       select.siteList
+       {
+           font-family: Verdana, Arial, Helvetica, sans-serif; 
+           font-size: 10px; 
+           border: 1px #FF0000 solid; 
+           color: #000;
+           width: 200px;
+           height: 400px;
+       }
+       span.centerVert
+       {
+           text-align:center;
+           vertical-align:middle;
+       }
+       -->
+   </style>
+   <script language="JavaScript">
+      function addRecipients()
+      {
+          var rec = document.recipientList.recipients;
+          var posRec = document.recipientList.possibleRecipients;
+          moveValues(posRec,rec);
+      }
+      function delRecipients()
+      {
+          var rec = document.recipientList.recipients;
+          var posRec = document.recipientList.possibleRecipients;
+          moveValues(rec, posRec);
+      }
+      
+      /*
+       * This function adapted from the algorithm given in:
+       *			Data Abstractions & Structures Using C++, by
+       *			Mark Headington and David Riley, pg. 586.
+       *
+       *		Quicksort is the fastest array sorting routine for
+       *		unordered arrays.  Its big O is n log n.
+       * 3 arguments: 
+       *      vec => the array you want sorted.
+       *      loBound => where to start sorting (0)
+       *      hiBound => where to end sorting (vec.length - 1)
+       */
+      
+      function Quicksort(vec, loBound, hiBound) {
+              var valuePivot, loSwap, hiSwap, tempValue;
+              var tempText, textPivot;
+              // Two items to sort
+              if (hiBound - loBound == 1)
+              {
+                  if (vec[loBound].value > vec[hiBound].value)
+                  {
+                      tempValue = vec[loBound].value;
+                      vec[loBound].value = vec[hiBound].value;
+                      vec[hiBound].value = tempValue;
+                      
+                      tempText = vec[loBound].text;
+                      vec[loBound].text = vec[hiBound].text;
+                      vec[hiBound].text = tempText;
+                      
+                  }
+                  return;
+              }
+      
+              // Three or more items to sort
+              valuePivot = vec[parseInt((loBound + hiBound) / 2)].value;
+              textPivot = vec[parseInt((loBound + hiBound) / 2)].text;
+              vec[parseInt((loBound + hiBound) / 2)].value = vec[loBound].value;
+              vec[parseInt((loBound + hiBound) / 2)].text = vec[loBound].text;
+              vec[loBound].value = valuePivot;
+              vec[loBound].text = textPivot;
+              loSwap = loBound + 1;
+              hiSwap = hiBound;
+      
+              do {
+                  // Find the right loSwap
+                  while (loSwap <= hiSwap && vec[loSwap].value <= valuePivot)
+                      loSwap++;
+      
+                  // Find the right hiSwap
+                  while (vec[hiSwap].value > valuePivot)
+                      hiSwap--;
+      
+                  // Swap values if loSwap is less than hiSwap
+                  if (loSwap < hiSwap)
+                  {
+                      tempValue = vec[loSwap].value;
+                      vec[loSwap].value = vec[hiSwap].value;
+                      vec[hiSwap].value = tempValue;
+                      
+                      tempText = vec[loSwap].text;
+                      vec[loSwap].text = vec[hiSwap].text;
+                      vec[hiSwap].text = tempText;
+                  }
+              } while (loSwap < hiSwap);
+      
+              vec[loBound].value = vec[hiSwap].value;
+              vec[hiSwap].value = valuePivot;
+      
+              vec[loBound].text = vec[hiSwap].text;
+              vec[hiSwap].text = textPivot;
+      
+              // Recursively call function...  the beauty of quicksort
+      
+              // 2 or more items in first section        
+              if (loBound < hiSwap - 1)
+                  Quicksort(vec, loBound, hiSwap - 1);
+      
+      
+              // 2 or more items in second section
+              if (hiSwap + 1 < hiBound)
+                  Quicksort(vec, hiSwap + 1, hiBound);
+      }
+      
+      
+      /*
+       * moveValues moves the items selected in source from source to destination.
+       * source and destination are each select boxes.
+       * 1) The item(s) are copied over to the destination.
+       * 2) The item(s) are deleted from the source.
+       * 3) The destination is sorted with the Quicksort algorithm.
+       */
+      function moveValues(source, destination)
+      {
+          var somethingMoved = false;
+          for(var i=0; i < source.length; i++)
+          {
+              if(source[i].selected)
+              {
+                  var k = destination.length;
+                  destination.options[k] = new Option(source[i].text, source[i].value, false, false);
+                  source[i] = null;
+                  somethingMoved = true;
+                  i--;
+              }
+          }
+          if(somethingMoved)
+              Quicksort(destination, 0, destination.length - 1);
+         }
+      </script>
+</head>
+<body>  
+        <form name="recipientList" type="post" action="Order">
+                    <span  class="centerVert">
+                                                <select class="siteList" multiple name="possibleRecipients">
+                        <option value="101">101 => Fairmont Capital</option>
+                                <option value="110">110 => Admin Combined</option>
+                                <option value="111">111 => Administration</option>
+                                <option value="112">112 => Training</option>
+                                <option value="113">113 => Restaurant Operations</option>
+                                <option value="114">114 => Construction</option>
+                                <option value="115">115 => Administration</option>
+                                <option value="116">116 => Human Resources</option>
+                                <option value="117">117 => Information Services</option>
+                                <option value="118">118 => Accounting</option>
+                                <option value="119">119 => Real Estate</option>
+                                <option value="120">120 => Bend</option>
+                                <option value="122">122 => Gresham</option>
+                                <option value="123">123 => Hood River</option>
+                                <option value="124">124 => Lebanon</option>
+                                <option value="125">125 => Hermiston</option>
+                                <option value="126">126 => Kennewick</option>
+                                <option value="127">127 => Newberg</option>
+                                <option value="128">128 => Spokane</option>
+                                <option value="129">129 => Sherwood</option>
+                                <option value="130">130 => Woodburn</option>
+                                <option value="131">131 => Sunset</option>
+                                <option value="132">132 => Mc Minnville</option>
+                                <option value="133">133 => Richland</option>
+                                <option value="134">134 => Sacramento</option>
+                                <option value="136">136 => Kelso</option>
+                                <option value="137">137 => Cheyenne</option>
+                                <option value="138">138 => Oregon City</option>
+                                <option value="139">139 => Vancouver</option>
+                                <option value="140">140 => Mill Creek</option>
+                                <option value="141">141 => Red Bluff</option>
+                                <option value="143">143 => Colorado Springs</option>
+                                <option value="144">144 => Woodinville</option>
+                                <option value="145">145 => Garrison Square</option>
+                                <option value="146">146 => Centralia</option>
+                                <option value="147">147 => Laramie</option>
+                                <option value="151">151 => Farmington</option>
+                                <option value="152">152 => Hemet</option>
+                                <option value="154">154 => Westminster</option>
+                                <option value="155">155 => Benson Plaza</option>
+                                <option value="156">156 => Renton</option>
+                                <option value="157">157 => Beaverton</option>
+                                <option value="158">158 => Tacoma</option>
+                                <option value="159">159 => Hillsboro</option>
+                                <option value="160">160 => Central</option>
+                                <option value="161">161 => Delta Park</option>
+                                <option value="162">162 => Totem Lake</option>
+                                <option value="163">163 => South Bend</option>
+                                <option value="164">164 => Berry Hill</option>
+                                <option value="165">165 => Olympia</option>
+                                <option value="166">166 => Tanasbourne</option>
+                                <option value="167">167 => Springfield</option>
+                                <option value="168">168 => Milwaukie</option>
+                                <option value="169">169 => Kent</option>
+                                <option value="170">170 => Federal Way</option>
+                                <option value="171">171 => Halsey Crossing</option>
+                                <option value="172">172 => Clackamas</option>
+                                <option value="173">173 => Westgate</option>
+                                <option value="175">175 => Bellingham</option>
+                                <option value="176">176 => Troutdale</option>
+                                <option value="177">177 => Willows Pond</option>
+                                <option value="178">178 => King City</option>
+                                <option value="179">179 => Summit Country</option>
+                                <option value="180">180 => Lake Meridian</option>
+                                <option value="181">181 => Santa Clara</option>
+                                <option value="183">183 => Silverdale</option>
+                                <option value="184">184 => Green Firs</option>
+                                <option value="186">186 => Bremerton</option>
+                                <option value="187">187 => San Rafael</option>
+                                <option value="188">188 => Lynnwood</option>
+                                <option value="189">189 => Wenatchee</option>
+                                <option value="190">190 => Hazeldell</option>
+                                <option value="191">191 => Olympia Sq. South</option>
+                                <option value="192">192 => Moses Lake</option>
+                                <option value="193">193 => Salem</option>
+                                <option value="195">195 => Cascade Pk. Plaza</option>
+                                <option value="196">196 => Aurora</option>
+                                <option value="197">197 => Boise</option>
+                                <option value="198">198 => Scotts Bluff</option>
+                                <option value="199">199 => Twin Falls</option>
+                                <option value="200">200 => Orchard</option>
+                                <option value="201">201 => Burlington</option>
+                                <option value="202">202 => South Salem</option>
+                                <option value="203">203 => Wilsonville</option>
+                                <option value="204">204 => Garden City</option>
+                                <option value="205">205 => Nw Spokane</option>
+                                <option value="206">206 => Meridian</option>
+                                <option value="207">207 => Lewiston</option>
+                                <option value="208">208 => N. Springfield</option>
+                                <option value="209">209 => South Medford</option>
+                                <option value="212">212 => Bonney Lake</option>
+                                <option value="213">213 => Coeur D/Alene</option>
+                                <option value="214">214 => Lemon Grove</option>
+                                <option value="216">216 => Corvallis</option>
+                                <option value="217">217 => Spokane Valley</option>
+                                <option value="218">218 => Airport Way</option>
+                                <option value="220">220 => Garden Home</option>
+                                <option value="222">222 => Shari'S Of Keizer</option>
+                                <option value="223">223 => Eugene</option>
+                                <option value="224">224 => Fisher'S Landing</option>
+                                <option value="227">227 => Highland Fair</option>
+                                <option value="228">228 => Grants Pass</option>
+                                <option value="229">229 => West Linn</option>
+                                <option value="230">230 => Wandermere</option>
+                                <option value="231">231 => South Redmond</option>
+                                <option value="232">232 => Union Gap</option>
+                                <option value="233">233 => Port Orchard</option>
+                                <option value="235">235 => Nampa</option>
+                                <option value="236">236 => Walla Walla</option>
+                                <option value="237">237 => Pendleton</option>
+                                <option value="238">238 => Central Point</option>
+                                <option value="239">239 => Capitol Village</option>
+                                <option value="240">240 => North Yakima</option>
+                                <option value="241">241 => E. Wenatchee</option>
+                                <option value="279">279 => Meadowbrook</option>
+                                <option value="300">300 => Spokane Special Events</option>
+                                <option value="301">301 => Hillboro Special Events</option>
+                        </select>
+                    </span>
+                    <span class="centerVert">
+                        <input type="button" name="<<" value="<<" onclick="delRecipients(this)"></input>
+                        <input type="button" name=">>" value=">>" onclick="addRecipients(this)"></input>
+                    </span>
+                    <span   class="centerVert">
+                        <select class="siteList" multiple name="recipients">
+                        </select>
+                    </span>
+                </form>

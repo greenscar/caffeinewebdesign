@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<html>
+<head>
+<title>Sharis University Chat Room</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<meta name="description" content="RealChat Software">
+<meta name="keywords" content="chat, client, server, java, realchat">
+</head>
+
+<body topmargin=0 leftmargin=0>
+
+<center>
+<br>
+<h3>Sharis University Chat Room Login</h3>
+<BR><BR><BR>
+
+<!-- Begin: RealChat Client code -->
+<applet
+  archive = "RealChat.jar"
+  codebase = "."
+  code     = "rcs.client.RealChatClient.class"
+  name     = "ChatClient"
+  width    = "300"
+  height   = "100"
+  align    = "top"
+  alt      = "RealChat Client applet"
+  MAYSCRIPT>
+
+<!-- no java or java disabled -->
+RealChat client requires Java compatible web browser<br>For more information visit our <a target="_blank" href="http://www.realchat.com/">java chat software</a> support page<br><br><a target="_blank" href="http://www.java.com/"><img src="getjava.gif" alt="Java - Get it now!" width="88" height="31" border="0"></a><br><br>Please click the button above to get the Java plug-in now
+</applet>
+<!-- End: RealChat Client code -->
+
+<br><br>
+<small>
+Please wait a few seconds for applet to load.
+</small>
+
+</center>
+</body>
+</html>

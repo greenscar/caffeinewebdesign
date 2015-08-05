@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72/LICENSE
+END
+ChangeLog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72/ChangeLog.txt
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72/class.phpmailer.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72/README
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/htdocs/!svn/ver/16/from_sharis/php/phpmailer-1.72/class.smtp.php
+END

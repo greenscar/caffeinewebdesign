@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib
+END
+IncludePageTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/IncludePageTag.class
+END
+FormTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/FormTag.class
+END
+IterateTEI.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/IterateTEI.class
+END
+MenuTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/MenuTag.class
+END
+MessageTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/MessageTag.class
+END
+ArticlesTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/ArticlesTag.class
+END
+FormFieldTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/FormFieldTag.class
+END
+MenuTEI.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/MenuTEI.class
+END
+IterateTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/deweb/WEB-INF/classes/com/covecomm/deweb/taglib/IterateTag.class
+END

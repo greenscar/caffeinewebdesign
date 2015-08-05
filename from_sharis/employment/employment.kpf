@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project kpf_version="2" name="employment">
+<preference-set id="">
+  <string id="import_dirname">R:\training\employment</string>
+</preference-set>
+<folder name="php_files" url="file:///R:/includes/php_files">
+<preference-set id="">
+  <string id="import_dirname">R:\includes\php_files</string>
+</preference-set>
+<file name="DB_Mgr.inc" url="file:///R:/includes/php_files/DB_Mgr.inc">
+</file>
+<file name="ensure_admin.inc" url="file:///R:/includes/php_files/ensure_admin.inc">
+</file>
+<file name="ensure_root.inc" url="file:///R:/includes/php_files/ensure_root.inc">
+</file>
+<file name="Rics_Settings.inc" url="file:///R:/includes/php_files/Rics_Settings.inc">
+</file>
+<file name="Security.inc" url="file:///R:/includes/php_files/Security.inc">
+</file>
+<file name="sql_connect.inc" url="file:///R:/includes/php_files/sql_connect.inc">
+</file>
+<file name="User.inc" url="file:///R:/includes/php_files/User.inc">
+</file>
+<file name="ensure_user.inc" url="file:///R:/includes/php_files/ensure_user.inc">
+</file>
+</folder>
+<file name="currentJobDisplay.inc" url="currentJobDisplay.inc">
+</file>
+<file name="display_tables.php" url="display_tables.php">
+</file>
+<ProjectRef name="employment.kpf" url="employment.kpf">
+</ProjectRef>
+<file name="employment_tables.php" url="employment_tables.php">
+</file>
+<file name="form_error_check.js" url="form_error_check.js">
+</file>
+<file name="html_footer.inc" url="html_footer.inc">
+</file>
+<file name="html_header.inc" url="html_header.inc">
+</file>
+<file name="index.php" url="index.php">
+</file>
+<file name="jobCreate.php" url="jobCreate.php">
+</file>
+<file name="jobCreateProcess.php" url="jobCreateProcess.php">
+</file>
+<file name="jobDelete.php" url="jobDelete.php">
+</file>
+<file name="jobDeleteProcess.php" url="jobDeleteProcess.php">
+</file>
+<file name="storeLookup.php" url="storeLookup.php">
+</file>
+<folder name="new" url="new">
+<file name="currentJobDisplay.inc" url="new/currentJobDisplay.inc">
+</file>
+<ProjectRef name="employment.kpf" url="new/employment.kpf">
+</ProjectRef>
+<file name="employment_tables.php" url="new/employment_tables.php">
+</file>
+<file name="form_error_check.js" url="new/form_error_check.js">
+</file>
+<file name="html_footer.inc" url="new/html_footer.inc">
+</file>
+<file name="html_header.inc" url="new/html_header.inc">
+</file>
+<file name="index.php" url="new/index.php">
+</file>
+<file name="jobCreate.php" url="new/jobCreate.php">
+</file>
+<file name="jobCreateProcess.php" url="new/jobCreateProcess.php">
+</file>
+<file name="jobDelete.php" url="new/jobDelete.php">
+</file>
+<file name="jobDeleteProcess.php" url="new/jobDeleteProcess.php">
+</file>
+<file name="storeLookup.php" url="new/storeLookup.php">
+</file>
+</folder>
+<folder name="old" url="old">
+<file name="currentJobs.php" url="old/currentJobs.php">
+</file>
+<ProjectRef name="employment.kpf" url="old/employment.kpf">
+</ProjectRef>
+<file name="employment_tables.php" url="old/employment_tables.php">
+</file>
+<file name="index.php" url="old/index.php">
+</file>
+<file name="jobCreate.php" url="old/jobCreate.php">
+</file>
+<file name="jobCreateProcess.php" url="old/jobCreateProcess.php">
+</file>
+<file name="jobDelete.php" url="old/jobDelete.php">
+</file>
+<file name="jobDeleteProcess.php" url="old/jobDeleteProcess.php">
+</file>
+<file name="login.php" url="old/login.php">
+</file>
+<file name="storeLookup.php" url="old/storeLookup.php">
+</file>
+<folder name="inc" url="old/inc">
+<file name="currentJobDisplay.inc" url="old/inc/currentJobDisplay.inc">
+</file>
+<file name="form_error_check.js" url="old/inc/form_error_check.js">
+</file>
+<file name="html_footer.inc" url="old/inc/html_footer.inc">
+</file>
+<file name="html_header.inc" url="old/inc/html_header.inc">
+</file>
+<file name="some_useful_fxns.inc" url="old/inc/some_useful_fxns.inc">
+</file>
+</folder>
+</folder>
+</project>

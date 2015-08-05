@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/htdocs/!svn/ver/16/from_sharis/php/PHP_Testing_System_2.0/screens_student
+END
+menu_student.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/htdocs/!svn/ver/16/from_sharis/php/PHP_Testing_System_2.0/screens_student/menu_student.php
+END
+process_taken_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/htdocs/!svn/ver/16/from_sharis/php/PHP_Testing_System_2.0/screens_student/process_taken_test.php
+END
+display_test_for_taking.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/htdocs/!svn/ver/16/from_sharis/php/PHP_Testing_System_2.0/screens_student/display_test_for_taking.php
+END
+email_test_results.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/htdocs/!svn/ver/16/from_sharis/php/PHP_Testing_System_2.0/screens_student/email_test_results.php
+END

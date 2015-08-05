@@ -1,0 +1,587 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script language = "javascript" type="text/javascript">
+function checkTeacher(form)
+{
+    for(i = 0; i < 4; i++){
+        if(form.submitto[i].checked){
+            return(true);
+        }
+    }
+    alert("Please select a teacher to submit to.");
+    return(false);
+}
+function checkFields(form)
+{
+	if(checkTeacher(form))
+		return(true);
+	else
+		return(false);
+}
+</script>
+<title>week 6 evaluation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FF0099;
+}
+body {
+	background-image: url(../../../images/backgrounds/bg_red_couple_booth.jpg);
+}
+-->
+</style></head>
+
+<body>
+<form name="form1" method="post" action="../../../php_files/form_process.php" onSubmit="return checkFields(this)">
+<input type="hidden" name="formName" value="Week Six Eval">
+  <table width="798">
+    <tr>
+      <td colspan="3"><div align="center">SHARI'S MANAGEMENT CORPORATION<br>
+        ON LINE MANAGEMENT CLASS EVALUATION<br>
+        WEEK SIX
+      </div></td>
+    </tr>
+    <tr>
+      <td width="167">&nbsp;</td>
+      <td width="230">&nbsp;</td>
+      <td width="385">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">We want to make our future management classes as meaningful as possible and we would appreciate your candid evaluation of this series by responding to the below questions. </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">Evaluation: Rate each subject on how useful you found the information, with a 5 being very useful and 1 not as useful. Please include any comments regarding the subject in the last column. </td>
+    </tr>
+    <tr>
+      <td colspan="3"><div align="center"><img src="../../../images/divider_bars/ivy.gif" width="475" height="75"></div></td>
+    </tr>
+    <tr>
+      <td>Reading assignment</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td valign="top">Employee Meetings </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_meetings" value="emp_meet_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_meetings" value="emp_meet_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_meetings" value="emp_meet_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_meetings" value="emp_meet_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_meetings" value="emp_meet_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="employee_meeting_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Giving and Receiving Criticism </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="criticism" value="criticism_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="criticism" value="criticism_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="criticism" value="criticism_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="criticism" value="criticism_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="criticism" value="criticism_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="criticism_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Theft and Robbery </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="theft" value="theft_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="theft" value="theft_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="theft" value="theft_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="theft" value="theft_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="theft" value="theft_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="theft_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Conducting a QA </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="qa" value="qa_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="qa" value="qa_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="qa" value="qa_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="qa" value="qa_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="qa" value="qa_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="qa_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Attitude is Everything </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+<input type="radio" name="attitude" value="attitude_5">            
+5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="attitude" value="attitude_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="attitude" value="attitude_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="attitude" value="attitude_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="attitude" value="attittude_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="attitude_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Emergency Situations </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emergency_sit_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emergency_sit_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emergency_sit_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emergency_sit_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+<input type="radio" name="emergency" value="emergency_sit_1">            
+1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="emergency_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Delegating</td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="delegating" value="delegate_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="delegating" value="delegate_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="delegating" value="delegate_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="delegating" value="delegate_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="delegating" value="delegate_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="delegating_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Managing Quality </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="managing_quality" value="manage_quality_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+<input type="radio" name="managing_quality" value="manage_quality_4">            
+4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="managing_quality" value="manage_quality_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="managing_quality" value="manage_quality_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="managing_quality" value="manage_quality_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="quality_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><div align="center"><img src="../../../images/divider_bars/ivy.gif" width="475" height="75"></div></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">Class Activities</td>
+    </tr>
+    <tr>
+      <td valign="top">Meeting Inventory Activity </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="meeting_act" value="meeting_act_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="meeting_act" value="meeting_act_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="meeting_act" value="meeting_act_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="meeting_act" value="meeting_act_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="meeting_act" value="meeting_act_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="meeting_act_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">What's Your Style </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="style" value="style_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="style" value="style_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="style" value="style_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="style" value="style_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="style" value="style_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="style_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Emergency Situation Worksheet </td>
+      <td><table width="200" border="3" bordercolor="#009900">
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emer-sit_act_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emer_sit_act_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emer_sit_act_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emer_sit_act_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="emergency" value="emer_sit_act_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="emergency_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><div align="center"><img src="../../../images/divider_bars/ivy.gif" width="475" height="75"></div></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">What CHAT discussion did you find the most beneficial and why?</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><textarea name="chat_beneficial" cols="118" rows="5">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">What bulletin board question did you find the most beneficial and why? </td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><textarea name="bb_beneficial" cols="118" rows="5">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">Did you have any challenges completing your assignments this week? If so, what? </td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><textarea name="challenges" cols="118" rows="5">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">On a scale of 1 to 5 with 5 being the highest, how would you rate the following? </td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><table width="798">
+        <tr>
+          <td width="167" valign="top">Overall Course</td>
+          <td width="230"><table width="200" border="3" bordercolor="#009900">
+            <tr>
+              <td><label>
+                <input type="radio" name="course" value="course_5">
+                5-very useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="course" value="course_4">
+                4-useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="course" value="course_3">
+                3-somewhat useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="course" value="course_2">
+                2-not very useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="course" value="course_1">
+                1-not useful</label></td>
+            </tr>
+          </table></td>
+          <td width="385"><textarea name="course_comments" cols="50" rows="8">comments:</textarea></td>
+        </tr>
+        <tr>
+          <td valign="top">Effectiveness of Assignments/Homework</td>
+          <td><table width="200" border="3" bordercolor="#009900">
+            <tr>
+              <td><label>
+                <input type="radio" name="assign" value="assign_5">
+                5-very useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="assign" value="assign_4">
+                4-useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="assign" value="assign_3">
+                3-somewhat useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="assign" value="assign_2">
+                2-not very useful</label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="assign" value="assign_1">
+                1-not useful</label></td>
+            </tr>
+          </table></td>
+          <td><textarea name="assign_comments" cols="50" rows="8">comments:</textarea></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">Any Additional Comments: </td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><textarea name="add_comments" cols="118" rows="5"></textarea></td>
+    </tr>
+	<tr>
+      <td colspan="3"><div align="center"><p>After you have competed this week's evaluation please e-mail it to your instructor by selecting from the list below.</p></div></td>
+    </tr>
+	<tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+  </table>
+  <tr>
+          <td colspan="3"><div align="center">
+            <table width="200">
+              <tr>
+                <td><div align="justify">
+                  <label>
+                    <input type="radio" name="submitto" value="virish@sharis.com">
+                    Vickie Irish</label>
+                </div></td>
+              </tr>
+              <tr>
+                <td><div align="justify">
+                  <label>
+<input type="radio" name="submitto" value="dwolfe@sharis.com">                    
+Debbie Wolfe</label>
+                </div></td>
+              </tr>
+              <tr>
+                <td><div align="justify">
+                  <label>
+                    <input type="radio" name="submitto" value="jhensley@sharis.com">
+                    Johanna Hensley</label>
+                </div></td>
+              </tr>
+              <tr>
+                <td><div align="justify">
+                  <label>
+                    <input type="radio" name="submitto" value="eklein@sharis.com">
+                    Esther Klein</label>
+                </div></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+      </table>
+      <div align="center">
+        <input type="submit" name="Submit" value="Submit">
+</div>
+      <div align="center"></div>
+      <p align="center">&nbsp;      </p>
+    </form></td>
+  </tr>
+</table>
+<blockquote>&nbsp;</blockquote>
+<p>&nbsp;</p>
+</body>
+</html>
+
+  

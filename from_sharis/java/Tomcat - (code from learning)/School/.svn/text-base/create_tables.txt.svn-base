@@ -1,0 +1,139 @@
+DROP TABLE FILL_IN_BLANK_ANSWERS;
+DROP TABLE WORD_BANK_CHOICES;
+DROP TABLE WORD_BANK_QUESTIONS;
+DROP TABLE MATCHING_CHOICES;
+DROP TABLE MATCHING_QUESTIONS;
+DROP TABLE FILL_IN_BLANK;
+DROP TABLE WORD_BANK;
+DROP TABLE MATCHING;
+DROP TABLE MULT_CHOICE;
+DROP TABLE ESSAY;
+DROP TABLE TRUE_FALSE;
+DROP TABLE HEADER;
+DROP TABLE QUESTION;
+DROP TABLE EXAM;
+DROP TABLE QUESTION_TYPE;
+DROP TABLE EXAM_HEADER;
+
+create table EXAM_HEADER (
+examNum INTEGER IDENTITY (1,1),
+name TEXT NULL,
+categoryNum INTEGER,
+creatorEmpNum INTEGER,
+creationDate DATETIME,
+lastModDate DATETIME,
+active BIT default 1,
+displayAfterTaking BIT default 1);
+
+create table QUESTION_TYPE(
+questionTypeID varchar(2) NULL,
+questionType TEXT NULL,
+description TEXT NULL);
+
+create table EXAM(
+examNum INTEGER,
+questionNum INTEGER);
+
+create table QUESTION(
+examNum INTEGER,
+questionNum INTEGER,
+questionTypeID varchar(2));
+
+create table HEADER(
+examNum INTEGER,
+questionNum INTEGER,
+header TEXT);
+
+create table TRUE_FALSE(
+examNum INTEGER,
+questionNum INTEGER,
+question TEXT,
+solution BIT);
+
+create table ESSAY(
+examNum INTEGER,
+questionNum INTEGER,
+question TEXT,
+solution TEXT);
+
+create table MULT_CHOICE(
+examNum INTEGER,
+questionNum INTEGER,
+question TEXT,
+choice1 TEXT,
+choice2 TEXT,
+choice3 TEXT,
+choice4 TEXT,
+solution TEXT);
+
+create table MATCHING(
+examNum INTEGER,
+questionNum INTEGER,
+description TEXT);
+
+create table WORD_BANK(
+examNum INTEGER,
+questionNum INTEGER,
+description INTEGER);
+
+create table FILL_IN_BLANK(
+examNum INTEGER,
+questionNum INTEGER,
+question INTEGER);
+
+create table MATCHING_QUESTIONS(
+examNum INTEGER,
+questionNum INTEGER,
+question TEXT,
+choiceID_of_solution INTEGER);
+
+create table MATCHING_CHOICES(
+examNum INTEGER,
+questionNum INTEGER,
+choiceID INTEGER,
+choice TEXT);
+
+create table WORD_BANK_QUESTIONS(
+examNum INTEGER,
+questionNum INTEGER,
+question TEXT,
+choiceID_of_solution INTEGER);
+
+create table WORD_BANK_CHOICES(
+examNum INTEGER,
+questionNum INTEGER,
+choiceID INTEGER,
+choice TEXT);
+
+create table FILL_IN_BLANK_ANSWERS(
+examNum INTEGER,
+questionNum INTEGER,
+answer TEXT);
+
+DROP TABLE USER_SEC_LVL;
+DROP TABLE USERS;
+
+CREATE TABLE USER_SEC_LVL(
+secLvlNum int NOT NULL PRIMARY KEY,
+secLvlName varchar(15) NOT NULL);
+
+CREATE TABLE USERS(
+empNum decimal NOT NULL,
+SSN decimal NOT NULL,
+firstName varchar(20) NOT NULL,
+lastName varchar(25) NOT NULL,
+fullName varchar(50) NULL,
+sex varchar(1) NOT NULL,
+secLvlNum int NOT NULL)
+
+INSERT INTO USER_SEC_LVL VALUES(100, 'Student');
+INSERT INTO USER_SEC_LVL VALUES(800, 'Admin');
+INSERT INTO USER_SEC_LVL VALUES(1000, 'God');
+INSERT INTO USERS VALUES('135489', '436317733', 'James', 'Sandlin', 'James G. Sandlin', 'M', '1000');
+INSERT QUESTION_TYPE VALUES('he', 'EXAM_HEADER', "A Section Header");
+INSERT QUESTION_TYPE VALUES('tf', 'TRUE_FALSE', "True False");
+INSERT QUESTION_TYPE VALUES('es', 'ESSAY', "Essay");
+INSERT QUESTION_TYPE VALUES('mc', 'MULTIPLE_CHOICE', "Multiple Choice");
+INSERT QUESTION_TYPE VALUES('ma', 'MATCHING', "Matching");
+INSERT QUESTION_TYPE VALUES('wb', 'WORD_BANK', "Word Bank");
+INSERT QUESTION_TYPE VALUES('fb', 'FILL_IN_BLANK', "Fill in the blank");

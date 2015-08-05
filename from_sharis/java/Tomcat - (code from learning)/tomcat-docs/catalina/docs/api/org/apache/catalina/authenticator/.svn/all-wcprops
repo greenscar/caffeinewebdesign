@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator
+END
+BasicAuthenticator.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/BasicAuthenticator.html
+END
+Constants.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/Constants.html
+END
+SSLAuthenticator.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/SSLAuthenticator.html
+END
+FormAuthenticator.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/FormAuthenticator.html
+END
+NonLoginAuthenticator.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/NonLoginAuthenticator.html
+END
+SingleSignOn.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/SingleSignOn.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/package-frame.html
+END
+AuthenticatorBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/AuthenticatorBase.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/package-tree.html
+END
+DigestAuthenticator.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/DigestAuthenticator.html
+END
+SavedRequest.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/htdocs/!svn/ver/16/from_sharis/java/Tomcat%20-%20(code%20from%20learning)/tomcat-docs/catalina/docs/api/org/apache/catalina/authenticator/SavedRequest.html
+END

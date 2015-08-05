@@ -1,0 +1,12 @@
+<%@page contentType="text/html"%>
+<html>
+<head><title>Today's Calendar</title></head>
+<body bgcolor="lightgrey">
+<h1>JSP Calendar</h1>
+<jsp:useBean id="Cal" scope="page" class="Calendar.Cal" />
+<b>Current Date:</b><jsp:getProperty name="Cal" property="currentDate" />
+<%
+Cal.printCal(out);
+%>
+</body>
+</html>

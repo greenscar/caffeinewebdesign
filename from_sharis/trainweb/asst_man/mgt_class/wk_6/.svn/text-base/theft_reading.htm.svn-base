@@ -1,0 +1,395 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<title>theft_reading</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image: url(../../../images/backgrounds/green_paper.jpg);
+}
+body,td,th {
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+.style1 {font-size: 36px}
+.style3 {font-size: 14px}
+.style4 {font-size: 14}
+.style5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style8 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.style10 {font-size: 18px}
+.style11 {font-size: 20px}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../../../images/robbery/judgex.JPG','../../../images/robbery/theif1x.JPG','../../../images/robbery/thief2x.JPG','../../../images/robbery/thief3x.JPG')">
+<table width="640" align="center">
+  <tr>
+    <td width="488"><div align="center">
+      <p>Reading Assignment - Online Management Class</p>
+      <p class="style1">Theft &amp; Robbery  </p>
+    </div></td>
+    <td width="140"><div align="center"><img src="../../../images/robbery/handcuffs.gif" width="61" height="134"></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="640" align="center">
+  <tr>
+    <td><p class="style4">It would be nice if we lived in a world where everyone was honest, but unfortunately that is not the case. In fact, the food service industry loses approximately 20 billion dollars a year to theft and 35% of all restaurants fail because of theft. The most common forms of theft in the restaurant are employee (or internal) theft and customer or purveyor (external) theft. While both may be common, solid systems and constant awareness will help to minimize loss.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><div align="center"><img src="../../../images/divider_bars/cop_chase.gif" width="568" height="36"></div></td>
+  </tr>
+</table>
+<br>
+<div align="center">
+  <table width="640">
+    <tr>
+      <td width="94" valign="top"><img src="../../../images/robbery/fly%20money.GIF" width="102" height="80" align="top"></td>
+      <td width="534"><p align="center" class="style8">Employee Theft</p>
+      <p align="left" class="style4">Managers can reduce internal theft by 60% simply by letting employees know that management is watching. With so much money at stake, why don't all managers face the issue head on? The answer is theft control is time consuming and no one likes playing cop. Also, many managers hate to admit they're being taken, or just can't fathom that a member of their team is stealing from them. </p>
+      <p align="left" class="style4">Spotting theft isn't necessarily difficult -- it just takes diligence. A variance of more than half a % on food cost should be considered odd enough to check out. An unusual food cost variance can mean food is going out the door or someone has figured out a way to turn food into money by manipulating the POS system, otherwise known as embezzlement. </p>
+      <p align="left" class="style4">Employees steal in various ways, theft of cash, product and time. Let's take a closer look at each:</p>
+      <p align="left" class="style4"><strong>Cash Shortages -</strong> This can be caused by procedure errors, so, before assuming an employee is consciously stealing money, ensure that they have been properly trained and follow Shari's cash handling procedures. This, by the way, is an easy fix. Train and monitor employees while working the floor. </p>
+      <p align="left" class="style4">Inform all employees on the shift of the shortage, sometimes knowing that the management team is aware and watching can curb a thief. Post the Cash Over Short report ran out of RAS, highlight shortages for all to see.</p>
+      <p align="left" class="style4">If an employee is cashing checks out in their station this could indicate that the cash left by the guest may not be making it up front and in the till. Run the Work Station Closed Check report in POS and discipline the employee for closing a cash check in their station.</p>
+      <p align="left" class="style4">Review video, if available, look for employees taking money out of the till and placing it directly in their pocket. If you see this on the tape, ask the employee why they did this, document, train and possibly discipline appropriately.</p>
+      <p align="left" class="style4">Locking down the till may solve a cash shortage problem on a shift, but will never solve a cash shortage problem permanently or catch a thief. Locked down tills impede guest service and quite frankly angers your crew. If you listen carefully you may hear an employee tell a guest &quot;I'd help you, but, I'm not allowed in the register&quot; or something similar. Our guests shouldn't have to wait to pay their bill because we have a thief working for us. Locked down tills will not catch or stop a thief from stealing, they will just steal something else, perhaps another server's tips or products.</p>
+      <p align="left" class="style4"><strong>Theft of Product -</strong> One of the most common forms of stealing products, is grazing. Keep a close eye on employee meal tickets, did you see an employee eating on break without a employee meal ticket? Are the servers munching on brownie chunks, cucumber slices or cups of soup? When you spot someone not following policy, bring it to their attention immediately and correct the given situation.</p>
+      <p align="left" class="style4">Discourage employees from bringing large bags into the restaurant, and never let them keep them in food storage areas. We do realize that some of our cook staff carry bags containing their personal egg pans, knives, spats etc. to work each day. Always involve your District Manager in decisions to search an employee's personal property.</p>
+      <p align="left" class="style4">Giving away food or drinks to friends. Make sure everyone is aware that the only person authorized to give away food is the manager on duty. Track walk-outs by server, speak to the server involved to find out how it happened. Walk-outs can be food given away or cash stolen. Document and discipline appropriately.</p>
+      <p align="left" class="style4">Oversee trash disposal. Conduct periodic trash audits. Designate one person to take trash out and have a manager accompany the employee.</p>
+      <p align="left" class="style4">To keep temptation at bay, adjust food pars regularly. The less inventory on hand, the less there is to steal.</p>
+      <p align="left" class="style4"><strong>Theft of Time -</strong> Often employees don't realize that they are in fact stealing time from you. Taking unauthorized breaks, personal phone calls, visiting with co-workers instead of completing side work in a timely fashion are just a few examples of time lost or stolen. This type of theft is easily managed, awareness is key, when confronted with a group of employees visiting simply break the group up by giving each of them a task to complete. </p>
+      <p align="left" class="style4">When excusing an employee from their work area at the end of the shift ask them if their side work is complete. If they say yes, check it, thank them for a job well done and say &quot;see you tomorrow&quot;. If their answer is no, ask them to complete it and let them know that you will be back shortly to check them out. Never allow the employee to take a &quot;break&quot; and then return to complete their duties. These &quot;breaks&quot; can represent 15 or more minutes of lost labor.</p>
+      <p align="left"><strong>Preventing Employee Theft:</strong></p>
+      <p align="left" class="style4">One of the worst mistakes managers make is failing to establish an in-store theft policy that lets employees know that theft is not tolerated. Unless a policy is in place, employees charged with theft can claim ignorance.</p>
+      <p align="left" class="style4">For new employees, clarify polices regarding:</p>
+      <ul>
+        <li class="style4">
+          <div align="left" class="style4">Eating and drinking on the job.</div>
+        </li>
+                  <li class="style4"></li>
+                  <div align="left" class="style4">Cash register procedures for voids, discounts, no-sales, and shift end reports.</div>
+          <li class="style4">
+            <div align="left"><span class="style4">Giving away food and drinks to friends.
+</span></div>
+          </li>
+          <li class="style4">
+            <div align="left" class="style4">
+              <div align="left">Inventory, delivery and invoice procedures.</div>
+            </div>
+          </li>
+          <li class="style4">
+            <div align="left" class="style4">Garbage disposal--designate who is to do it, when and accompanied by whom.</div>
+          </li>
+          <li class="style4">
+            <div align="left" class="style4">Employee entry and exit.</div>
+          </li>
+          <li class="style4">
+            <div align="left" class="style4">Personal property, what employees can and cannot bring to work. </div>
+          </li>
+      </ul>      
+      <p align="left" class="style4">For minor offenses, set up a warning system. If employees fail to follow policy repeatedly, replace them. Following through on your word shows you mean business. Failing to follow through invites others to ignore policies. </p>      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top">&nbsp;</td>
+    </tr>
+  </table>
+  <table width="640">
+    <tr>
+      <td><span class="style10">Roll your mouse over the following pictures to reveal some frightening facts: </span></td>
+    </tr>
+  </table>
+  <table width="640">
+    <tr>
+      <td width="324"><div align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','../../../images/robbery/judgex.JPG',1)"><img src="../../../images/robbery/judge.JPG" name="Image8" width="218" height="179" border="0"></a></div></td>
+      <td width="304"><div align="center">
+        <p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../../../images/robbery/theif1x.JPG',1)"><img src="../../../images/robbery/thief1.JPG" name="Image9" width="217" height="180" border="0"></a></p>
+        </div></td>
+    </tr>
+    <tr>
+      <td><div align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','../../../images/robbery/thief2x.JPG',1)"><img src="../../../images/robbery/thief2.JPG" name="Image10" width="215" height="179" border="0"></a></div></td>
+      <td><div align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','../../../images/robbery/thief3x.JPG',1)"><img src="../../../images/robbery/thief3.JPG" name="Image11" width="215" height="180" border="0"></a></div></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <table width="640">
+    <tr>
+      <td width="103" valign="top"><img src="../../../images/robbery/fly%20money.GIF" width="102" height="80"></td>
+      <td width="525"><p align="center" class="style8">Customer Theft</p>
+      <p align="left" class="style4">A very small percentage of our guests are truly out to rip us off. As stated earlier, not everyone is honest, and customer theft does indeed happen.</p>
+      <p align="left" class="style4"><strong>Quick Change Artists -</strong>The most crafty of these thieves are the quick change artists. Often the person dealing with this customer has the feeling something isn't &quot;quite right&quot;. Train your staff to use the following tips to foil the thief's plan.</p>
+      <div align="left">
+        <ul>
+            <li class="style4">
+              <span class="style4">Handle one transaction at a time. </span></li>
+            <li class="style4">Always count back change, twice, first in your head and then aloud to the guest. </li>
+            <li class="style4">If the guest asks for change for a twenty, lay the bill on the counter, gather the change from the till, count it back to them, when the guest is satisfied, place the twenty in the drawer and close the till.</li>
+            <li class="style4">Don't let the guest interrupt you by asking to exchange other bills with the twenty out and the till still open. Finish the first transaction, close the till, and re-open the till to complete another request. </li>
+            <li class="style4">Quick change artists have set routines, they know to confuse the cashier and walk off with their original twenty plus more. Separating each transaction foils their slight of hand routine. </li>
+          </ul>
+        <p class="style4"><strong>Guests That Walk-Out Without Paying - </strong>For your safety <em>NEVER</em> run outside to collect money from a guest that walks-out without paying. If you can get a license plate number by looking out the window, great. But leaving the building can be dangerous. Desperate people use desperate measures to escape. Check the open tables in POS looking for red tickets, ensure that your servers are delivering the guest check to the table when they deliver the food. Keeping the servers in their stations benefits your business in many ways such as: better guest service, higher sales and less walk-outs. Some guests walk out because they get tired of waiting at the register to pay. If you are appropriately staffed and your server is doing their job, the guest should never have to wait. Always speak with the server who had the walk-out. Ask them how it happened. Let them know that being too busy is never a good excuse, encourage them to ask for help before they get deep in the weeds. If a guest who has dined and dashed returns to your restaurant, inform your staff to notify you immediately. Be sensitive when approaching the guest to ask for payment. I like to give them the benefit of the doubt or the easy way out by saying something like, &quot;I'm sure this was an oversight, but the other day when you had lunch the check wasn't paid, would you like to take care of that this visit?&quot; As with any other sticky situation, keep in mind that other guests are probably listening to you so try to be as pleasant and discreet as possible. </p>
+        <p class="style4"><strong>Counterfeit Cash -</strong> It is a good idea for managers to handle transactions that involve a $100.00 bill. Train your crew to check money for obvious counterfeit bills or to ask for help whenever unsure of authenticity.</p>
+        <ul class="style4">
+          <li><span class="style4">Hold the bill up to the light and look for the security thread. </span></li>
+          <li><span class="style4">Check the two serial numbers to ensure that they match. </span></li>
+          <li><span class="style4">Look for the water mark located to the right front side of the bill. The watermark should be visible from both sides when held up to light.</span></li>
+          <li><span class="style4">Check for color-shifting ink. Color-shifting ink changes color when viewed from different angles. This ink is used to print the number in the lower right-hand corner on the front of the bill. The ink looks green when viewed straight on, but changes to black when the paper is held at an angle. </span></li>
+          <li><span class="style4">Look for the obvious, ink that smudges or paper that feels too smooth. Paper used for US currency contains tiny blue and red threads that are embedded in the paper.</span></li>
+          </ul>
+        <p><span class="style4">There are many products on the market to help identify counterfeit currency such as marking pens and pen lights. These products are good and used frequently however, the counterfeiters of today are crafty so no system is fool proof. Should you encounter a bill that you think may be counterfeit, keep in mind the guest who is trying to spend it probably isn't the thief that manufactured it. Mention your concern to the guest and ask if they have another form of payment. You may even suggest that they take the bill to their local bank to check it for authenticity.</span></p>
+        <p><span class="style4"><strong>Guests Getting Something For Nothing -</strong> A very small percentage of our guests come in with the plan to get something for free. They are out there, but the damage we do when arguing with the guest is much more detrimental to your business than &quot;letting them get one over on you.&quot; Some examples of this are:</span></p>
+        <ul class="style4">
+          <li><span class="style4">The guest who brings in their own bug to place in their salad after eating 3/4 of it. This guest will complain and usually inform you that they shouldn't be charged for their meal. Apologize, offer to replace the salad, do what you need to do and please the guest. Remember, your other guests are listening.</span></li>
+          <li><span class="style4">The guest that sneaks the contents of the sugar caddy, condiment bottles or jelly basket into their bag. Refill the sugar caddy, ignore the missing bottle of ketchup or jelly basket and move on with your day. It's just not worth the time and energy to fight it out.</span></li>
+          </ul>
+        <p align="center"><strong><em>Remember, whenever you argue with a guest you may win the battle, but in fact lose the war. It's just not worth it!</em></strong></p>
+        <p class="style4"><strong>Guests Who Steal Tips -</strong> The last thing we would want to do is accuse the guest of stealing. The solution to this problem is for your servers to buss their tables immediately when the table is empty. Another solution is for the servers to be visible in their stations and attentive to their guests which in turn should raise tip income. </p>
+      </div>      
+      <ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td valign="top"><img src="../../../images/robbery/fly%20money.GIF" width="102" height="80" align="top"></td>
+      <td><p align="center" class="style8">Purveyor Theft </p>
+      <p align="left" class="style4">Purveyor theft is the easiest to control. Having solid systems and following those systems every delivery can eliminate purveyor theft. </p>
+      <p align="left" class="style4"><strong>Delivery Errors - </strong>Check in products carefully. Weigh-it, count-it, check-it! Match products and the amount directly to the invoice. Never take the word of the delivery person, check for yourself. If a product is listed on your invoice but not present, point it out to the driver and obtain a credit. Watch the pricing on invoices, incorrect pricing may not be blatant theft, but being over charged affects your bottom line. It is best not to accept deliveries at peak meal periods, managers often feel rushed and mistakes are easily made.</p>
+      <p align="left" class="style4"><strong>Taking products -</strong> Keep your back door locked. Stay with the driver as they deliver their goods and inspect boxes or products when they are removed from your restaurant. Some purveyors have been known to &quot;graze&quot; on products while talking with crew members. Let it be known to both your staff and the driver that this is unacceptable. Should you have a serious problem with a particular driver or vendor, notify your district manager immediately.</p>
+      <p align="center" class="style5">Remember To Inspect What You Expect! </p>
+      <p align="center" class="style5">It's Not Often That We Get To Be The Customer!</p>      </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <table width="640">
+    <tr>
+      <td><div align="center"><img src="../../../images/divider_bars/cop_chase.gif" width="568" height="36"></div></td>
+    </tr>
+  </table>
+  <table width="640">
+    <tr>
+      <td width="109" valign="top"><img src="../../../images/robbery/gunman.JPG" width="125" height="95" align="top"></td>
+      <td width="519"><p align="center" class="style8">Armed Robbery </p>
+      <p align="left"><span class="style4">Thank goodness this is the rarest form of theft encountered at Shari's, however, when it happens the effects can be devastating to the crew and guests alike. This type of theft usually happens very quickly with very little time to think of how to react. So, preparing yourself and your employees on what to do in case of robbery is an absolute. While prevention is always best it is important to also discuss what to do during and after the robbery should one occur. The following information was provided by the Colorado Association of Robbery Investigators: </span></p>
+      <p align="left"><span class="style5">Prevention - </span></p>
+      <ul class="style4">
+        <li>
+          <div align="left"><span class="style4" align="left">Keep your front doors and windows clear of signs and posters to allow good, two way visibility. Employees can see suspicious persons outside. Passers-by and police can see inside. </span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Keep the outside of your business well lit at night. </span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Make sure your cash register area is clearly visible in your establishment.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Practice good cash control. Keep a minimum amount of cash in the register and make regular till pulls.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Don't keep large bills under the cash register drawer. Transfer them to the safe immediately.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Use video camera surveillance and make it well known.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Always have at least two employees working at all times.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Vary your banking routine. Carry cash in a variety of ways - a paper sack, brief case, purse, etc. Money bags are pretty obvious.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Vary the times and routes that you use to go to the bank.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Make deposits daily, before 11:00 a.m. </span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Be alert for &quot;customers&quot; who seem to be loitering or glancing around the store and not wanting to be seated.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Watch for suspicious persons outside the building - especially parked cars for lengthy periods of time.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">If you see someone who is acting suspicious inside or outside, call the police to have them checked out.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Two persons should be on hand when removing trash from the building after dark.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Keep side and back doors locked. Have employees use the main entrance to enter and exit the building.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Place markers at the main entrance that employees can use to gauge the height of a robber if he leaves. </span></div>
+        </li>
+        </ul>
+      <p><strong>During The Robbery -</strong></p>
+      <ul>
+        <li>
+          <div align="left"><span class="style4" align="left">Try to stay calm. Don't make any sudden movements to upset the robber. </span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Do exactly as you are told. <em>DO NOT RESIST! </em></span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">If you have an alarm, activate it only if you can do it secretly.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Tell the robber about anything that might surprise him, such as someone who may walk out of a back room etc.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">If you move or reach, tell the robber what you are going to do and why.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Try to get a good look at the robber so you can describe him later.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Don't be a hero. It's better to lose your money than your life or the lives of others.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Give the robber time to leave before calling the police.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Note his direction of travel when he leaves.</span></div>
+        </li>
+        <li>
+          <div align="left"><span class="style4">Try to get a description of his vehicle <em>ONLY </em>if you can do so without exposing yourself to harm. </span></div>
+        </li>
+        </ul>
+      <p><strong>After The Robbery -</strong></p>
+      <ul>
+        <li class="style4">
+          <div align="left">Call the police immediately, even of you have already activated an alarm.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Close the store and lock the door(s). </div>
+        </li>
+        <li class="style4">
+          <div align="left">Do not discuss the details of the robbery with witnesses or fellow employees.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Ask witnesses to stay until the police arrive. If they can't, get their names, phone numbers and addresses.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Do not touch anything that the robber may have touched. Block off areas where the robber was if necessary.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Try to recall as much as you can about the robber's appearance, speech and mannerisms.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Stay on the phone with the 911 operator until the police arrive or the operator terminates the call.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Let the police answer inquiries from the news media.</div>
+        </li>
+        <li class="style4">
+          <div align="left">Do not discuss the amount of money taken with anyone other than the police and your supervisor.</div>
+        </li>
+        </ul>
+      <p><strong>Shari's Robbery Policy -</strong></p>
+      <p align="left"><span class="style4">It is Shari's policy that you cooperate with the robber. The safety of you, your crew and guests is the top priority! </span></p>
+      <div align="left">
+        <ul>
+            <li><span class="style4">Remain calm.</span></li>
+            <li><span class="style4">Be cooperative. Remember that money can be replaced, lives cannot.</span></li>
+            <li><span class="style4">Explain your movements very slowly.</span></li>
+            <li><span class="style4">Make mental notes about the physical characteristics of the robber.</span></li>
+            <li><span class="style4">Do not disturb evidence.</span></li>
+            <li><span class="style4">Do not attempt to follow the robber into the parking lot or confront them in any way.</span></li>
+            <li><span class="style4">Call 911.</span></li>
+            <li><span class="style4">Check on guests and crew to make sure all are safe and okay.</span></li>
+            <li><span class="style4">Begin making contacts. Your General and District Managers need notification as well as the Regional Vice President.</span></li>
+            <li><span class="style4">Handout &quot;Crime Suspect Description Forms&quot; to any witnesses. They are located in the Robbery Chapter of the Emergency Situations Binder.</span></li>
+            <li><span class="style4">Make an entry in the manager's log regarding the incident.</span></li>
+        </ul>
+        <p class="style4">We hope you and your crew never have to face this horrible situation, however keep in mind, armed robbers usually want in and out as quickly as possible leaving you little time to think or plan. Have your plan set firm in your mind and train your crew to be as prepared as possible should they be faced with a person with a gun demanding money. </p>
+        <p class="style4">&nbsp;</p>
+      </div>      
+      </td>
+    </tr>
+  </table>
+  <table width="640">
+    <tr>
+      <td width="386" valign="top"><p><span class="style11">
+      Click on the gun to catch the bad guy! </span></p>
+      <p>&nbsp;</p>
+      <p align="center">
+	  <a href="robber_test.htm" target="_top">
+	  <img src="../../../images/robbery/gun1.JPG" width="153" height="97" border="0">
+	  </a>
+	  </p>
+	  </td>
+      <td width="242"><div align="right">
+        <p><img src="../../../images/robbery/robber.JPG" width="238" height="320"></p>
+        </div></td>
+    </tr>
+    <tr>
+      <td valign="top">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top">Be sure to log into the <a href="http://university.sharis.com/chat">Chat Room</a> by 3:30. </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top"><hr></td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top">&nbsp;</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

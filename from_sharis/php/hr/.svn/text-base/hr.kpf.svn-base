@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project kpf_version="2" name="hr">
+<preference-set id="">
+  <string id="import_dirname">C:\Inetpub\wwwroot\hr</string>
+</preference-set>
+<folder name="multiuse_fxns" url="multiuse_fxns">
+<file name="js_fxns.js" url="multiuse_fxns/js_fxns.js">
+</file>
+<file name="php_fxns.php" url="multiuse_fxns/php_fxns.php">
+</file>
+<file name="RegExpValidate.js" url="multiuse_fxns/RegExpValidate.js">
+</file>
+</folder>
+<file name="vars.inc" url="vars.inc">
+</file>
+<file name="disp_tables.php" url="disp_tables.php">
+</file>
+<file name="fill_table.php" url="fill_table.php">
+</file>
+<file name="disciplinary_notice.php" url="disciplinary_notice.php">
+</file>
+<file name="emp_num_entry.php" url="emp_num_entry.php">
+</file>
+<file name="queries.inc" url="queries.inc">
+</file>
+<file name="styles.css" url="styles.css">
+</file>
+<file name="disciplinary_notice_process.php" url="disciplinary_notice_process.php">
+</file>
+</project>

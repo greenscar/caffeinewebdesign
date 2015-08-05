@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Flow of Food - Storage Study Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FF0000;
+}
+body {
+	background-image: url(../../images/backgrounds/servsafe_orange.gif);
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="620" border="0" align="center">
+  <tr>
+    <td width="180"><img src="../../images/servsafe/ch7.JPG" width="177" height="133" onload="MM_popupMsg('Print out the study guide and fill it out as you read the chapter.  Use your filled out guide as a study tool for testing.')"></td>
+    <td width="430"><p align="center">Shari's Management Corporation</p>
+        <p align="center">Online ServSafe Course</p>
+        <p align="center">The Flow of Food: Storage (chapter 7)</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">Print off this study guide and fill in the answer blanks as you read the text book. Use your filled out guides to study the main points from each chapter. </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><form name="form1" method="post" action="">
+        <p>When labeling food, what procedures should be followed?</p>
+        <p>
+          <textarea name="textarea" cols="70" rows="5"></textarea>
+        </p>
+        <p>Describe a system for ensuring that products are rotated effectively.</p>
+        <p>
+          <textarea name="textarea2" cols="70" rows="5"></textarea>
+        </p>
+        <p>What is the proper way to transfer food between containers?</p>
+        <p>
+          <textarea name="textarea3" cols="70" rows="5"></textarea>
+        </p>
+        <p>What should be done to keep potentially hazardous food out the the temperature danger zone during the storage process?</p>
+        <p>
+          <textarea name="textarea4" cols="70" rows="5"></textarea>
+        </p>
+        <p>Refrigerated Storage: What are the key principles for storing food under refrigeration and specifically, how do you prevent cross-contamination?</p>
+        <p>
+          <textarea name="textarea5" cols="70" rows="10"></textarea>
+        </p>
+        <p>What are a manager's major concerns for managing frozen storage?</p>
+        <p>
+          <textarea name="textarea6" cols="70" rows="10"></textarea>
+        </p>
+        <p>What are the key points for storage of dry goods?</p>
+        <p>
+          <textarea name="textarea7" cols="70" rows="10"></textarea>
+        </p>
+        <p>Terms: Define the following terms.</p>
+        <p>Refrigerated Storage:</p>
+        <p>Frozen Storage:</p>
+        <p>Dry Storage:</p>
+        <p>First in, First out (FIFO):</p>
+        <p>Shelf Life:</p>
+        <p>Hygrometer:</p>
+        <p>UHT and aseptically packaged food: </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp; </p>
+    </form></td>
+  </tr>
+</table>
+</body>
+</html>

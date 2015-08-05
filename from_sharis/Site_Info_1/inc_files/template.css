@@ -1,0 +1,413 @@
+
+body 
+{
+	background-color: #888888;
+}
+
+h4
+{	
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 25px;
+	color: #FFFFFF;
+}
+/*******************************************************
+ * div
+ ******************************************************/
+div.error
+{
+	width: 90%;	
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #990000; 
+	border: 5px solid #000099; 
+	padding: 0px; 
+	margin: 0px auto;
+}
+div.header
+{
+	width: 90%;	
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #666; 
+	border: 5px solid #000000; 
+	padding: 0px; 
+	margin: 4px auto;
+}
+	
+div.row 
+{
+  border: 0px solid #F40; 
+  clear: both;
+  padding-top: 00px;
+}
+div.row_center
+{
+    border: 0px solid #F40; 
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    /*width: 80%;*/
+}
+div.spacer 
+{
+  padding-top: 5px;
+  clear: both;
+}
+
+div.grey_box_90
+{
+	width: 90%; 
+	background-color: #666; 
+	border: 1px solid #333; 
+	padding: 0px; 
+	margin: 0px auto;
+}
+div.grey_box_70
+{
+	width: 70%; 
+	background-color: #666; 
+	border: 1px solid #333; 
+	padding: 0px; 
+	margin: 0px auto;
+}
+
+div.grey_box_50
+{
+	width: 50%; 
+	background-color: #666; 
+	border: 1px solid #333; 
+	padding: 0px; 
+	margin: 0px auto;
+}
+
+div.grey_box_25
+{
+	border: 0px solid #333; 
+	width: 25%; 
+	background-color: #666; 
+	padding: 0px; 
+	margin: 0px auto;
+}
+/*******************************************************
+ * END div
+ ******************************************************/
+
+/*******************************************************
+ * span
+ ******************************************************/
+
+span
+{
+  border: 0px dashed #333;
+}
+span.white_center
+{
+  padding-left: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+span.left 
+{
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+  border: 0px solid #F40; 
+  padding-left: 2%;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  width: 49%;
+}
+
+span.label
+{
+  font-family: Verdana, Serif; 
+  font-weight: bold; 
+  font-size: 16px; 
+  border: 0px solid #F40; 
+  padding-left: 2%;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  width: 49%;
+}
+span.right
+{
+  border: 0px solid #F40; 
+  padding-right: 2%;
+  float: right;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  width: 49%;
+}   
+
+/*******************************************************
+ * END span
+ ******************************************************/
+
+/*******************************************************
+ * input
+ ******************************************************/
+input.name 
+{
+	width: 95%;
+	padding-bottom: 0px; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+	text-align: left;
+}
+input.first_name 
+{
+	width: 50%;
+	padding-bottom: 0px; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+	text-align: left;
+}
+select.black_wide
+{
+	width: 95%;
+	padding-bottom: 0px; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+	text-align: left;
+}
+
+select.region_district
+{
+	width: 95%;
+	padding-bottom: 0px; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+	text-align: left;
+}
+textarea.description
+{
+	border: #FF00FF 0px solid;
+	height: 100px;
+	width: 300px;
+	padding-bottom: 0px;
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+}
+
+input.grey 
+{
+	border: color:#000000 2px dashed;
+	background-color: #666; 
+	font-weight: bold; 
+	font-size: 25px; 
+	color: #FFFFFF;
+   	cursor: pointer;
+}
+input.2_digits
+{
+	width: 12%;
+	padding-bottom: 0px;
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+}
+
+input.4_digits
+{
+	width: 25%;
+	padding-bottom: 0px; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #000000;
+}
+/*******************************************************
+ * END input
+ ******************************************************/
+/*******************************************************
+ * Menu HREF's
+ ******************************************************/
+a.main_menu
+{
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	text-decoration:none;
+}
+a.main_menu:link
+{
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	text-decoration:none;
+}
+a.main_menu:hover
+{
+	color: #000000; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	text-decoration:none;
+}
+a.button
+{
+	border: #666 2px solid;
+	background-color: #666; 
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 19px;
+	text-decoration:none;
+	padding: 1px;
+}
+a.button:hover
+{
+	border: #000000 2px solid;
+	background-color: #666; 
+	color: #000000; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 19px;
+	text-decoration:none;
+	padding: 1px;
+}
+a.sl_header
+{
+	color: #ffffff; 
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 20px; 
+	text-decoration:none;
+}
+/*******************************************************
+ * END Menu HREF's
+ ******************************************************/
+
+/*******************************************************
+ * Table
+ ******************************************************/
+.over
+{
+	background-color: #000000;
+	cursor: hand;
+}
+
+td
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px;
+	font-color: #FFFFFF;
+	background: #666;
+	text-decoration:none;
+	text-align: center;
+}
+
+td.sl_header
+{
+	background: #666;
+	text-decoration:none;
+	text-align: center;
+}
+
+td.black_on_white
+{
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px;
+	font-color: #FFFFFF;
+	background: #888888;
+	text-decoration:none;
+	text-align: center;
+}
+td.white_on_black
+{
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 12px;
+	font-color: #F40;
+	background: #666;
+	text-decoration:none;
+	text-align: center;
+}
+
+
+
+th
+{
+	color: #FFFFFF;
+	font-family: Verdana, Serif; 
+	font-weight: bold; 
+	font-size: 18px;
+	text-decoration: #FFFFFF underline;
+	text-align: center;
+}
+
+table.display
+{
+	background: #666;
+	text-align: center;
+	width: 90%;
+}
+
+/*******************************************************
+ * END Table
+ ******************************************************/
+
+
+.center 
+{ 
+	text-align:center; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+/*
+div.row span.right_field 
+{
+  padding-right: 5%;
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  width: 49%;
+}
+div.row span.right_area
+{
+  padding-right: 7%;
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  width: 49%;
+}
+*/

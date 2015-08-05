@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<!--	**** STEP 1 ****
+	USE THIS HTML FILE AS A TEMPLATE FOR YOUR WEB PAGE.
+	THE FIRST STEP IS TO EDIT THE HEADER BLOCK.
+	CHANGE THE PAGE TITLE AND THE META TAGS.
+	DO NOT CHANGE THE LINK AND SCRIPT TAGS.
+-->
+
+<head lang="en-us" dir="LTR">
+	<title>Your Page Title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="keywords" content="links, resources, www resources, link collection">
+	<meta name="Author" content="Your Name" lang="en-us">
+	<meta name="Distribution" content="Global">
+	<meta name="Robots" content="Index">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+
+<!-- end step 1 -->
+
+	<link rel="stylesheet" href="linkOrganizer.css">
+	<script src="linkOrganizer.js" type="text/javascript"></script>
+</head>
+
+<!--	**** STEP 2 ****
+	MAKE SURE YOU KEEP THE ONLOAD EVENT OF THE BODY ELEMENT
+-->
+
+<body onload="init()">
+
+<!-- end step 2 -->
+
+     	<div class="linkorganizer">
+     		<div class="pagetitle">
+
+<!--	**** STEP 3 ****
+	CHANGE THE TITLE FOR YOUR LINK COLLECTION
+	LOCATED BETWEEN THE <nobr> TAGS
+-->
+
+     			<nobr>Your Link Collection Title</nobr>
+
+<!-- end step 3 -->
+
+     		</div>
+     		<form class="toolbar">
+     			<nobr>
+     			<select id="categories" onchange="toggleCategory(this.options[this.selectedIndex].value);">
+
+<!--	**** STEP 4 ****
+	ENTER THE CATEGORIES HERE AS THEY SHOULD APPEAR IN THE DROPDOWN MENU
+	WHEN YOU ADD EXTRA CATEGORIES MAKE SURE THEY HAVE VALUES SET 
+	ACCORDING TO THE GIVEN PATTERN: category01, category02, category03, .... AND SO ON
+-->
+
+     				<option value="category01">Category 1</option>
+     				<option value="category02">Category 2</option>
+				<option value="category03">Caregory 3</option>
+<!-- end step 4 -->
+
+     				<option value="" selected>--select link category--</option>
+     			</select>
+     			&nbsp;&nbsp;&nbsp;
+			<b>Open Links in</b>:
+     			<input type="Radio" name="linktarget" value="_self" onclick="javascript:linkTarget='_self';">This Window
+     			<input type="Radio" name="linktarget" value="_blank"  onclick="javascript:linkTarget='_blank';" checked>New Window
+     			</nobr>
+     		</form>
+     	</div>
+
+<!--	**** STEP 5 ****
+	NOW ENTER THE MEAT OF YOUR LINK COLLECTION HERE
+	ADD DIV BLOCKS OF NEW LINK CATEGORIES AS APPROPRIATE, AND NAME THAM ACCORDING TO
+	THE OPTION VALUES YOU USED IN STEP 4. ALSO EDIT THE CATEGORY TITLES AND THE 
+	ANCHOR HREF PROPERTY.
+-->
+
+     	<div id="category01" class="linkcategory">
+     		<h3>Category 1 Title</h3>
+     		<ul>
+     			<li><a href="some URL" onclick="jvascript:this.target=linkTarget">Link 1</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link 2</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link 3</a>
+     		</ul>
+     	</div>
+
+     	<div id="category02" class="linkcategory">
+     		<h3>Category 2 Title</h3>
+     		<ul>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link a</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link b</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link c</a>
+     		</ul>
+     	</div>
+
+     	<div id="category03" class="linkcategory">
+     		<h3>Category 3 Title</h3>
+     		<ul>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link i</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link ii</a>
+     			<li><a href="some URL" onclick="javascript:this.target=linkTarget">Link iii</a>
+     		</ul>
+	</div>
+
+<!-- end step 5 -->
+
+	<hr>
+
+	<small><a href="mailto:paul@baggethun.net"><i>paul@baggethun.net</i></a>&nbsp;Pittsburgh&nbsp;PA,&nbsp;2002</small>
+
+</body>
+
+</html>

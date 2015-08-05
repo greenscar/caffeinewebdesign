@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include
+END
+sql_parse.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/sql_parse.php
+END
+config.inc.php.sample
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/config.inc.php.sample
+END
+media.functions.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/media.functions.inc.php
+END
+imageObjectIM.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/imageObjectIM.class.php
+END
+install.lock
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/install.lock
+END
+iptc.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/iptc.inc.php
+END
+picmgmt.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/picmgmt.inc.php
+END
+slideshow.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/slideshow.inc.php
+END
+exif_php.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/exif_php.inc.php
+END
+crop.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/crop.inc.php
+END
+init.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/init.inc.php
+END
+smilies.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/smilies.inc.php
+END
+search.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/search.inc.php
+END
+config.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/config.inc.php
+END
+functions.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/functions.inc.php
+END
+mailer.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/mailer.inc.php
+END
+archive.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/archive.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/index.html
+END
+exifReader.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/exifReader.inc.php
+END
+imageObjectGD.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/imageObjectGD.class.php
+END
+select_lang.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/htdocs/!svn/ver/91/townofmarionla.com/www/gallery/include/select_lang.inc.php
+END

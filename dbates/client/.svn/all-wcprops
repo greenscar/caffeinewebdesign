@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/htdocs/!svn/ver/1/dbates/client
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/htdocs/!svn/ver/1/dbates/client/logout.php
+END
+batch_file_page.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/htdocs/!svn/ver/1/dbates/client/batch_file_page.php
+END
+ensure_client.inc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/1/dbates/client/ensure_client.inc
+END
+privacy_stmt_process.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/htdocs/!svn/ver/1/dbates/client/privacy_stmt_process.php
+END
+edit_personal_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/htdocs/!svn/ver/1/dbates/client/edit_personal_info.php
+END
+form.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/htdocs/!svn/ver/1/dbates/client/form.php
+END
+form_complete.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/htdocs/!svn/ver/1/dbates/client/form_complete.txt
+END
+ensure_sa_client.inc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/htdocs/!svn/ver/1/dbates/client/ensure_sa_client.inc
+END
+sa_cp.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/htdocs/!svn/ver/1/dbates/client/sa_cp.php
+END
+custom_page.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/htdocs/!svn/ver/1/dbates/client/custom_page.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/htdocs/!svn/ver/1/dbates/client/index.php
+END
