@@ -1,3 +1,0 @@
-<% fields_for "steps[]", step do |f| %>
-   <li><%= f.text_area :instruction, :class => "step"%></li>
-<% end %>

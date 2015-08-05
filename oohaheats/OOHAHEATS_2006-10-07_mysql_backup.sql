@@ -1729,4 +1729,4 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 -- 
 
-INSERT INTO `users` (`id`, `pwd`, `first_name`, `last_name`, `email`) VALUES ('aubri', 'z00l00', 'Aubri', 'Sandlin', 'aubri@caffeinewebdesign.com');
+INSERT INTO `users` (`id`, `pwd`, `first_name`, `last_name`, `email`) VALUES ('aubri', 'password', 'Aubri', 'Sandlin', 'aubri@caffeinewebdesign.com');

@@ -78,7 +78,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'aubri',
-		'password' => 'z00l00',
+		'password' => 'password',
 		'database' => 'aubri_cookbook',
 		'prefix' => '',
 	);

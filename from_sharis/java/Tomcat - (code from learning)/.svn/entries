@@ -1,119 +1,0 @@
-10
-
-dir
-102
-http://c8h10n4o2.getmyip.com/svn/htdocs/from_sharis/java/Tomcat%20-%20(code%20from%20learning)
-http://c8h10n4o2.getmyip.com/svn/htdocs
-
-
-
-2007-06-10T05:25:44.565257Z
-16
-c8h10n4o2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24d18b5f-9cab-4fb9-bc72-d387996354dc
-
-ROOT
-dir
-
-Movie_System
-dir
-
-deweb
-dir
-
-admin.xml
-file
-
-
-
-
-2008-08-03T21:43:13.000000Z
-2f8e0ffa86ea6f41b7fd3cab4316fd5d
-2007-06-10T05:25:44.565257Z
-16
-c8h10n4o2
-
-shopping
-dir
-
-School
-dir
-
-jsp layout
-dir
-
-xml testing
-dir
-
-Calendar_CustomTag
-dir
-
-ch15
-dir
-
-Calendar_JavaBean
-dir
-
-learnDOM
-dir
-
-onjava.war
-file
-
-
-
-
-2008-08-03T21:43:13.000000Z
-a52692083b2790eab51ee00fd82efbf0
-2007-06-10T05:25:44.565257Z
-16
-c8h10n4o2
-has-props
-
-uncompressed onjava
-dir
-
-webdav
-dir
-
-Login
-dir
-
-manager.xml
-file
-
-
-
-
-2008-08-03T21:43:13.000000Z
-e431eb20f9b2d144229a43ded68b47d7
-2007-06-10T05:25:44.565257Z
-16
-c8h10n4o2
-
-catalog
-dir
-
-testing
-dir
-
-tomcat-docs
-dir
-
-examples
-dir
-

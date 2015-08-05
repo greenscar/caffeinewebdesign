@@ -1,7 +1,0 @@
-<h2>Authentication/Authorization Demo</h2>
-<p>To test the authentication system, click on the link to <a href="protected.html">protected.html</a>.
-That page is only available to registered users. When prompted, supply the the
-ID <b>jakarta</b> and the password <b>tomcat</b>. The web application will look
-up whatever id and password you supply in the MySQL database. If it finds a
-match, you get access. </p>
-<p>&nbsp; </p>

@@ -1,2 +1,0 @@
-
-<%= collection_select(:recipe, :category_id,@categories,:id,:name) %></p>
