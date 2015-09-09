@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project kpf_version="2" name="employment">
+<preference-set id="">
+  <string id="import_dirname">R:\includes</string>
+</preference-set>
+<file name="currentJobs.php" url="currentJobs.php">
+</file>
+<ProjectRef name="employment.kpf" url="employment.kpf">
+</ProjectRef>
+<folder name="inc" url="inc">
+<file name="A_Person.inc" url="inc/A_Person.inc">
+</file>
+<file name="check_session.inc" url="inc/check_session.inc">
+</file>
+<file name="sql_connect.inc" url="inc/sql_connect.inc">
+</file>
+<file name="vars.inc" url="inc/vars.inc">
+</file>
+</folder>
+<file name="employment_tables.php" url="employment_tables.php">
+</file>
+<file name="index.php" url="index.php">
+</file>
+<file name="jobCreate.php" url="jobCreate.php">
+</file>
+<file name="jobCreateProcess.php" url="jobCreateProcess.php">
+</file>
+<file name="jobDelete.php" url="jobDelete.php">
+</file>
+<file name="jobDeleteProcess.php" url="jobDeleteProcess.php">
+</file>
+<file name="storeLookup.php" url="storeLookup.php">
+</file>
+<folder name="php_files" url="file:///R:/includes/php_files">
+<preference-set id="">
+  <string id="import_dirname">R:\includes\php_files</string>
+</preference-set>
+<file name="DB_Mgr.inc" url="file:///R:/includes/php_files/DB_Mgr.inc">
+</file>
+<file name="ensure_admin.inc" url="file:///R:/includes/php_files/ensure_admin.inc">
+</file>
+<file name="ensure_root.inc" url="file:///R:/includes/php_files/ensure_root.inc">
+</file>
+<file name="Rics_Settings.inc" url="file:///R:/includes/php_files/Rics_Settings.inc">
+</file>
+<file name="Security.inc" url="file:///R:/includes/php_files/Security.inc">
+</file>
+<file name="sql_connect.inc" url="file:///R:/includes/php_files/sql_connect.inc">
+</file>
+<file name="User.inc" url="file:///R:/includes/php_files/User.inc">
+</file>
+<file name="ensure_user.inc" url="file:///R:/includes/php_files/ensure_user.inc">
+</file>
+</folder>
+</project>

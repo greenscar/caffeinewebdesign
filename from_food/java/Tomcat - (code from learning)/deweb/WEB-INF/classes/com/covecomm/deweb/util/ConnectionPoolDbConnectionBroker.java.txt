@@ -1,0 +1,105 @@
+/*
+ * ____________________________________________________
+ * 
+ * Copyright (c) 2001, CoveComm Inc.                         
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, 
+ * with or without modification, are permitted provided 
+ * that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above 
+ * copyright notice, this list of conditions and the 
+ * following disclaimer.
+ *
+ * Redistributions in binary form must reproduce the above 
+ * copyright notice, this list of conditions and the 
+ * following disclaimer in the documentation and/or other 
+ * materials provided with the distribution.
+ *
+ * Neither the name of CoveComm Inc. nor the names of 
+ * contributors may be used to endorse or promote products 
+ * derived from this software without specific prior 
+ * written permission. 
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS 
+ * AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED 
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A 
+ * PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL 
+ * THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR 
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+ * OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED 
+ * TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS 
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY 
+ * WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ____________________________________________________
+ *
+ * This class is part of the DEWEB package for 
+ * database-enabled web development. For more information
+ * on DEWEB see http://www.covecomm.com/java
+ *
+ */
+ 
+package com.covecomm.deweb.util;
+
+
+import com.javaexchange.dbConnectionBroker.*;
+
+/** A connection pool implementation
+ *
+ * This connection pool uses the JavaExchange dbConnectionBroker
+ */
+ 
+public class ConnectionPoolDbConnectionBroker extends ConnectionPoolAdapter {
+	private DbConnectionBroker dbPool;
+public ConnectionPoolDbConnectionBroker(
+	java.lang.String driverName, 
+	java.lang.String driverURI, 
+	java.lang.String userID, 
+	java.lang.String password, 
+	int minConnections, 
+	int maxConnections, 
+	java.lang.String logFile, 
+	double version)
+	throws java.io.IOException {
+	super(driverName,driverURI,userID,password,
+		minConnections,maxConnections,logFile,version);
+	System.out.println("initializing ConnectionPoolAdapter");
+	try {
+		dbPool = 
+			new DbConnectionBroker(
+				driverName, 
+				driverURI, 
+				userID, 
+				password, 
+				minConnections, 
+				maxConnections, 
+				logFile, 
+				version);
+	} catch (java.io.IOException e) {
+	    System.out.println("Exception creating DbConnectionBroker: " + e);
+	    throw(e);
+	}
+}
+public void destroy(int wait) throws java.sql.SQLException {
+	if (dbPool != null)
+		dbPool.destroy(wait);
+}
+public java.lang.String freeConnection(java.sql.Connection connection) {
+	if (dbPool != null)
+		return (dbPool.freeConnection(connection));
+	else
+		return null;
+}
+public java.sql.Connection getConnection() {
+	if (dbPool != null)
+		return dbPool.getConnection();
+	else
+		return null;
+}
+}

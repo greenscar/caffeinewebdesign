@@ -1,5 +1,0 @@
-[2005/05/26 08:41] db_load_all_info(Resource id #16, Resource id #17)
-[2005/05/26 08:41] db_load_contacts(Resource id #17)
-[2005/05/26 08:41] select psj.EMPLID, pse.FIRST_NAME, pse.LAST_NAME, psj.JOBCODE from PS_NAMES pse (nolock), PS_JOB psj (nolock)where psj.DEPTID = '169' and pse.EMPLID = psj.EMPLID and psj.JOBCODE IN ('010', '020') AND psj.EMPL_STATUS = 'A' AND psj.EFFDT = (SELECT MAX(EFFDT) FROM PS_JOB J1 WHERE J1.EMPLID = pse.EMPLID) AND psj.EFFSEQ = (SELECT MAX(EFFSEQ) FROM PS_JOB J2 WHERE J2.EMPLID = pse.EMPLID AND J2.EFFDT = psj.EFFDT);
-[2005/05/26 08:41] --------------------------------------------
-[2005/05/26 08:41] NUMBER: 169<br>NAME: KENT<br>MGR EMPLID: <br>MGR NAME:  <br>DATE ACTIVE: 05/26/2005<br>ADDRESS:<br> Plaza by the Green Shopping Center<br>         24525 Russell Rd<br>         Kent, WA 98032<br>ACTIVE = 1<br>SYSCO = 533976<BR><h3>PHONE SYSTEM</h3>PHONE CO ID = QWST<br>MN => 253-859-5774<BR>RLLV => 253-859-2260<BR>PS => 253-852-6286<BR>CRDT => 253-859-2733<BR>FX => 253-859-1067<BR>Alcohol allowed = 1<br>Smoking allowed = 1<br>Lottery allowed = 0<br>Sit-Down Lottery allowed = 0<br>6 Lottery Machines allowed = 0<br>

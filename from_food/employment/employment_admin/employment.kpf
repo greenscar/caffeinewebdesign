@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project kpf_version="2" name="employment">
+<preference-set id="">
+  <string id="import_dirname">R:\training\employment</string>
+</preference-set>
+<file name="currentJobDisplay.inc" url="currentJobDisplay.inc">
+</file>
+<file name="display_tables.php" url="display_tables.php">
+</file>
+<ProjectRef name="employment.kpf" url="employment.kpf">
+</ProjectRef>
+<file name="employment_tables.php" url="employment_tables.php">
+</file>
+<file name="form_error_check.js" url="form_error_check.js">
+</file>
+<file name="html_footer.inc" url="html_footer.inc">
+</file>
+<file name="html_header.inc" url="html_header.inc">
+</file>
+<file name="index.php" url="index.php">
+</file>
+<file name="jobCreate.php" url="jobCreate.php">
+</file>
+<file name="jobCreateProcess.php" url="jobCreateProcess.php">
+</file>
+<file name="jobDelete.php" url="jobDelete.php">
+</file>
+<file name="jobDeleteProcess.php" url="jobDeleteProcess.php">
+</file>
+<file name="storeLookup.php" url="storeLookup.php">
+</file>
+</project>

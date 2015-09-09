@@ -1,6 +1,0 @@
-Content-type: text/html
-
-<br>
-<b>Parse error</b>:  parse error in <b>C:\Inetpub\wwwroot\TESTIN~1.0\INC_FI~1\~QUEST~1.INC</b> on line <b>254</b><br>
-PHP Warning:  Unable to load dynamic library 'C:\Inetpub\Scripts\php\extensions/php_mssql.dll' - The specified procedure could not be found.
- in Unknown on line 0

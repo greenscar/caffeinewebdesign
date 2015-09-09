@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Flow of Food Activity</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #666666;
+}
+body {
+	background-color: #CCCCCC;
+	background-image: url(../../images/backgrounds/servsafe_gray.gif);
+}
+-->
+</style>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemDragClass.js"></script>
+<script language="JavaScript" src="scripts/behDragLayer.js"></script>
+</head>
+
+<body onLoad="MM_initInteractions()">
+ <p>Put the flow of food in order by dragging the steps the the correct number.</p>
+ <p>&nbsp; </p>
+ <interaction name="Drag_ManyToMany01" object="G01" template="020_Drag and Drop/010_Drag_ManyToMany_04.agt" includesrc="interactionClass.js,elemDragClass.js,behDragLayer.js">
+ <div id="G01Layer" style="position:absolute; left:10px; width:200px; height:115px; z-index:1; visibility:visible; top: 487px;" name="G01Layer"> <span name="G01question"><br>
+   </span>
+     <form name="G01controls">
+       <input name="G01reset" type="button" value="Reset" onClick="MM_resetInt('G01','reset')">
+     </form>
+ </div>
+ <div id="G01purchase" style="position:absolute; left:193px; top:254px; width:20px; height:20px; visibility: visible"> <img name="G01purchaseImg" src="../../images/servsafe/buy.jpg" alt="Drag 1"></div>
+ <div id="G01prepmatch" style="position:absolute; left:472px; top:57px; width:20px; height:20px; visibility: visible"> <img name="G01prepmatchImg" src="../../images/marketing/four.JPG" alt="Drag 1"></div>
+ <div id="G01receive" style="position:absolute; left:332px; top:255px; width:20px; height:20px; visibility: visible"> <img name="G01receiveImg" src="../../images/servsafe/receive.jpg" alt="Drag 2"></div>
+ <div id="G01store" style="position:absolute; left:147px; top:382px; width:20px; height:20px; visibility: visible"> <img name="G01storeImg" src="../../images/servsafe/storage.jpg" alt="Drag 3"></div>
+ <div id="G01prep" style="position:absolute; left:494px; top:249px; width:20px; height:20px; visibility: visible"> <img name="G01prepImg" src="../../images/servsafe/prep.jpg" alt="Drag 3"></div>
+ <div id="G01cook" style="position:absolute; left:18px; top:380px; width:20px; height:20px; visibility: visible"> <img name="G01cookImg" src="../../images/servsafe/cooking.gif" alt="Drag 3"></div>
+ <div id="G01hold" style="position:absolute; left:623px; top:276px; width:20px; height:20px; visibility: visible"> <img name="G01holdImg" src="../../images/servsafe/holding.gif" alt="Drag 3"></div>
+ <div id="G01cool" style="position:absolute; left:18px; top:253px; width:20px; height:20px; visibility: visible"> <img name="G01coolImg" src="../../images/servsafe/cooling.gif" alt="Drag 3"></div>
+ <div id="G01reheat" style="position:absolute; left:260px; top:379px; width:20px; height:20px; visibility: visible"> <img name="G01reheatImg" src="../../images/servsafe/reheat.gif" alt="Drag 3"></div>
+ <div id="G01serve" style="position:absolute; left:432px; top:379px; width:20px; height:20px; visibility: visible"> <img name="G01serveImg" src="../../images/servsafe/serving.gif" alt="Drag 3"></div>
+ <div id="G01purmatch" style="position:absolute; left:34px; top:55px; width:20px; height:20px; visibility: visible"> <img name="G01purmatchImg" src="../../images/marketing/one.JPG" border="0" alt="Target 1"></div>
+ <div id="G01recmatch" style="position:absolute; left:181px; top:56px; width:20px; height:20px; visibility: visible"> <img name="G01recmatchImg" src="../../images/marketing/two.JPG" alt="Target 2"></div>
+ <div id="G01stormatch" style="position:absolute; left:322px; top:56px; width:20px; height:20px; visibility: visible"> <img name="G01stormatchImg" src="../../images/marketing/three.JPG" alt="Target 3"></div>
+ <div id="G01cookmatch" style="position:absolute; left:636px; top:60px; width:20px; height:20px; visibility: visible"> <img name="G01cookmatchImg" src="../../images/marketing/five.JPG" alt="Target 3"></div>
+ <div id="G01holdmatch" style="position:absolute; left:101px; top:174px; width:20px; height:20px; visibility: visible"> <img name="G01holdmatchImg" src="../../images/marketing/six.JPG" alt="Target 3"></div>
+ <div id="G01coolmatch" style="position:absolute; left:235px; top:170px; width:20px; height:20px; visibility: visible"> <img name="G01coolmatchImg" src="../../images/marketing/seven.JPG" alt="Target 3"></div>
+ <div id="G01reheatmatch" style="position:absolute; left:373px; top:167px; width:20px; height:20px; visibility: visible"> <img name="G01reheatmatchImg" src="../../images/marketing/eight.JPG" alt="Target 3"></div>
+ <div id="G01servematch" style="position:absolute; left:511px; top:168px; width:20px; height:20px; visibility: visible"> <img name="G01servematchImg" src="../../images/marketing/nine.JPG" alt="Target 3"></div>
+ <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG01() {
+    G01 = new MM_interaction('G01',1,1,1,null,0,0,0,'','','m','',0);
+    G01.add('drag','purchase',null,1,0,1,1);
+    G01.add('drag','prepmatch',null,0,1,1,1);
+    G01.add('drag','receive',null,1,0,1,1);
+    G01.add('drag','store',null,1,0,1,1);
+    G01.add('drag','prep',null,1,0,1,1);
+    G01.add('drag','cook',null,1,0,1,1);
+    G01.add('drag','hold',null,1,0,1,1);
+    G01.add('drag','cool',null,1,0,1,1);
+    G01.add('drag','reheat',null,1,0,1,1);
+    G01.add('drag','serve',null,1,0,1,1);
+    G01.add('drag','purmatch',null,0,1,1,1);
+    G01.add('drag','recmatch',null,0,1,1,1);
+    G01.add('drag','stormatch',null,0,1,1,1);
+    G01.add('drag','cookmatch',null,0,1,1,1);
+    G01.add('drag','holdmatch',null,0,1,1,1);
+    G01.add('drag','coolmatch',null,0,1,1,1);
+    G01.add('drag','reheatmatch',null,0,1,1,1);
+    G01.add('drag','servematch',null,0,1,1,1);
+    G01.add('dragTarg','purchase','purmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','prepmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','prepmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','purmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','prep','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','cookmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cook','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','holdmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','hold','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','coolmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','cool','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','reheatmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','reheat','servematch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','cookmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','holdmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','coolmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','reheatmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','serve','servematch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','purchase','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','recmatch',1,0,75,'Center','0:0',1);
+    G01.add('dragTarg','receive','stormatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','purmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','recmatch',0,0,75,'Center','0:0',1);
+    G01.add('dragTarg','store','stormatch',1,0,75,'Center','0:0',1);
+    G01.init();
+    G01.am('segm','Segment: Check Time_',1,1);
+    G01.am('cond','Time At Limit_','G01.timeAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+    G01.am('segm','Segment: Correctness_',1,0);
+    G01.am('cond','Correct_','G01.correct == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Excellent, you really \\\"Go with the Flow\\\".\')','');
+    G01.am('end');
+    G01.am('cond','else','true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'That\\\'s right, keep going!\')','');
+    G01.am('end');
+    G01.am('segm','Segment: Check Tries_',1,1);
+    G01.am('cond','Tries At Limit_','G01.triesAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+  }
+  if (window.newG01 == null) window.newG01 = newG01;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG01();';
+//-->
+ </script>
+ <cbi-select object="G01"></interaction>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<!-- template test -->
+
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>cmag</short-name>
+    <uri></uri>
+    <display-name>ch15</display-name>
+    <description>A tag library with various functions</description>
+    <tag>
+        <name>iterate</name>
+        <tagclass>ch15.IterateTag</tagclass>
+        <teiclass>ch15.IterateTEI</teiclass>
+        <bodycontent>JSP</bodycontent>
+        <attribute>
+            <name>collection</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>iteratedItemName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>iteratedItemClass</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>menu</name>
+        <tagclass>ch15.IterateTag</tagclass>
+        <teiclass>ch15.IterateTEI</teiclass>
+        <bodycontent>JSP</bodycontent>
+        <attribute>
+            <name>menuName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>includePage</name>
+        <tagclass>ch15.IncludePageTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <attribute>
+            <name>includeAttribute</name>
+            <required>false</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>newExtension</name>
+            <required>false</required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

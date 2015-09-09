@@ -1,0 +1,71 @@
+<HTML>
+<head>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="jtut.css">
+<script language="JavaScript1.2" src='script.js' type="text/javascript"></script>
+</head>
+<body onload="init();">
+
+<!--
+CREATE THE SUBMENUS TO BE USED 
+-->
+<div name="subMenu1" id="subMenu1" style="position:absolute;top: 0;left: 100;width:150;height: 65; background-color: #000000;z-index: 3; border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu1'); ">
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Create Category</a>
+    </div>
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Modify Category</a>
+    </div>
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Create SubCategory</a>
+    </div>
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Modify SubCategory</a>
+    </div>
+</div>
+<div name="subMenu2" id="subMenu2" style="position:absolute;top: 0;left: 200;width:150;height: 65; background-color: #000000;z-index: 3; border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu2');">
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Create Item</a>
+    </div>
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Modify Item</a>
+    </div>
+</div>
+<div name="subMenu3" id="subMenu3" style="position:absolute;top: 0;left: 300;width:150;height: 65; background-color: #000000;z-index: 3; border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu3');">
+    <div style="width: 150; height:20;border-width: 1; border-style: solid;">
+        <a href="#">Goto Order Page</a>
+    </div>
+</div>
+<!--
+END CREATE THE SUBMENUS TO BE USED 
+-->
+
+<div id ="menu1" style="position:absolute;height: 20;top:59;left:100;width: 100;background-color:#000000;z-index: 5;border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu1');">
+   <a href="javascript:void(0)">
+         Categories
+   </a>
+</div>
+
+<div id ="menu2" style="position:absolute;height: 20;top:59; left:200; width: 100; background-color:#000000;z-index: 5;border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu2');">
+   <a href="javascript:void(0)">
+         Items
+   </a>
+</div>
+<div id ="menu3" style="position:absolute;height: 20;top:59; left:300; width: 100; background-color:#000000;z-index: 5;border-color: #FFFFFF; border-width: 2; border-style: solid;color:#FFFFFF;" onMouseOver="showLayer('subMenu3');">
+   <a href="javascript:void(0)">
+         Orders
+   </a>
+</div>
+
+<div id="hideAll" style="position:absolute; left:32; top:0; width:334; height:1; z-index:4; border-width: 0;" onMouseOver="hideLayers();">
+   <a href="javascript:void(0)" >
+      <img src="999999.gif" width="634" height="80" border="0">
+   </a>
+</div>
+<div id="transparent" style="position:absolute; left:31; top:81; width:334; height:200; z-index:1; border-width: 0;" onMouseOver="hideLayers();">
+   <a  href="javascript:void(0)" >
+      <img src="transparent.gif" width="634" height="200" border="0">
+   </a>
+</div>
+</body>
+</HTML>
+

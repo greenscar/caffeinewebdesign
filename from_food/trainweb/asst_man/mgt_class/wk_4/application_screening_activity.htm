@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Applications and Screening Action Plan</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #336633;
+}
+body {
+	background-image: url(../../../images/backgrounds/peach_background.jpg);
+}
+-->
+</style>
+<script language = "javascript" type="text/javascript">
+
+function checkTeacher(form)
+{
+    for(i = 0; i < 4; i++){
+        if(form.submitto[i].checked){
+            return(true);
+        }
+    }
+    alert("Please select a teacher to submit to.");
+    return(false);
+}
+function checkName(form)
+{
+	var theField = "name";
+	var chars = /^\D*$/;
+	if((!chars.test(form.name.value)))
+	{
+		alert ("Please enter you name (only characters).");
+		form.name.select();
+		form.name.focus();
+		return(false);
+	}
+	return(true);
+}
+function checkFields(form)
+{
+	/*if(checkTeacher(form) && checkName(form))*/
+	if(checkTeacher(form))
+		return(true);
+	else
+		return(false);
+}
+</script>
+
+</head>
+
+<body>
+<table width="640" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <td width="178"><img src="../../../images/logos/cook_team_logo2.JPG" width="193" height="116"></td>
+    <td width="455"><div align="center">
+      <p>Shari's Management Corporation</p>
+      <p>Online Management Class</p>
+      <p>Application and Screening Action Plan</p>
+      </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center"><img src="../../../images/divider_bars/pie_divider.gif" width="640" height="50"></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><form name="form1" method="post" action="../../../php_files/form_process.php" onSubmit="return checkFields(this)">
+	    <input type="hidden" name="formName" value="Application and Screening Action Plan">
+      <p>Enter your name: 
+        <input name="name" type="text" id="name">
+      </p>
+      <p>What is an applicant told at your store when they request an application?</p>
+      <p>
+        <textarea name="application_response" cols="85" rows="4" id="application_response">Describe an applicant's experience:</textarea>
+</p>
+      <p>Does your store have an application policy? For example, times or days that applications are accepted.</p>
+      <p>
+        <textarea name="application_policy" cols="85" rows="4" id="application_policy">Describe your store's policy:</textarea> 
+      </p>
+      <p>How are your employees instructed to handle applicants?</p>
+      <p>
+        <textarea name="employee_training_response" cols="85" rows="4" id="employee_training_response">Describe your employee training for applicants:</textarea> 
+      </p>
+      <p>Check all that apply:</p>
+      <p>
+        <input name="manager involvement" type="checkbox" id="manager involvement" value="manager involvement"> 
+        A manager talks to every applicant<br>
+        <input name="screened on spot" type="checkbox" id="screened on spot" value="screened on spot">
+All applicants are screened on the spot<br>
+<input name="filled out on premisis" type="checkbox" id="filled out on premisis" value="filled out on premisis">
+Applications are filled out on premises<br>
+<input name="_question_naire" type="checkbox" id="_question_naire" value="_question_naire">
+Applicants fill out the pre-employment questionnaire<br>
+<input name="beverage" type="checkbox" id="beverage" value="beverage">
+Applicants are offered a free beverage <br>
+<input name="application binder" type="checkbox" id="application binder" value="application binder">
+Applicants are given the application binder to read </p>
+      <p>What improvement could be made to your application system?</p>
+      <p>
+        <textarea name="improvement" cols="85" rows="4">What would make the application process better at your store:</textarea>
+</p>
+      <p>Write three <u>screening</u> interview questions that would assist
+        you in determining that an applicant was caring. Also list expected response
+        from a caring applicant.</p>
+      <p>
+        <textarea name="caring_question_1" cols="85" rows="4" id="caring_question_1">question 1 and response:</textarea> 
+        </p>
+      <p>
+        <textarea name="caring_question_2" cols="85" rows="4" id="caring_question_2">question 2 and response:</textarea> 
+      </p>
+      <p>
+        <textarea name="caring_question_3" cols="85" rows="4" id="caring_question_3">question 3 and response:</textarea>
+</p>
+      <p>Write three <u>screening</u> interview questions that would assist
+        you in determining that an applicant was talented. Also list expected
+        response from a talented applicant.</p>
+      <p>
+        <textarea name="talented_question_1" cols="85" rows="4" id="talented_question_1">question 1 and response:</textarea>
+        </p>
+      <p>
+        <textarea name="talented_question_2" cols="85" rows="4" id="talented_question_2">question 2 and response:</textarea>
+        </p>
+      <p>
+        <textarea name="talented_question_3" cols="85" rows="4" id="talented_question_3">question 3 and response:</textarea>
+        </p>
+      <p>How would you rate your organizational system for storing application?</p>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_storing" value="storing_poor">
+            Poor</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_storing" value="storing_fair">
+            Fair</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_storing" value="storing_good">
+            Good</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_storing" value="storing_excellent">
+            Excellent</label></td>
+        </tr>
+      </table>
+      <p>Describe your system for storing applications. How could it be improved? </p>
+      <p>
+        <textarea name="improve_storing" cols="85" rows="4" id="improve_storing">type your response here:</textarea>
+        </p>
+      <p>How would you rate your system for scheduling interviews?</p>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_scheduling" value="scheduling_poor">
+            Poor</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_scheduling" value="scheduling_fair">
+            Fair</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_scheduling" value="scheduling_good">
+            Good</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="rate_scheduling" value="scheduling_excellent">
+            Excellent</label></td>
+        </tr>
+      </table>
+      <p>Describe your system for scheduling interviews. How could it be improved. </p>
+      <p>
+        <textarea name="schedule_response" cols="85" rows="4" id="schedule_response">type your response here:</textarea>
+        </p>
+      <p align="center">Submit to:</p>
+      <table width="200" align="center">
+        <tr>
+          <td><label>
+            <input type="radio" name="submitto" value="dwolfe@sharis.com">
+            Debbie Wolfe</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="submitto" value="eklein@sharis.com">
+            Esther Klein</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="submitto" value="jhensley@sharis.com">
+            Johanna Hensley</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="submitto" value="virish@sharis.com">
+            Vickie Irish</label></td>
+        </tr>
+      </table>
+      <p align="center">
+        <input type="submit" name="Submit" value="Submit">
+      </p>
+      <p align="center">&nbsp;</p>
+      <p> <br> 
+        </p>
+    </form></td>
+  </tr>
+</table>
+<blockquote>&nbsp;</blockquote>
+</body>
+</html>

@@ -30,7 +30,7 @@ $DBPass="platinum";
 $DBName="treatm_treats";
 /*
 $DBUser="c8h10n4o2";//"treatme_treatme";
-$DBPass="Zoolu4";//"platinum";
+$DBPass="Z23&*FjhsldZDdxc";//"platinum";
 */
 function DBInfo() {
 global $DBHost,$DBUser,$DBPass,$DBName;

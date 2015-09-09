@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project kpf_version="2" name="site_info_2.2">
+<preference-set id="">
+  <string id="import_dirname">C:\Inetpub\wwwroot\includes</string>
+</preference-set>
+<folder name="classes" url="classes">
+<preference-set id="">
+  <string id="import_dirname">C:\Inetpub\wwwroot\Site_Info\classes</string>
+</preference-set>
+<file name="Address.inc" url="classes/Address.inc">
+</file>
+<file name="Admin.inc" url="classes/Admin.inc">
+</file>
+<file name="Amenity.inc" url="classes/Amenity.inc">
+</file>
+<file name="Employee.inc" url="classes/Employee.inc">
+</file>
+<file name="Phone_Company.inc" url="classes/Phone_Company.inc">
+</file>
+<file name="Phone_Line.inc" url="classes/Phone_Line.inc">
+</file>
+<file name="Phone_Line_Type.inc" url="classes/Phone_Line_Type.inc">
+</file>
+<file name="Phone_System.inc" url="classes/Phone_System.inc">
+</file>
+<file name="Site.inc" url="classes/Site.inc">
+</file>
+<file name="Store.inc" url="classes/Store.inc">
+</file>
+<file name="DB_Mgr.inc" url="classes/DB_Mgr.inc">
+</file>
+<file name="SI_Settings.inc" url="classes/SI_Settings.inc">
+</file>
+<file name="Scribe.inc" url="classes/Scribe.inc">
+</file>
+</folder>
+<folder name="images" url="images">
+<file name="lottery.psd" url="images/lottery.psd">
+</file>
+<file name="no_lcoh.gif" url="images/no_lcoh.gif">
+</file>
+<file name="no_lcoh.jpg" url="images/no_lcoh.jpg">
+</file>
+<file name="no_Lott.gif" url="images/no_Lott.gif">
+</file>
+<file name="no_Lott.jpg" url="images/no_Lott.jpg">
+</file>
+<file name="no_Lott1.gif" url="images/no_Lott1.gif">
+</file>
+<file name="no_Lott1.jpg" url="images/no_Lott1.jpg">
+</file>
+<file name="no_Lott2.gif" url="images/no_Lott2.gif">
+</file>
+<file name="no_Lott2.jpg" url="images/no_Lott2.jpg">
+</file>
+<file name="no_Smok.gif" url="images/no_Smok.gif">
+</file>
+<file name="no_Smok.jpg" url="images/no_Smok.jpg">
+</file>
+<file name="sit_down.psd" url="images/sit_down.psd">
+</file>
+<file name="six_machines.psd" url="images/six_machines.psd">
+</file>
+<file name="smoking.psd" url="images/smoking.psd">
+</file>
+<file name="Untitled-1.psd" url="images/Untitled-1.psd">
+</file>
+<file name="yes_lcoh.gif" url="images/yes_lcoh.gif">
+</file>
+<file name="yes_lcoh.jpg" url="images/yes_lcoh.jpg">
+</file>
+<file name="yes_Lott.gif" url="images/yes_Lott.gif">
+</file>
+<file name="yes_Lott.jpg" url="images/yes_Lott.jpg">
+</file>
+<file name="yes_Lott1.gif" url="images/yes_Lott1.gif">
+</file>
+<file name="yes_Lott1.jpg" url="images/yes_Lott1.jpg">
+</file>
+<file name="yes_Lott2.gif" url="images/yes_Lott2.gif">
+</file>
+<file name="yes_Lott2.jpg" url="images/yes_Lott2.jpg">
+</file>
+<file name="yes_Smok.gif" url="images/yes_Smok.gif">
+</file>
+<file name="yes_Smok.jpg" url="images/yes_Smok.jpg">
+</file>
+</folder>
+<folder name="inc_files" url="inc_files">
+<file name="A_Person.inc" url="inc_files/A_Person.inc">
+</file>
+<file name="check_session.inc" url="inc_files/check_session.inc">
+</file>
+<file name="form_check.js" url="inc_files/form_check.js">
+</file>
+<file name="php_fxns.inc" url="inc_files/php_fxns.inc">
+</file>
+<file name="print_template.css" url="inc_files/print_template.css">
+</file>
+<file name="template.css" url="inc_files/template.css">
+</file>
+</folder>
+<folder name="test" url="test">
+<file name="sql_connect.inc" url="test/sql_connect.inc">
+</file>
+<ProjectRef name="test.kpf" url="test/test.kpf">
+</ProjectRef>
+<file name="test.php" url="test/test.php">
+</file>
+<file name="vars.inc" url="test/vars.inc">
+</file>
+</folder>
+<file name="amenity_create.php" url="amenity_create.php">
+</file>
+<file name="amenity_create_process.php" url="amenity_create_process.php">
+</file>
+<file name="display_tables.php" url="display_tables.php">
+</file>
+<file name="index.php" url="index.php">
+</file>
+<file name="phone_company_create.php" url="phone_company_create.php">
+</file>
+<file name="phone_company_create_process.php" url="phone_company_create_process.php">
+</file>
+<file name="phone_type_create.php" url="phone_type_create.php">
+</file>
+<file name="phone_type_create_process.php" url="phone_type_create_process.php">
+</file>
+<file name="print_amenity_list.php" url="print_amenity_list.php">
+</file>
+<file name="print_phone_list.php" url="print_phone_list.php">
+</file>
+<file name="store_create.php" url="store_create.php">
+</file>
+<file name="store_create_process.php" url="store_create_process.php">
+</file>
+<file name="store_display.php" url="store_display.php">
+</file>
+<file name="store_modify.php" url="store_modify.php">
+</file>
+<file name="store_modify_process.php" url="store_modify_process.php">
+</file>
+<file name="test.php" url="test.php">
+</file>
+<folder name="php_files" url="file:///C:/Inetpub/wwwroot/includes/php_files">
+<file name="DB_Mgr.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/DB_Mgr.inc">
+</file>
+<file name="ensure_admin.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/ensure_admin.inc">
+</file>
+<file name="ensure_root.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/ensure_root.inc">
+</file>
+<file name="ensure_user.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/ensure_user.inc">
+</file>
+<file name="Rics_Settings.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/Rics_Settings.inc">
+</file>
+<file name="Security.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/Security.inc">
+</file>
+<ProjectRef name="Security.kpf" url="file:///C:/Inetpub/wwwroot/includes/php_files/Security.kpf">
+</ProjectRef>
+<file name="Settings.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/Settings.inc">
+</file>
+<file name="sql_connect.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/sql_connect.inc">
+</file>
+<file name="User.inc" url="file:///C:/Inetpub/wwwroot/includes/php_files/User.inc">
+</file>
+<file name="user_admin.php" url="file:///C:/Inetpub/wwwroot/includes/php_files/user_admin.php">
+</file>
+</folder>
+</project>

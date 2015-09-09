@@ -1,5 +1,5 @@
 <?php
-//require_once("http://www.e-sharis.net/includes/php_files/Rics_Settings.inc");
+//require_once("http://www.e-place.net/includes/php_files/Rics_Settings.inc");
 require_once("Settings.inc");
 class DB_Mgr
 {

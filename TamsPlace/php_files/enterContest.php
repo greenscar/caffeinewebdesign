@@ -5,7 +5,7 @@
 <BODY BACKGROUND="../imshome/laceback.jpg">
 <?php
   // Connect to the database server  
-  //$dbcnx = mysql_connect("localhost", "c8h10n4o2", "Zoolu4");
+  //$dbcnx = mysql_connect("localhost", "c8h10n4o2", "Z23&*FjhsldZDdxc");
   $dbcnx = mysql_connect("localhost", "tamsplace", "tam7739");  
   if (!$dbcnx) { 
    echo( "<P>Unable to connect to the " .

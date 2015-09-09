@@ -6,7 +6,7 @@ class Settings
    var $server = array("dbates" => "server");
    var $db = array("dbates" => "dbates");
    var $id = array("dbates" => "c8h10n4o2");
-   var $pwd = array("dbates" => "Zoolu4");
+   var $pwd = array("dbates" => "Z23&*FjhsldZDdxc");
    
    function Settings()
    {

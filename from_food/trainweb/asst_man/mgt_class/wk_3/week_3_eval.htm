@@ -1,0 +1,447 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script language = "javascript" type="text/javascript">
+function checkTeacher(form)
+{
+    for(i = 0; i < 4; i++){
+        if(form.submitto[i].checked){
+            return(true);
+        }
+    }
+    alert("Please select a teacher to submit to.");
+    return(false);
+}
+function checkFields(form)
+{
+	if(checkTeacher(form))
+		return(true);
+	else
+		return(false);
+}
+</script>
+<title>week three evaluation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	color: #FF0000;
+	font-family: Comic Sans MS;
+}
+body {
+	background-image: url(../../../images/backgrounds/bg_blue_couple_booth.jpg);
+}
+-->
+</style></head>
+
+<body>
+<form name="form1" method="post" action="../../../php_files/form_process.php" onSubmit="return checkFields(this)">
+<input type="hidden" name="formName" value="Week Three Eval">
+  <table width="640">
+    <tr>
+      <td colspan="3"><div align="center">SHARI'S MANAGEMENT CORPORATION<br>
+        ON LINE MANAGEMENT CLASS EVALUATION<br>
+        WEEK THREE
+      </div></td>
+    </tr>
+    <tr>
+      <td colspan="3"><img src="../../../images/divider_bars/dancing_marching.gif" width="631" height="20"></td>
+    </tr>
+    <tr>
+      <td colspan="3">We  want to make our future management classes as meaningful as possible and we would appreciate your candid evaluation of this series by responding to the below questions. </td>
+    </tr>
+    <tr>
+      <td width="168">&nbsp;</td>
+      <td width="206">&nbsp;</td>
+      <td width="250">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">Evaluation: Rate each subject on how <strong>useful</strong> you found the information, with a 5 being very useful and 1 not as useful. Please include any comments regarding the subject in the space provided. </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">Reading Assignments </td>
+    </tr>
+    <tr>
+      <td valign="top">Safety At Shari's </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="safety_at_sharis" value="safety_orient_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="safety_at_sharis" value="safety_orient_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="safety_at_sharis" value="safety_orient_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="safety_at_sharis" value="safety_orient_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="safety_at_sharis" value="safety_orient_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="safety_at_sharis_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Managing the Safety Committee </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="manage_safety_committee" value="safety_com_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+<input type="radio" name="manage_safety_committee" value="safety_com_4">            
+4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manage_safety_committee" value="safety_com_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manage_safety_committee" value="safety_com_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manage_safety_committee" value="safety_com_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="manage_safety_committee_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">The Manager and Training at Shari's</td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="manager_and_training" value="manager_train_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manager_and_training" value="manager_train_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manager_and_training" value="manager_train_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manager_and_training" value="manager_train_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="manager_and_training" value="manager_train_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="manager_train_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Writing Job Breakdowns </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="writing_job_breakdowns" value="job_break_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="writing_job_breakdowns" value="job_break_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="writing_job_breakdowns" value="job_break_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="writing_job_breakdowns" value="job_break_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="writing_job_breakdowns" value="job_break_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="writing_job_breakdowns_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Manager Training &amp; the CEO Program </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="ceo_program" value="ceo_program_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="ceo_program" value="ceo_program_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="ceo_program" value="ceo_program_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="ceo_program" value="ceo_program_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="ceo_program" value="ceo_program_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="ceo_program_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Entering New Employees </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="enter_new_emp" value="enter_new_emp_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="enter_new_emp" value="enter_new_emp_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="enter_new_emp" value="enter_new_emp_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="enter_new_emp" value="enter_new_emp_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="enter_new_emp" value="enter_new_emp_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="enter_new_emp_comments" cols="50" rows="8">comments</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><img src="../../../images/divider_bars/dancing_marching.gif" width="730" height="20"></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">Activities</td>
+    </tr>
+    <tr>
+      <td valign="top">Job Breakdown </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="job_breakdown" value="breakdown_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="job_breakdown" value="breakdown_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="job_breakdown" value="breakdown_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="job_breakdown" value="breakdown_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="job_breakdown" value="breakdown_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="job_breakdown_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Training File Audit </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="training_file_audit" value="train_file_audit_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="training_file_audit" value="train_file_audit_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="training_file_audit" value="train_file_audit_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="training_file_audit" value="train_file_audit_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="training_file_audit" value="train_file_audit_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="train_file_audit_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">Employee Entry </td>
+      <td><table width="200" border="3" bordercolor="#FF0000">
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_entry" value="emp_entry_5">
+            5-very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_entry" value="emp_entry_4">
+            4-useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_entry" value="emp_entry_3">
+            3-somewhat useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_entry" value="emp_entry_2">
+            2-not very useful</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="employee_entry" value="emp_entry_1">
+            1-not useful</label></td>
+        </tr>
+      </table></td>
+      <td><textarea name="emp_entry_comments" cols="50" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td valign="top">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top"><img src="../../../images/divider_bars/dancing_marching.gif" width="731" height="20"></td>
+    </tr>
+    <tr>
+      <td valign="top">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">What chat discussion did you find the most beneficial and why?</td>
+    </tr>
+    <tr>
+      <td colspan="3"><textarea name="chat_discussion_beneficial" cols="118" rows="5">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">What bulletin board question did you find the most beneficial and why? </td>
+    </tr>
+    <tr>
+      <td colspan="3"><textarea name="bb_most_beneficial" cols="118" rows="5">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">Did you have any challenges completing your assignments this week? If so, what? </td>
+    </tr>
+    <tr>
+      <td colspan="3"><textarea name="any_challenges" cols="118" rows="8">comments:</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3"><img src="../../../images/divider_bars/dancing_marching.gif" width="731" height="20"></td>
+    </tr>
+    <tr>
+      <td colspan="3"><p align="center">After completing this week's evaluation please e-mail to your instructor using the list below.</p>
+      <p>&nbsp; </p></td>
+    </tr>
+    <tr>
+      <td colspan="3"><div align="center">
+        <table width="200">
+          <tr>
+            <td><div align="justify">
+              <label>
+                <input type="radio" name="submitto" value="virish@sharis.com">
+                Vickie Irish</label>
+            </div></td>
+          </tr>
+          <tr>
+            <td><div align="justify">
+              <label>
+                <input type="radio" name="submitto" value="dwolfe@sharis.com">
+                Debbie Wolfe</label>
+            </div></td>
+          </tr>
+          <tr>
+            <td><div align="justify">
+              <label>
+                <input type="radio" name="submitto" value="jhensley@sharis.com">
+                Johanna Hensley</label>
+            </div></td>
+          </tr>
+          <tr>
+            <td><div align="justify">
+              <label>
+<input type="radio" name="submitto" value="eklein@sharis.com">                
+Esther Klein</label>
+            </div></td>
+          </tr>
+        </table>
+        <p>
+          <input type="submit" name="Submit" value="Submit">
+        </p>
+      </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

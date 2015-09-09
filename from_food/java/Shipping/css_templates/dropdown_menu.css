@@ -1,0 +1,100 @@
+/***************************************************************************
+ * CSS FOR DROPDOWN MENU
+ ***************************************************************************/
+
+/********************************************
+ * Menu Properties
+ *******************************************/
+div.mmMenu
+{
+   position: absolute;
+   left: 50px;
+   padding: 2% 2% 2% 2%;
+   margin: 0px 0px 0px 5%;
+   width: 800px;
+   border: 1px;
+   z-index: 6;
+   border: 0px solid black;
+}
+div.mmMenu div.mmCategory
+{
+   position: absolute;
+   height: 20px;
+   top: 0px;
+   width: 140px;
+   z-index: 5;
+   background-color: #000000;
+   color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+}
+div.mmMenu div.mmCategory a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    display: table;
+}
+div.mmMenu div.mmCategory a:link{background-color: #000000; color: #FFFFFF;}
+div.mmMenu div.mmCategory a:visited{background-color: #000000; color: #FFFFFF;}
+div.mmMenu div.mmCategory a:hover{background-color: #AAAAAA; color: #000000;}
+/********************************************
+ * End Menu Properties
+ *******************************************/
+
+/********************************************
+ * Sub Menu Properties
+ *******************************************/
+div.mmSubMenu
+{
+   position: absolute;
+   width: 150px;
+   z-index: 3;
+   border: 1px solid #FFFFFF;
+   background-color: #F00000;
+   padding: 0px;
+}
+div.mmSubMenu  div.mmCell
+{
+    width: 150px;
+    height: 25px;
+    border-width: 1px 2px 1px 2px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    background-color: #FF00F0;
+    padding: 0px 0px 0px 0px; //inside frame
+    margin: 0px 0px 0px 0px; //outside frame
+}
+div.mmSubMenu  div.mmCell  a
+{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 25px;
+    padding: 0px 0px 0px 0px;
+    display: table;
+    border: 0px solid #FF00FF;
+
+}
+div.mmSubMenu  div.mmCell  a:link{background-color: #000000; color: #FFFFFF; }
+div.mmSubMenu  div.mmCell  a:visited{background-color: #000000; color: #FFFFFF;}
+div.mmSubMenu  div.mmCell  a:hover{background-color: #CCCCCC; color: #000000;}
+/********************************************
+ * End Sub Menu Properties
+ *******************************************/
+div.mmHideMenu
+{
+   position: absolute;
+   left: 32px;
+   width: 334px;
+   height: 1px;
+   border: 0px solid red;
+   visibility : visible;
+}
+/***************************************************************************
+ * END CSS FOR DROPDOWN MENU
+ ***************************************************************************/

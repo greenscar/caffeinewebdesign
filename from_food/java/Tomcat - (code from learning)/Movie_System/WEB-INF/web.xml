@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
+
+<web-app>
+  <servlet>
+    <servlet-name>processLogin</servlet-name>
+    <servlet-class>login.processLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TitleListPooledServlet</servlet-name>
+    <servlet-class>test.TitleListPooledServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TitleListGlobalPooledServlet</servlet-name>
+    <servlet-class>test.TitleListGlobalPooledServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ConnectionPoolServlet</servlet-name>
+    <servlet-class>ConnectionPool.ConnectionPoolServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>CatalogDomainServlet</servlet-name>
+    <servlet-class>CatalogDomainServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>welcome</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>TitleListServlet</servlet-name>
+    <servlet-class>TitleListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleListServlet</servlet-name>
+    <url-pattern>/TitleListServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>welcome</servlet-name>
+    <url-pattern>/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>processLogin</servlet-name>
+    <url-pattern>/processLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TitleListGlobalPooledServlet</servlet-name>
+    <url-pattern>/TitleListGlobalPooledServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TitleListPooledServlet</servlet-name>
+    <url-pattern>/TitleListPooledServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

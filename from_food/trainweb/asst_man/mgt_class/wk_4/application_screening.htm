@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>The Application and Screening Process</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #660000;
+}
+body {
+	background-image: url(../../../images/backgrounds/015_K_Paper.jpg);
+}
+-->
+</style>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemIbtnClass.js"></script>
+<script language="JavaScript" src="scripts/elemInptClass.js"></script>
+</head>
+
+<body onLoad="MM_initInteractions()">
+<table width="640" border="0" align="center" cellpadding="1" cellspacing="1">
+  <tr>
+    <td width="141"><img src="../../../images/logos/shake_lady.JPG" width="139" height="210"></td>
+    <td width="492"><div align="center">
+        <p>Shari's Management Corporation</p>
+        <p>Online Management Class</p>
+        <p>The Application and Screening Process </p>
+    </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center"><img src="../../../images/divider_bars/divrocs_.gif" width="478" height="38"></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"> <interaction name="MultCh_ImageRadios01" object="G01" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G01Layer"> <span name="G01question">You are speaking to a gentleman at the register. He tells you he wants to apply for a cook's position. Currently, you have all the cooks you need. You should:<BR>
+        <BR>
+    </span>
+        <form name="G01choices">
+          <span name="G01choice1"> <a name="G01choice1Inp" href="#"
+      onClick="G01.e['choice1'].update('onclick');return false"
+      onMouseOver="G01.e['choice1'].update('onmouseover');"
+      onMouseOut="G01.e['choice1'].update('onmouseout');"
+      onMouseDown="G01.e['choice1'].update('onmousedown');"> <img name="G01choice1Btn" src="images/buttons/round_red.GIF" border=0 align="absmiddle" alt="Choice 1"></a> Send him to another store to apply.<br>
+          </span> <span name="G01choice2"> <a name="G01choice2Inp" href="#"
+      onClick="G01.e['choice2'].update('onclick');return false"
+      onMouseOver="G01.e['choice2'].update('onmouseover');"
+      onMouseOut="G01.e['choice2'].update('onmouseout');"
+      onMouseDown="G01.e['choice2'].update('onmousedown');"> <img name="G01choice2Btn" src="images/buttons/round_red.GIF" border=0 align="absmiddle" alt="Choice 2"></a> Tell him that you're not hiring at the moment.<br>
+          </span> <span name="G01choice3"> <a name="G01choice3Inp" href="#"
+      onClick="G01.e['choice3'].update('onclick');return false"
+      onMouseOver="G01.e['choice3'].update('onmouseover');"
+      onMouseOut="G01.e['choice3'].update('onmouseout');"
+      onMouseDown="G01.e['choice3'].update('onmousedown');"> <img name="G01choice3Btn" src="images/buttons/round_red.GIF" border=0 align="absmiddle" alt="Choice 3"></a> Have him fill out the application and conduct a screening interview.<br>
+          </span> <span name="G01choice4"> <a name="G01choice4Inp" href="#"
+      onClick="G01.e['choice4'].update('onclick');return false"
+      onMouseOver="G01.e['choice4'].update('onmouseover');"
+      onMouseOut="G01.e['choice4'].update('onmouseout');"
+      onMouseDown="G01.e['choice4'].update('onmousedown');"> <img name="G01choice4Btn" src="images/buttons/round_red.GIF" border=0 align="absmiddle" alt="Choice 4"></a> Have him fill out the application, keep it on file.<br>
+          </span>
+        </form>
+        <form name="G01controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG01() {
+    G01 = new MM_interaction('G01',1,0,0,null,0,0,0,'','','c','',0);
+    G01.add('ibtn','choice1',0,1,0,0,1,'sdhSDH');
+    G01.add('ibtn','choice2',0,1,0,0,1,'sdhSDH');
+    G01.add('ibtn','choice3',0,1,1,0,1,'sdhSDH');
+    G01.add('ibtn','choice4',0,1,0,0,1,'sdhSDH');
+    G01.init();
+    G01.am('segm','Segment: Check Time_',1,1);
+    G01.am('cond','Time At Limit_','G01.timeAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+    G01.am('segm','Segment: Correctness_',1,0);
+    G01.am('cond','Correct_01','G01.correct == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Excellent choice - he may be the best cook that you\\\'ve ever interviewed.\')','');
+    G01.am('end');
+    G01.am('cond','Incorrect_','G01.correct == (false)',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'How do you know that this prospect isn\\\'t better than any cook on your current staff?  You can\\\'t complain about your staff if you\\\'re not willing to interview everyone with the soul purpose of replacing your worst employee!  How great would life be if you were constantly improving your crew!\')','');
+    G01.am('end');
+    G01.am('cond','Unknown Response_','G01.knownResponse == false',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G01.am('end');
+    G01.am('segm','Segment: Check Tries_',1,1);
+    G01.am('cond','Tries At Limit_','G01.triesAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+  }
+  if (window.newG01 == null) window.newG01 = newG01;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG01();';
+//-->
+    </script>
+    <cbi-select object="G01"></interaction> </td>
+  </tr>
+  <tr>
+    <td colspan="2"> <interaction name="MultCh_ImageChkboxes02" object="G02" template="010_Multiple Choice/060_MultCh_ImageChkboxes_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G02Layer"> <span name="G02question">The purpose of a screening interview is to: (select the two that apply) <BR>
+        <BR>
+    </span>
+        <form name="G02choices">
+          <span name="G02choice1"> <a name="G02choice1Inp" href="#"
+      onClick="G02.e['choice1'].update('onclick');return false"
+      onMouseOver="G02.e['choice1'].update('onmouseover');"
+      onMouseOut="G02.e['choice1'].update('onmouseout');"
+      onMouseDown="G02.e['choice1'].update('onmousedown');"> <img name="G02choice1Btn" src="images/buttons/checkbox_red.gif" border=0 align="absbottom" alt="Choice 1"></a> quickly screen out an applicant that shouldn't be hired.<br>
+          </span> <span name="G02choice2"> <a name="G02choice2Inp" href="#"
+      onClick="G02.e['choice2'].update('onclick');return false"
+      onMouseOver="G02.e['choice2'].update('onmouseover');"
+      onMouseOut="G02.e['choice2'].update('onmouseout');"
+      onMouseDown="G02.e['choice2'].update('onmousedown');"> <img name="G02choice2Btn" src="images/buttons/checkbox_red.gif" border=0 align="absbottom" alt="Choice 2"></a> find out what other restaurants the applicant has worked at.<br>
+          </span> <span name="G02choice3"> <a name="G02choice3Inp" href="#"
+      onClick="G02.e['choice3'].update('onclick');return false"
+      onMouseOver="G02.e['choice3'].update('onmouseover');"
+      onMouseOut="G02.e['choice3'].update('onmouseout');"
+      onMouseDown="G02.e['choice3'].update('onmousedown');"> <img name="G02choice3Btn" src="images/buttons/checkbox_red.gif" border=0 align="absbottom" alt="Choice 3"></a> find out the applicant's availability.<br>
+          </span> <span name="G02choice4"> <a name="G02choice4Inp" href="#"
+      onClick="G02.e['choice4'].update('onclick');return false"
+      onMouseOver="G02.e['choice4'].update('onmouseover');"
+      onMouseOut="G02.e['choice4'].update('onmouseout');"
+      onMouseDown="G02.e['choice4'].update('onmousedown');"> <img name="G02choice4Btn" src="images/buttons/checkbox_red.gif" border=0 align="absbottom" alt="Choice 4"></a> see if the applicant knows anyone who works for Shari's.<br>
+          </span>
+        </form>
+        <form name="G02controls">
+          <INPUT NAME="G02judge" TYPE="button" VALUE="Submit" onClick="MM_judgeInt('G02')">
+          <input name="G02reset" type="button" value="Reset" onClick="MM_resetInt('G02','reset')">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG02() {
+    G02 = new MM_interaction('G02',0,1,1,null,0,0,0,'','','c','',0);
+    G02.add('ibtn','choice1',0,1,1,0,1,'sdhSDH');
+    G02.add('ibtn','choice2',0,1,0,0,1,'sdhSDH');
+    G02.add('ibtn','choice3',0,1,1,0,1,'sdhSDH');
+    G02.add('ibtn','choice4',0,1,0,0,1,'sdhSDH');
+    G02.init();
+    G02.am('segm','Segment: Check Time_',1,1);
+    G02.am('cond','Time At Limit_','G02.timeAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+    G02.am('segm','Segment: Correctness_',1,0);
+    G02.am('cond','Correct_01','G02.correct == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Correct - The purpose of a screening interveiw is to quiclky identify a reason for not hiring.\')','');
+    G02.am('end');
+    G02.am('cond','Incorrect_','G02.correct == (false)',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Incorrect - We would find the answers to these questions during a formal interview.  Don\\\'t waste screening time finding out think that really don\\\'t influence your hiring decision.\')','');
+    G02.am('end');
+    G02.am('cond','Unknown Response_','G02.knownResponse == false',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G02.am('end');
+    G02.am('segm','Segment: Check Tries_',1,1);
+    G02.am('cond','Tries At Limit_','G02.triesAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+  }
+  if (window.newG02 == null) window.newG02 = newG02;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG02();';
+//-->
+    </script>
+    <cbi-select object="G02"></interaction> </td>
+  </tr>
+  <tr>
+    <td colspan="2"> <interaction name="MultCh_TrueFalse03" object="G03" template="010_Multiple Choice/010_MultCh_TrueFalse_03.agt" includesrc="interactionClass.js,elemInptClass.js">
+    <div name="G03Layer"> <span name="G03question">Applications must be kept on file for a period of one year.<BR>
+        <BR>
+    </span>
+        <form name="G03Choices">
+          <span name="G03choice1">
+          <input name="G03RadioInp" type="radio" onClick="G03.e['choice1'].update()">
+    True<br>
+          </span> <span name="G03choice2">
+          <input name="G03RadioInp" type="radio" onClick="G03.e['choice2'].update()">
+    False<br>
+          </span>
+        </form>
+        <form name="G03controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG03() {
+    G03 = new MM_interaction('G03',1,0,0,null,0,0,0,'','','c','',0);
+    G03.add('inpt','choice1',0,1,1,0);
+    G03.add('inpt','choice2',0,1,0,0);
+    G03.init();
+    G03.am('segm','Segment: Check Time_',1,1);
+    G03.am('cond','Time At Limit_','G03.timeAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+    G03.am('segm','Segment: Correctness_',1,0);
+    G03.am('cond','Correct_01','G03.correct == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Correct\')','');
+    G03.am('end');
+    G03.am('cond','Incorrect_01','G03.correct == false',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Incorrect\')','');
+    G03.am('end');
+    G03.am('cond','Unknown Response_','G03.knownResponse == false',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G03.am('end');
+    G03.am('segm','Segment: Check Tries_',1,1);
+    G03.am('cond','Tries At Limit_','G03.triesAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+  }
+  if (window.newG03 == null) window.newG03 = newG03;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG03();';
+//-->
+    </script>
+    <cbi-select object="G03"></interaction> </td>
+  </tr>
+</table>
+<table width="640" border="0" align="center" cellpadding="1" cellspacing="1">
+  <tr>
+    <td width="472" align="center" valign="middle"><div align="center">
+      <p>Shari's Mission Statement</p>
+      <p>To enhance the value of our guests' overall dining experience by identifying and developing extremely talented and caring employees dedicated to serving quality products with pride.</p>
+      <p align="left">&nbsp;</p>
+    </div></td>
+    <td width="161"><div align="center"><img src="../../../images/screening.gif" width="109" height="198"></div></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><p>One of the key words in Shari's mission statement is <u><em>Identifying</em></u>. According to the dictionary, identify means to - <em>recognize or connect closely with</em>. And just what are we trying to identify? Well, according to the mission it is talented and caring individuals. In essence, we are saying that we must have a talented and caring individual, everything else is trainable. This must be our first concern as interviewers. Over the next two days we will be learning about Shari's interviewing techniques and policies. </p>
+    <p>Perhaps you answered all of the questions above correctly. If so, the following assignments will give you an opportunity to evaluate and improve your skills. If you are new to interviewing, our activities over the next few days will help you understand the process and feel comfortable conducting interviews.</p>
+    <p>Today we will be focusing on the application and screening process. At this time, please read chapters 1, 2 and 3 of your store's interviewing manual. Please log into the <a href="http://university.sharis.com/chat">Chat Room</a> by 3:45 for a discussion.</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div align="center"></div>
+</body>
+</html>

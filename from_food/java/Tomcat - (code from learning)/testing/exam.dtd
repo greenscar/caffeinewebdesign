@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : exam.dtd
+    Created on : April 24, 2003, 8:14 AM
+    Author     : jsandlin
+    Description:
+        Purpose of the document follows.
+-->
+<!ELEMENT exam (examInfo, examBody)>
+<!ATTLIST exam examNum ID #REQUIRED>
+<!ELEMENT examInfo (creator, dateCreated, enabled, displayAfterTaking, category+)>
+<!ELEMENT examBody (taker?, header, body)>
+<!ELEMENT creator (name, payrollID)>
+<!ELEMENT taker (name, payrollID, secLvl, empType, sessionNum)>
+<!ELEMENT header (examName, todaysDate)>
+<!ELEMENT body ((topic | problem)+)>
+<!ELEMENT problem (trueFalse | multChoice | fillInBlank | matching | wordBank | essay)>
+                    
+<!ELEMENT trueFalse (question, solution?)>
+<!ELEMENT multChoice (question, choice, choice, choice, choice, solution?)>                     
+<!ELEMENT fillInBlank (question, numBlanks, solution*)>
+<!ELEMENT matching (question+, description, choice+, solution*)>
+<!ELEMENT wordBank (question+, description, choice+, solution*)>
+<!ELEMENT essay (question, solution?)>
+
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT solution (#PCDATA)>
+<!ELEMENT choice (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT payrollID (#PCDATA)>
+<!ELEMENT dateCreated (#PCDATA)>
+<!ELEMENT enabled (#PCDATA)>
+<!ELEMENT displayAfterTaking (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT secLvl (#PCDATA)>
+<!ELEMENT empType (#PCDATA)>
+<!ELEMENT examName (#PCDATA)>
+<!ELEMENT todaysDate (#PCDATA)>

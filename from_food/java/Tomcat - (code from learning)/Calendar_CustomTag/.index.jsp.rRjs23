@@ -1,0 +1,16 @@
+<%@page contentType="text/html"%>
+<html>
+<head><title>Today's Calendar</title></head>
+<body bgcolor="lightgrey">
+<h1>JSP Calendar</h1>
+<%@ taglib uri="/TagCal" prefix="taglib" %>
+<H1>January 1973 Calendar</H1>
+<taglib:Calendar year="1973" month="1" day="31" />
+
+<H1>Current Date</H1>
+<taglib:Calendar />
+<H1>Current Date as String</H1>
+<H2><taglib:Calendar dateString="true" /></H2>
+
+</body>
+</html>

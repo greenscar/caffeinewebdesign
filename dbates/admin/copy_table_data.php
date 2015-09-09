@@ -4,7 +4,7 @@ $database = "..\wwwroot\dbates_orig\data\dbates.mdb";
 $conn = new COM("ADODB.Connection");
 $conn->Open("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=$database");
 
-$newConn = mysql_connect("server", "c8h10n4o2", "Zoolu4");
+$newConn = mysql_connect("server", "c8h10n4o2", "Z23&*FjhsldZDdxc");
 mysql_select_db("dbates");
 
 $aLoc = 0;

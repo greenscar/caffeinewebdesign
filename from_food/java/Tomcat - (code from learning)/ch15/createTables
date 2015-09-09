@@ -1,0 +1,74 @@
+create database ch15;
+use ch15;
+create table Names(
+NameID INT DEFAULT 0 AUTO_INCREMENT NOT NULL,
+FirstName VARCHAR(30) NOT NULL,
+LastName VARCHAR(30) NOT NULL,
+Company VARCHAR(30) NOT NULL,
+Address1 VARCHAR(30),
+Address2 VARCHAR(30),
+City VARCHAR(30),
+StateProv VARCHAR(10),
+Country VARCHAR(20) NOT NULL,
+Phone VARCHAR(30),
+Email VARCHAR(60) not null,
+UserID VARCHAR(30),
+Password VARCHAR(30),
+Active ENUM('Y', 'N') DEFAULT 'N',
+LastModified TIMESTAMP,
+PRIMARY KEY (NameID),
+INDEX IDX_Names_LastFirst(LastName, FirstName),
+INDEX IDX_Names_Company (Company),
+INDEX IDX_Names_Email (Email),
+INDEX IDX_Names_FirstLast (FirstName, LastName),
+INDEX IDX_Names_Country (Country));
+
+create table ArticleTypes(
+ArticleType VARCHAR(8) NOT NULL,
+Name VARCHAR(30) not null,
+Keywords VARCHAR(255),
+LastModified TIMESTAMP,
+PRIMARY KEY (ArticleType),
+INDEX IDX_ArticleType_Name (Name));
+
+create table Articles(
+ArticleID INT DEFAULT 0 AUTO_INCREMENT NOT NULL,
+ArticleType VARCHAR(8) NOT NULL,
+Title VARCHAR(255) NOT NULL,
+Access ENUM('R', 'P') DEFAULT 'R' NOT NULL,
+URL VARCHAR(255),
+Summary TEXT,
+LastModified TIMESTAMP,
+Alias VARCHAR(255),
+Status CHAR(1),
+PublicationDate DATETIME,
+AuthorName VARCHAR(100),
+PRIMARY KEY(ArticleID),
+INDEX IDX_Articles_TypeCode (ArticleType),
+INDEX IDX_Articles_Title (Title));
+
+CREATE TABLE ArticleGroups(
+ArticleGroupID INT DEFAULT 0 AUTO_INCREMENT NOT NULL,
+Name VARCHAR(60) DEFAULT '' NOT NULL,
+Type ENUM('R', 'M') DEFAULT 'R' NOT NULL,
+LastModified TIMESTAMP,
+PRIMARY KEY (ArticleGroupID),
+INDEX IDX_ArticleGroups_Name (Name));
+
+CREATE TABLE ArtGrpLink(
+ArtGrpLinkID INT DEFAULT 0 AUTO_INCREMENT NOT NULL,
+ArticleGroupID INT NOT NULL,
+ArticleID INT NOT NULL,
+LastModified TIMESTAMP,
+PRIMARY KEY (ArtGrpLinkID),
+INDEX IDX_ArtGrpLink_Article (ArticleID, ArticleGroupID),
+INDEX IDX_ArtGrpLink_GroupID (ArticleGroupID, ArticleID));
+
+CREATE TABLE AuthorArticle(
+AuthorArticleID INT DEFAULT 0 AUTO_INCREMENT NOT NULL,
+ArticleID INT NOT NULL,
+AuthorID INT NOT NULL,
+LastModified TIMESTAMP,
+PRIMARY KEY (AuthorArticleID),
+INDEX IDX_AuthorArticle_Authro (AuthorID, ArticleID),
+INDEX IDX_ArticleAuthor_Authro (ArticleID, AuthorID));

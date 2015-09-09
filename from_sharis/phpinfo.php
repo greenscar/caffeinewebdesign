@@ -1,4 +1,0 @@
-<?php
-echo ("dHello");
-phpinfo();
-?>

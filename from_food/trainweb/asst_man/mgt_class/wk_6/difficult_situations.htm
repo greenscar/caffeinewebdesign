@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Handling Difficult Situations</title>
+<script language="JavaScript" src="http://university.sharis.com/reference_check.js" type="text/javascript" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	color: #244800;
+	font-family: Comic Sans MS;
+}
+body {
+	background-image: url(../../../images/backgrounds/green_scucco.gif);
+}
+-->
+</style>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemIbtnClass.js"></script>
+</head>
+
+<body onLoad="MM_initInteractions()">
+<table width="640" border="0" align="center">
+  <tr>
+    <td colspan="2"><div align="center">Handling Difficult Situations </div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center"><img src="../../../images/divider_bars/eye_bar.gif" width="560" height="11"></div></td>
+  </tr>
+  <tr>
+    <td width="166">&nbsp;</td>
+    <td width="464">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><div align="center"><img src="../../../images/meetings/talk.gif" width="125" height="109" align="absmiddle"></div></td>
+    <td> <interaction name="MultCh_ImageRadios01" object="G01" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G01Layer"> <span name="G01question">A Person Who Tends To Dominate The Discussion.<BR>
+        <BR>
+    </span>
+        <form name="G01choices">
+          <span name="G01choice1"> <a name="G01choice1Inp" href="#"
+      onClick="G01.e['choice1'].update('onclick');return false"
+      onMouseOver="G01.e['choice1'].update('onmouseover');"
+      onMouseOut="G01.e['choice1'].update('onmouseout');"
+      onMouseDown="G01.e['choice1'].update('onmousedown');"> <img name="G01choice1Btn" src="../../../images/buttons/pencil_button.gif" border=0 align="absmiddle" alt="Choice 1"></a> Why does this happen?<br>
+          <br>
+          </span> <span name="G01choice2"> <a name="G01choice2Inp" href="#"
+      onClick="G01.e['choice2'].update('onclick');return false"
+      onMouseOver="G01.e['choice2'].update('onmouseover');"
+      onMouseOut="G01.e['choice2'].update('onmouseout');"
+      onMouseDown="G01.e['choice2'].update('onmousedown');"> <img name="G01choice2Btn" src="../../../images/buttons/little_light_bulb.gif" border=0 align="absmiddle" alt="Choice 2"></a> What should I do?<br>
+          <br>
+          </span> <span name="G01choice3"> <a name="G01choice3Inp" href="#"
+      onClick="G01.e['choice3'].update('onclick');return false"
+      onMouseOver="G01.e['choice3'].update('onmouseover');"
+      onMouseOut="G01.e['choice3'].update('onmouseout');"
+      onMouseDown="G01.e['choice3'].update('onmousedown');"> <img name="G01choice3Btn" src="../../../images/buttons/panic.gif" border=0 align="absmiddle" alt="Choice 3"></a> If all else fails!<br>
+          </span>
+        </form>
+      </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG01() {
+    G01 = new MM_interaction('G01',1,0,0,null,0,0,0,'','','c','',0);
+    G01.add('ibtn','choice1',0,1,1,0,1,'s');
+    G01.add('ibtn','choice2',0,1,0,0,1,'s');
+    G01.add('ibtn','choice3',0,1,0,0,1,'s');
+    G01.init();
+    G01.am('segm','Segment: Check Time_',1,1);
+    G01.am('cond','Time At Limit_','G01.timeAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+    G01.am('segm','Segment: Correctness_',1,0);
+    G01.am('cond','Correct_01','G01.correct == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Sometimes a person may assume a dominant role because of being more experienced or more senior than others.\')','');
+    G01.am('end');
+    G01.am('cond','Incorrect_','G01.e[\'choice2\'].selected == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Ask direct questions to other participants.  Avoid looking at the distractor making it difficult for them to get your attention.\')','');
+    G01.am('end');
+    G01.am('cond','not judged_','G01.e[\'choice3\'].selected == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'Slap them up side the head!!  Just kidding!  Have a private conversation with them during the next break.\')','');
+    G01.am('end');
+    G01.am('segm','Segment: Check Tries_',1,1);
+    G01.am('cond','Tries At Limit_','G01.triesAtLimit == true',0);
+    G01.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G01.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G01.setDisabled(true);\')','sp');
+    G01.am('end');
+  }
+  if (window.newG01 == null) window.newG01 = newG01;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG01();';
+//-->
+    </script>
+    <cbi-select object="G01"></interaction> <br> </td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/meetings/argue.gif" width="162" height="91" align="middle"></td>
+    <td> <interaction name="MultCh_ImageRadios02" object="G02" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G02Layer"> <span name="G02question">A Person Who Wants To Argue.</span>
+        <form name="G02choices">
+          <p><span name="G02choice1"> <a name="G02choice1Inp" href="#"
+      onClick="G02.e['choice1'].update('onclick');return false"
+      onMouseOver="G02.e['choice1'].update('onmouseover');"
+      onMouseOut="G02.e['choice1'].update('onmouseout');"
+      onMouseDown="G02.e['choice1'].update('onmousedown');"> <img name="G02choice1Btn" src="../../../images/buttons/pencil_button.gif" border=0 align="absmiddle" alt="Choice 1"></a> Why does this happen?</span><span name="G02choice1"><br>
+            <br>
+          </span> <span name="G02choice2"> <a name="G02choice2Inp" href="#"
+      onClick="G02.e['choice2'].update('onclick');return false"
+      onMouseOver="G02.e['choice2'].update('onmouseover');"
+      onMouseOut="G02.e['choice2'].update('onmouseout');"
+      onMouseDown="G02.e['choice2'].update('onmousedown');"> <img name="G02choice2Btn" src="../../../images/buttons/arrow_bullet.gif" border=0 align="absmiddle" alt="Choice 2"></a> Tips for handling the situation.</span><span name="G02choice2"><br>
+          <br>
+            </span> <span name="G02choice3"> <a name="G02choice3Inp" href="#"
+      onClick="G02.e['choice3'].update('onclick');return false"
+      onMouseOver="G02.e['choice3'].update('onmouseover');"
+      onMouseOut="G02.e['choice3'].update('onmouseout');"
+      onMouseDown="G02.e['choice3'].update('onmousedown');"> <img name="G02choice3Btn" src="../../../images/buttons/flower_bullet.gif" border=0 align="absmiddle" alt="Choice 3"></a> Ok, if that doesn't work, try this!<br>
+            </span>          </p>
+        </form>
+        <form name="G02controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG02() {
+    G02 = new MM_interaction('G02',1,0,0,null,0,0,0,'','','c','',0);
+    G02.add('ibtn','choice1',0,1,1,0,1,'s');
+    G02.add('ibtn','choice2',0,1,0,0,1,'s');
+    G02.add('ibtn','choice3',0,1,0,0,1,'s');
+    G02.init();
+    G02.am('segm','Segment: Check Time_',1,1);
+    G02.am('cond','Time At Limit_','G02.timeAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+    G02.am('segm','Segment: Correctness_',1,0);
+    G02.am('cond','Correct_01','G02.correct == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'This person may be a know-it-all, someone who likes to play the \\\"devils advocate, or simply one who delights in crossing up the leader.\')','');
+    G02.am('end');
+    G02.am('cond','Incorrect_','G02.e[\'choice2\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'Ask this person a direct question such as, \\\"What do you think we should do?\\\"  This gives them the opportunity to make a foolish or farfetched statement.  Then let the group make comments.  Usually, such a person irritates the group and unfavorable opinions will be expressed.\')','');
+    G02.am('end');
+    G02.am('cond','Unknown Response_','G02.e[\'choice3\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'If the person is insensitive, the leader may have to be very direct, pointing out that the quibbling is interrupting the meeting and is a waste of time.\')','');
+    G02.am('end');
+    G02.am('segm','Segment: Check Tries_',1,1);
+    G02.am('cond','Tries At Limit_','G02.triesAtLimit == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G02.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G02.setDisabled(true);\')','sp');
+    G02.am('end');
+  }
+  if (window.newG02 == null) window.newG02 = newG02;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG02();';
+//-->
+    </script>
+    <cbi-select object="G02"></interaction> <br></td>
+  </tr>
+  <tr>
+    <td><div align="center"><img src="../../../images/meetings/side_conversation.gif" width="176" height="122"></div></td>
+    <td> <interaction name="MultCh_ImageRadios03" object="G03" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G03Layer"> <span name="G03question">A Person Who Starts Another Meeting With Neighbors.<BR>
+        <BR>
+    </span>
+        <form name="G03choices">
+          <span name="G03choice1"> <a name="G03choice1Inp" href="#"
+      onClick="G03.e['choice1'].update('onclick');return false"
+      onMouseOver="G03.e['choice1'].update('onmouseover');"
+      onMouseOut="G03.e['choice1'].update('onmouseout');"
+      onMouseDown="G03.e['choice1'].update('onmousedown');"> <img name="G03choice1Btn" src="../../../images/buttons/pencil_button.gif" border=0 align="absmiddle" alt="Choice 1"></a> Why does this happen?<br>
+          <br>
+          </span> <span name="G03choice2"> <a name="G03choice2Inp" href="#"
+      onClick="G03.e['choice2'].update('onclick');return false"
+      onMouseOver="G03.e['choice2'].update('onmouseover');"
+      onMouseOut="G03.e['choice2'].update('onmouseout');"
+      onMouseDown="G03.e['choice2'].update('onmousedown');"> <img name="G03choice2Btn" src="../../../images/buttons/key_bullet.gif" border=0 align="absmiddle" alt="Choice 2"></a> Is this a problem?<br>
+          <br>
+          </span> <span name="G03choice3"> <a name="G03choice3Inp" href="#"
+      onClick="G03.e['choice3'].update('onclick');return false"
+      onMouseOver="G03.e['choice3'].update('onmouseover');"
+      onMouseOut="G03.e['choice3'].update('onmouseout');"
+      onMouseDown="G03.e['choice3'].update('onmousedown');"> <img name="G03choice3Btn" src="../../../images/buttons/red_box_blue_border.gif" border=0 align="absmiddle" alt="Choice 3"></a> What should I do?<br>
+          </span>
+        </form>
+        <form name="G03controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG03() {
+    G03 = new MM_interaction('G03',1,0,0,null,0,0,0,'','','c','',0);
+    G03.add('ibtn','choice1',0,1,1,0,1,'s');
+    G03.add('ibtn','choice2',0,1,0,0,1,'s');
+    G03.add('ibtn','choice3',0,1,0,0,1,'s');
+    G03.init();
+    G03.am('segm','Segment: Check Time_',1,1);
+    G03.am('cond','Time At Limit_','G03.timeAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+    G03.am('segm','Segment: Correctness_',1,0);
+    G03.am('cond','Correct_01','G03.correct == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Don\\\'t you just hate this!  Side conversations may result from a talkative individual\\\'s need to speak when unable to address the group or it may be a more cautious thinker\\\'s desire to try out an idea before bringing it to the group.\')','');
+    G03.am('end');
+    G03.am('cond','Incorrect_','G03.e[\'choice2\'].selected == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Side conversations are inevitable and likely to be brief.  They only become a problem if prolonged.\')','');
+    G03.am('end');
+    G03.am('cond','Unknown Response_','G03.e[\'choice3\'].selected == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'Public attention works.  Invite them to share.  Another technique is to be quiet and look at the offending person.\')','');
+    G03.am('end');
+    G03.am('segm','Segment: Check Tries_',1,1);
+    G03.am('cond','Tries At Limit_','G03.triesAtLimit == true',0);
+    G03.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G03.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G03.setDisabled(true);\')','sp');
+    G03.am('end');
+  }
+  if (window.newG03 == null) window.newG03 = newG03;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG03();';
+//-->
+    </script>
+    <cbi-select object="G03"></interaction> <br></td>
+  </tr>
+  <tr>
+    <td><div align="center"><img src="../../../images/meetings/shy.JPG" width="63" height="129"></div></td>
+    <td> <interaction name="MultCh_ImageRadios04" object="G04" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G04Layer"> <span name="G04question">A Person Who Is Timid Or lacking In Self Confidence.</span>
+        <form name="G04choices">
+          <span name="G04choice1"> <a name="G04choice1Inp" href="#"
+      onClick="G04.e['choice1'].update('onclick');return false"
+      onMouseOver="G04.e['choice1'].update('onmouseover');"
+      onMouseOut="G04.e['choice1'].update('onmouseout');"
+      onMouseDown="G04.e['choice1'].update('onmousedown');"> <img name="G04choice1Btn" src="../../../images/buttons/push_pin_bullet.gif" border=0 align="absmiddle" alt="Choice 1"></a> Really, is this a problem???<br>
+          <br>
+          </span> <span name="G04choice2"> <a name="G04choice2Inp" href="#"
+      onClick="G04.e['choice2'].update('onclick');return false"
+      onMouseOver="G04.e['choice2'].update('onmouseover');"
+      onMouseOut="G04.e['choice2'].update('onmouseout');"
+      onMouseDown="G04.e['choice2'].update('onmousedown');"> <img name="G04choice2Btn" src="../../../images/buttons/panic.gif" border=0 align="absmiddle" alt="Choice 2"></a> How can I help.<br>
+          </span>
+        </form>
+        <form name="G04controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG04() {
+    G04 = new MM_interaction('G04',1,0,0,null,0,0,0,'','','c','',0);
+    G04.add('ibtn','choice1',0,1,1,0,1,'s');
+    G04.add('ibtn','choice2',0,1,0,0,1,'s');
+    G04.init();
+    G04.am('segm','Segment: Check Time_',1,1);
+    G04.am('cond','Time At Limit_','G04.timeAtLimit == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G04.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G04.setDisabled(true);\')','sp');
+    G04.am('end');
+    G04.am('segm','Segment: Correctness_',1,0);
+    G04.am('cond','Correct_01','G04.correct == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Not really, but......Wouldn\\\'t you like to help them become more self-confident and less embarrassed to share?\')','');
+    G04.am('end');
+    G04.am('cond','Incorrect_','G04.correct == (false)',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Ask a question in an area the reluctant individual can speak with conviction - this help breaks the ice.  Now, pray that you haven\\\'t created a monster!\')','');
+    G04.am('end');
+    G04.am('cond','Unknown Response_','G04.knownResponse == false',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'Unknown Response\')','');
+    G04.am('end');
+    G04.am('segm','Segment: Check Tries_',1,1);
+    G04.am('cond','Tries At Limit_','G04.triesAtLimit == true',0);
+    G04.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G04.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G04.setDisabled(true);\')','sp');
+    G04.am('end');
+  }
+  if (window.newG04 == null) window.newG04 = newG04;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG04();';
+//-->
+    </script>
+    <cbi-select object="G04"></interaction> <br></td>
+  </tr>
+  <tr>
+    <td><div align="center"><img src="../../../images/meetings/hold_attention.gif" width="119" height="153"> </div></td>
+    <td><interaction name="MultCh_ImageRadios05" object="G05" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+      <div name="G05Layer"> <span name="G05question">Establishing And Holding The Interest Of The Group.</span>
+        <form name="G05choices">
+          <span name="G05choice1"> <a name="G05choice1Inp" href="#"
+      onClick="G05.e['choice1'].update('onclick');return false"
+      onMouseOver="G05.e['choice1'].update('onmouseover');"
+      onMouseOut="G05.e['choice1'].update('onmouseout');"
+      onMouseDown="G05.e['choice1'].update('onmousedown');"> <img name="G05choice1Btn" src="../../../images/buttons/flower_bullet.gif" border=0 align="absmiddle" alt="Choice 1"></a> Why is this essential?<br>
+          <br>
+          </span> <span name="G05choice2"> <a name="G05choice2Inp" href="#"
+      onClick="G05.e['choice2'].update('onclick');return false"
+      onMouseOver="G05.e['choice2'].update('onmouseover');"
+      onMouseOut="G05.e['choice2'].update('onmouseout');"
+      onMouseDown="G05.e['choice2'].update('onmousedown');"> <img name="G05choice2Btn" src="../../../images/buttons/key_bullet.gif" border=0 align="absmiddle" alt="Choice 2"></a> How do I do this?<br>
+          <br>
+          </span> <span name="G05choice3"> <a name="G05choice3Inp" href="#"
+      onClick="G05.e['choice3'].update('onclick');return false"
+      onMouseOver="G05.e['choice3'].update('onmouseover');"
+      onMouseOut="G05.e['choice3'].update('onmouseout');"
+      onMouseDown="G05.e['choice3'].update('onmousedown');"> <img name="G05choice3Btn" src="../../../images/buttons/basketball.gif" border=0 align="absmiddle" alt="Choice 3"></a> What if I'm not very good at it?<br>
+          </span>
+        </form>
+        <form name="G05controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG05() {
+    G05 = new MM_interaction('G05',1,0,0,null,0,0,0,'','','c','',0);
+    G05.add('ibtn','choice1',0,1,1,0,1,'s');
+    G05.add('ibtn','choice2',0,1,0,0,1,'s');
+    G05.add('ibtn','choice3',0,1,0,0,1,'s');
+    G05.init();
+    G05.am('segm','Segment: Check Time_',1,1);
+    G05.am('cond','Time At Limit_','G05.timeAtLimit == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G05.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G05.setDisabled(true);\')','sp');
+    G05.am('end');
+    G05.am('segm','Segment: Correctness_',1,0);
+    G05.am('cond','Correct_01','G05.correct == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'It is essential to activate attention and then motivate the group to respond.\')','');
+    G05.am('end');
+    G05.am('cond','Incorrect_','G05.e[\'choice2\'].selected == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'Use visual aids, role plays and case senarios to keep interest.  If response lags, change the approach - keep things moving.\')','');
+    G05.am('end');
+    G05.am('cond','Unknown Response_','G05.e[\'choice3\'].selected == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'Your voice is the most effective tool to help regain interest.  If interest is waning, speak more loudly more rapidly and with more feeling.\')','');
+    G05.am('end');
+    G05.am('segm','Segment: Check Tries_',1,1);
+    G05.am('cond','Tries At Limit_','G05.triesAtLimit == true',0);
+    G05.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G05.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G05.setDisabled(true);\')','sp');
+    G05.am('end');
+  }
+  if (window.newG05 == null) window.newG05 = newG05;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG05();';
+//-->
+    </script>
+    <cbi-select object="G05">    </interaction></td>
+  </tr>
+  <tr>
+    <td><img src="../../../images/meetings/hostility.gif" width="222" height="91"></td>
+    <td> <interaction name="MultCh_ImageRadios06" object="G06" template="010_Multiple Choice/030_MultCh_ImageRadios_04.agt" includesrc="interactionClass.js,elemIbtnClass.js">
+    <div name="G06Layer"> <span name="G06question">Handling Touchy Subjects.<BR>
+        <BR>
+    </span>
+        <form name="G06choices">
+          <span name="G06choice1"> <a name="G06choice1Inp" href="#"
+      onClick="G06.e['choice1'].update('onclick');return false"
+      onMouseOver="G06.e['choice1'].update('onmouseover');"
+      onMouseOut="G06.e['choice1'].update('onmouseout');"
+      onMouseDown="G06.e['choice1'].update('onmousedown');"> <img name="G06choice1Btn" src="../../../images/buttons/panic.gif" border=0 align="absmiddle" alt="Choice 1"></a> I hate that uncomfortable feeling.<br>
+          <br>
+          </span> <span name="G06choice2"> <a name="G06choice2Inp" href="#"
+      onClick="G06.e['choice2'].update('onclick');return false"
+      onMouseOver="G06.e['choice2'].update('onmouseover');"
+      onMouseOut="G06.e['choice2'].update('onmouseout');"
+      onMouseDown="G06.e['choice2'].update('onmousedown');"> <img name="G06choice2Btn" src="../../../images/buttons/little_light_bulb.gif" border=0 align="absmiddle" alt="Choice 2"></a> What's the best way to handle it?<br>
+          <br>
+          </span> <span name="G06choice3"> <a name="G06choice3Inp" href="#"
+      onClick="G06.e['choice3'].update('onclick');return false"
+      onMouseOver="G06.e['choice3'].update('onmouseover');"
+      onMouseOut="G06.e['choice3'].update('onmouseout');"
+      onMouseDown="G06.e['choice3'].update('onmousedown');"> <img name="G06choice3Btn" src="../../../images/buttons/arrow_bullet.gif" border=0 align="absmiddle" alt="Choice 3"></a> A word of caution.<br>
+          </span>
+        </form>
+        <form name="G06controls">
+        </form>
+    </div>
+    <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG06() {
+    G06 = new MM_interaction('G06',1,0,0,null,0,0,0,'','','c','',0);
+    G06.add('ibtn','choice1',0,1,1,0,1,'s');
+    G06.add('ibtn','choice2',0,1,0,0,1,'s');
+    G06.add('ibtn','choice3',0,1,0,0,1,'s');
+    G06.init();
+    G06.am('segm','Segment: Check Time_',1,1);
+    G06.am('cond','Time At Limit_','G06.timeAtLimit == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'You are out of time\')','pm');
+    G06.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G06.setDisabled(true);\')','sp');
+    G06.am('end');
+    G06.am('segm','Segment: Correctness_',1,0);
+    G06.am('cond','Correct_01','G06.correct == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'Schedule your vacation ... or.....Anticipate what touchy subjects may arise and think about your response in advance.\')','');
+    G06.am('end');
+    G06.am('cond','Incorrect_','G06.e[\'choice2\'].selected == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'If they are not truly pertinent to the subject under discussion, point that out, referring to the objectives of the meeting.  If they are pertinent, reamin neutral, insisting on an objective consideration of the question.\')','');
+    G06.am('end');
+    G06.am('cond','Unknown Response_','G06.e[\'choice3\'].selected == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'Do not promise to get action from \\\"higher up\\\", but only to report the conclusions or findings.\')','');
+    G06.am('end');
+    G06.am('segm','Segment: Check Tries_',1,1);
+    G06.am('cond','Tries At Limit_','G06.triesAtLimit == true',0);
+    G06.am('actn','Popup Message','MM_popupMsg(\'You are out of tries\')','pm');
+    G06.am('actn','Set Interaction Properties: Disable Interaction','MM_setIntProps(\'G06.setDisabled(true);\')','sp');
+    G06.am('end');
+  }
+  if (window.newG06 == null) window.newG06 = newG06;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG06();';
+//-->
+    </script>
+    <cbi-select object="G06"></interaction> </td>
+  </tr>
+  <tr>
+    <td><p>To return to the assignment:</p>
+    <p align="center"><a href="employee_meetings_reading.htm#return2"><img src="../../../images/buttons/jo_buttontwin.gif" width="120" height="75" border="0"></a> </p></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

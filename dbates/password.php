@@ -29,7 +29,7 @@
    }
    
    
-$password = "Zoolu4Zoolu4Zoolu4";
+$password = "Z23&*FjhsldZDdxcZ23&*FjhsldZDdxcZ23&*FjhsldZDdxc";
 
 // Not using any salts
 echo("old password = $password<BR>");
